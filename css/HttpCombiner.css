@@ -1,0 +1,8930 @@
+/* reset and common styles */
+a {
+    outline: none;
+    text-decoration: none;
+    color: #00407e;
+}
+
+a img {
+    border: 0;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+hr {
+    background-color: #00407E;
+    color: #00407E;
+    height: 0.2em;
+    background-image: #00407E;
+    width: 75%;
+    margin-left: 12%;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+hr.maintext {
+    width: 100%;
+}
+
+hr.full-width {
+    width: 100%;
+    margin: 10px 0 5px 0;
+    padding: 0;
+}
+
+address {
+    font-style: normal;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.center {
+    text-align: center;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.align-left {
+    float: left;
+    display: inline;
+}
+
+.align-right {
+    float: right;
+    display: inline;
+}
+
+.clear-left {
+    clear: left;
+}
+
+.clear-right {
+    clear: right;
+}
+
+.clear-float {
+    display: inline-block;
+    overflow: hidden;
+}
+
+.clear-float {
+    display: block;
+}
+
+.no-border {
+    border: 0 !important;
+}
+
+.no-display {
+    display: none;
+}
+
+/* commented backslash hack (feed all browsers but IE5/Mac) \*/
+.alt {
+    position: absolute;
+    left: -9999px;
+}
+
+/* end hack */
+
+/* General global font-sizing of elements */
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 17px;
+    color: #444;
+    font-family: "Trebuchet MS", Arial, Helvetica, "Sans Serif";
+}
+
+h3 {
+    font-size: 16px;
+    color: #666;
+}
+
+h4 {
+    font-size: 14px;
+    color: #666;
+}
+
+h5 {
+    font-size: 12px;
+    color: #8c8c8c;
+}
+
+h6 {
+    font-size: 1.0em;
+    color: #444;
+}
+
+ul,
+ol {
+    font-size: 1.2em;
+    color: #666;
+    margin: 0 25px;
+}
+
+p {
+    font-size: 1.2em;
+    margin: 0 0 1em 0;
+    color: #666;
+}
+
+a.ExternalLinkAlert {}
+
+/*wrapper styles */
+#body-wrapper {
+    position: relative;
+    margin: 0 auto;
+}
+
+.header-wrapper {
+    position: relative;
+    width: 960px;
+    margin: 0 auto;
+}
+
+.header-wrapper #header {
+    font-size: 1.1em;
+    float: left;
+    display: inline;
+    width: 960px;
+}
+
+.header-wrapper #logo {
+    float: left;
+    display: inline;
+    margin-top: 14px;
+}
+
+.header-wrapper .align-right {
+    float: right;
+    display: inline;
+    width: 650px;
+}
+
+.header-wrapper-aaa {
+    z-index: 1000;
+    position: relative;
+    width: 1010px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.header-wrapper-aaa .header {
+    font-size: 1.1em;
+    overflow: hidden;
+    margin-right: 45px;
+}
+
+.header-wrapper-aaa .logo {
+    background: url(/PenFedOnline/Images/Affiliation/AAA/AAABlueBar.gif) repeat-x bottom center;
+    padding: 0px;
+    overflow: hidden;
+}
+
+#outside-content-wrapper {
+    clear: left;
+    background: url(../images/outside-vert-repeater.png) repeat-y top center;
+    margin: 0 auto;
+}
+
+#content-wrapper {
+    background: url(../images/content-wrapper-bkg.gif) no-repeat top center;
+    margin: 0 auto;
+}
+
+#content {
+    width: 960px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+div.ImportantNoticeHidden {
+    visibility: hidden;
+}
+
+div.ImportantNoticeModal {
+    padding: 20px 40px 30px;
+    text-align: center;
+}
+
+.ImportantNoticeModal .ui-widget-header {
+    display: none;
+}
+
+.ImportantNotice {
+    font-family: "trebuchet MS", Arial, Helvetica, "Sans Serif";
+}
+
+div.ImportantNotice h3 {
+    margin: 0px 0px 12px 0px;
+    font-weight: bold;
+    background-color: #f4f4f4;
+    color: #163051;
+    font-size: 15px;
+    padding: 8px;
+    line-height: normal;
+    text-align: center;
+    font-family: Arial;
+}
+
+div.ImportantNotice h4 {
+    margin: 0px 0px 12px 0px;
+    font-weight: normal;
+    background-color: #f4f4f4;
+    color: #163051;
+    font-size: 13.5px;
+    padding: 8px;
+    line-height: normal;
+    font-family: Arial;
+}
+
+div.ImportantNotice p {
+    margin: 0px 0px 12px 0px;
+    font-weight: bold;
+    background-color: #f4f4f4;
+    color: #163051;
+    font-size: 14px;
+    padding: 8px;
+    line-height: normal;
+    font-family: Arial;
+    text-align: left;
+    width: 90%;
+}
+
+/*div.ImportantNotice h3 { color: Black; font-size: 1.5em; }*/
+/*div.ImportantNotice h4 { color: Black; font-size: 1.3em; line-height: 17px; }*/
+/*div.ImportantNotice p { color: Black; line-height: 11px; text-align: left; width: 90%; }*/
+div.ImportantNotice a,
+div.ImportantNotice a:hover,
+div.ImportantNotice a:visited {
+    border-radius: 4px;
+    background-color: #008CBA;
+    font-weight: bold;
+    border: 1px solid Gray;
+    font-size: 12px;
+    color: #163051;
+    padding: 2px 18px;
+    text-decoration: none;
+    font-family: Arial;
+}
+
+#footer-wrapper {
+    clear: left;
+    margin: 0 auto;
+    background: url(../images/bottom-horz-fade.png) no-repeat top center;
+}
+
+#footer {
+    width: 960px;
+    margin: 0 auto;
+    background-color: Transparent;
+    background-image: url(../images/footer-ul-bkg.gif);
+    background-repeat: no-repeat;
+    background-position: 10px 50px;
+    padding-top: 35px;
+}
+
+#footer ul {
+    clear: left;
+    font-size: 1em;
+    list-style-type: none;
+    margin: 0 0 16px 10px;
+    text-transform: uppercase;
+}
+
+#footer ul li {
+    display: inline;
+    margin-left: 30px;
+}
+
+#footer p {
+    color: #000000;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    line-height: 12px;
+    margin: 0px 0 0 10px;
+    width: 375px;
+}
+
+#footer .align-left {
+    overflow: hidden;
+}
+
+#footer .align-right {
+    margin-right: 10px;
+}
+
+#footer .align-right img {
+    margin: 0 2px;
+    vertical-align: top;
+}
+
+.call-out-wrap {
+    position: relative;
+    padding: 0px;
+    float: left;
+    clear: both;
+}
+
+.call-out-box {
+    position: absolute;
+    background: #fff;
+    border: 1px solid #e4e4e4;
+    margin-left: 20px;
+    left: 100%;
+    right: 100%;
+    top: -16px;
+    width: 240px;
+    display: none;
+    padding: 16px 30px;
+    z-index: 1;
+}
+
+.call-out-box,
+.call-out-box p {
+    font-size: 12px;
+    color: #000;
+}
+
+.call-out-box:after,
+.call-out-box:before {
+    right: 100%;
+    top: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+
+.call-out-box:after {
+    border-color: rgba(255, 255, 255, 0);
+    border-right-color: #fff;
+    border-width: 12px;
+    margin-top: -12px;
+}
+
+.call-out-box:before {
+    border-color: rgba(228, 228, 228, 0);
+    border-right-color: #e4e4e4;
+    border-width: 13px;
+    margin-top: -13px;
+}
+
+.call-out-wrap input:hover+.call-out-box,
+.call-out-wrap input:focus+.call-out-box,
+.call-out-wrap .call-out-target:hover+.call-out-box {
+    display: block;
+}
+
+.call-out-wrap .call-out-target::selection+.call-out-box {
+    display: block;
+}
+
+.normalfont {
+    font-weight: normal;
+}
+
+.importantFont {
+    font-weight: bold;
+}
+
+#PasswordToolTip p {
+    font-size: 12px;
+    color: #000;
+}
+
+#PasswordToolTip.call-out-box:after,
+#PasswordToolTip.call-out-box:before {
+    top: 22%;
+}
+
+#UnlockCallout.call-out-box:after,
+#UnlockCallout.call-out-box:before {
+    top: 35%;
+}
+
+#UnlockAndChangePasswordCallout.call-out-box:after,
+#UnlockAndChangePasswordCallout.call-out-box:before {
+    top: 35%;
+}
+
+.call-out-wrap input[type="radio"]:checked+label {
+    font-weight: bold;
+}
+
+#PasswordStrengthBar {
+    height: 10px;
+    display: block;
+    float: left;
+}
+
+.strength0 {
+    background: #cccccc;
+    width: 240px;
+}
+
+.strength1 {
+    background: #f9ad16;
+    width: 80px;
+}
+
+.strength2 {
+    background: #00a1df;
+    width: 160px;
+}
+
+.strength3 {
+    background: #0ba914;
+    width: 240px;
+}
+
+/**************************** API Styles included below *****************************************/
+@import "https://blog.penfed.org/fonts/370645/FFB5B96D59AB24918.css";
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,400,700,900');
+
+.page-content {
+    font-size: 12px;
+    color: #666;
+    margin-right: 15px;
+}
+
+.amount {
+    color: #2A8502;
+    font-size: 16px;
+}
+
+.apply-header {
+    float: left;
+    display: block;
+    margin: 60px 40px 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666666;
+    position: absolute;
+    z-index: 999;
+    top: 16px;
+    right: 0;
+    list-style-type: none;
+}
+
+.apply-header a {
+    text-decoration: underline;
+}
+
+/*Apply Now navigation*/
+ul#local-navigation {
+    list-style-type: none;
+    width: 255px;
+    font-size: 1.4em;
+    font-weight: bold;
+    margin: 0 15px 0 0;
+}
+
+ul#local-navigation li {
+    padding-right: 10px;
+}
+
+ul#local-navigation li a {
+    display: block;
+}
+
+ul#local-navigation li div {
+    border-bottom: 1px solid #d8d8d8;
+    width: 225px;
+    padding: 10px 0 10px 0px;
+    display: block;
+}
+
+ul#local-navigation li.current {
+    background: url(/PenFedOnline/Images/nav/local-nav-current-arrow.png) no-repeat right 50%;
+}
+
+ul#local-navigation li.current div {
+    margin: 0;
+    color: #444;
+    background: url(/PenFedOnline/Images/nav/local-nav-current-bkg.png) repeat-x left;
+    padding: 10px 0 10px 20px;
+    border: none !important;
+}
+
+ul#local-navigation li.inactive {
+    margin-left: 20px;
+    width: 210px;
+}
+
+ul#local-navigation li.inactive div {
+    color: #8c8c8c;
+}
+
+ul#local-navigation li.sideinactive {
+    margin-left: 20px;
+    width: 210px;
+}
+
+ul#local-navigation li.sideinactive div {
+    color: #8c8c8c;
+    border: none !important;
+}
+
+ul#local-navigation li.completeinactive {
+    margin-left: 20px;
+    width: 210px;
+    background: url(/PenFedOnline/Images/nav/icon-complete.gif) no-repeat right;
+}
+
+ul#local-navigation li.completeinactive div {
+    color: #8c8c8c;
+}
+
+ul#local-navigation li.sidecompleteinactive {
+    margin-left: 20px;
+    width: 210px;
+    background: url(/PenFedOnline/Images/nav/icon-complete.gif) no-repeat right;
+}
+
+ul#local-navigation li.sidecompleteinactive div {
+    color: #8c8c8c;
+    border: none !important;
+}
+
+ul#local-navigation li.sideincomplete {
+    margin-left: 20px;
+    width: 210px;
+    background: url(/PenFedOnline/Images/nav/icon-incomplete.gif) no-repeat right;
+}
+
+ul#local-navigation li.sideincomplete div {
+    color: #8c8c8c;
+    border: none !important;
+}
+
+ul#local-navigation li.sideincompleteinactive {
+    margin-left: 20px;
+    width: 210px;
+    background: url(/PenFedOnline/Images/nav/icon-incomplete.gif) no-repeat right;
+}
+
+ul#local-navigation li.sideincompleteinactive div {
+    color: #8c8c8c;
+    border: none !important;
+}
+
+ul#local-navigation li.last {
+    margin-left: 20px;
+    width: 210px;
+}
+
+ul#local-navigation li.last div {
+    color: #8c8c8c;
+    border: none !important;
+}
+
+ul#local-navigation li.sidecomplete {
+    margin-left: 20px;
+    width: 210px;
+    background: url(/PenFedOnline/Images/nav/icon-complete.gif) no-repeat right;
+}
+
+ul#local-navigation li.sidecomplete div {
+    color: #00407e;
+    border: none !important;
+}
+
+ul#local-navigation li.complete {
+    margin-left: 20px;
+    width: 210px;
+    background: url(/PenFedOnline/Images/nav/icon-complete.gif) no-repeat right;
+}
+
+ul#local-navigation li.complete div {
+    color: #00407e;
+}
+
+ul#local-navigation li.incomplete {
+    margin-left: 20px;
+    width: 210px;
+    background: url(/PenFedOnline/Images/nav/icon-incomplete.gif) no-repeat right;
+}
+
+ul#local-navigation li.incomplete div {
+    color: #00407e;
+}
+
+ul#local-navigation li.incompleteinactive {
+    margin-left: 20px;
+    width: 210px;
+    background: url(/PenFedOnline/Images/nav/icon-incomplete.gif) no-repeat right;
+}
+
+ul#local-navigation li.incompleteinactive div {
+    color: #8c8c8c;
+}
+
+ul#local-navigation li.twolinecomplete {
+    margin-left: 20px;
+    width: 210px;
+    background: url(/PenFedOnline/Images/nav/icon-complete.gif) no-repeat right;
+}
+
+ul#local-navigation li.twolinecomplete div {
+    border-bottom: 1px solid #d8d8d8;
+    width: 190px;
+    padding: 8px 0 8px 0;
+    display: block;
+}
+
+.bottom-navigation {
+    clear: left;
+    overflow: hidden;
+    padding: 15px 0 0 0;
+}
+
+/*generic, should inherit parent's width */
+
+/* Page Header */
+.page-header {
+    font-size: 20px !important;
+    color: #be1010 !important;
+    margin: -5px 0 0 20px !important;
+    padding-bottom: 5px !important;
+}
+
+.page-content h1 {
+    font-size: 20px !important;
+    color: #be1010 !important;
+}
+
+.page-content h2 {
+    font-size: 18px !important;
+    color: #444444 !important;
+    padding-bottom: 15px;
+    font-weight: normal;
+}
+
+.page-content h3 {
+    font-size: 14px !important;
+    color: #444444 !important;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    display: block;
+}
+
+.page-content h4 {
+    font-size: 14px !important;
+    color: #be1010 !important;
+    font-weight: bold;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    display: block;
+}
+
+.rdoSelect {
+    padding-left: 10px
+}
+
+/* Buttons */
+.ButtonApply {
+    padding: 3px 5px 3px 5px !important;
+    margin: 4px 3px 4px 3px !important;
+    border: none;
+}
+
+.ButtonApplySmall {
+    background-image: url(../images/btn-Apply-Now.gif) !important;
+    background: url(../images/btn-Apply-Now.gif) !important;
+    /* For IE */
+    background-repeat: no-repeat !important;
+    padding: 3px 5px 3px 5px !important;
+    margin: 4px 3px 4px 3px !important;
+    border: none;
+    width: 145px;
+    height: 40px;
+}
+
+.buttonGoPaperless {
+    font-family: Arial, Verdana, Helvetica, Sans-serif;
+    background: #eee url(/PenFedOnline/Images/btnGoPaperless-Blank.gif);
+    background-repeat: no-repeat;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 3px 12px 13px;
+    color: #FFFFFF;
+    cursor: pointer;
+    line-height: 20px !important;
+    margin: 4px 10px 4px 10px;
+    width: 155px;
+    height: 30px;
+    text-decoration: none;
+    overflow: visible !important;
+    /* Removes extra padding on buttons for IE only */
+    border: none;
+
+}
+
+.buttonGoPaperless:hover {
+    font-family: Arial, Verdana, Helvetica, Sans-serif;
+    background: #eee url(/PenFedOnline/Images/btnGoPaperless-Blank.gif);
+    background-repeat: no-repeat;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 3px 12px 13px;
+    color: #FFFFFF;
+    cursor: pointer;
+    line-height: 20px !important;
+    margin: 4px 10px 4px 10px;
+    width: 155px;
+    height: 30px;
+    text-decoration: none;
+    overflow: visible !important;
+    /* Removes extra padding on buttons for IE only */
+    border: none;
+}
+
+.buttonGoPaperlesssmalll {
+    font-family: Arial, Verdana, Helvetica, Sans-serif;
+    background: #eee url(/PenFedOnline/Images/btnGoPaperless-Blank-small.gif);
+    background-repeat: no-repeat;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 3px 12px 13px;
+    color: #FFFFFF;
+    cursor: pointer;
+    line-height: 34px !important;
+    margin: 4px 10px 4px 10px;
+    width: 125px;
+    height: 40px;
+    text-decoration: none;
+    text-align: center;
+    overflow: visible !important;
+    /* Removes extra padding on buttons for IE only */
+    border: none;
+
+}
+
+.buttonGoPaperlesssmalll:hover {
+    font-family: Arial, Verdana, Helvetica, Sans-serif;
+    background: #eee url(/PenFedOnline/Images/btnGoPaperless-Blank-small.gif);
+    background-repeat: no-repeat;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 3px 12px 13px;
+    color: #FFFFFF;
+    cursor: pointer;
+    line-height: 34px !important;
+    margin: 4px 10px 4px 10px;
+    width: 125px;
+    height: 40px;
+    text-decoration: none;
+    text-align: center;
+    overflow: visible !important;
+    /* Removes extra padding on buttons for IE only */
+    border: none;
+}
+
+.buttonNoThank {
+    font-family: Arial, Verdana, Helvetica, Sans-serif;
+    background: #eee url(/PenFedOnline/Images/btnNoThanks_blue.gif);
+    background-repeat: no-repeat;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 3px 12px 13px;
+    color: #FFFFFF;
+    cursor: pointer;
+    line-height: 20px !important;
+    margin: 4px 10px 4px 10px;
+    width: 125px;
+    height: 30px;
+    text-decoration: none;
+    overflow: visible !important;
+    /* Removes extra padding on buttons for IE only */
+    border: none;
+
+}
+
+.buttonNoThank:hover {
+    font-family: Arial, Verdana, Helvetica, Sans-serif;
+    background: #eee url(/PenFedOnline/Images/btnNoThanks_blue.gif);
+    background-repeat: no-repeat;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 3px 12px 13px;
+    color: #FFFFFF;
+    cursor: pointer;
+    line-height: 20px !important;
+    margin: 4px 10px 4px 10px;
+    width: 125px;
+    height: 30px;
+    text-decoration: none;
+    overflow: visible !important;
+    /* Removes extra padding on buttons for IE only */
+    border: none;
+}
+
+.buttonRemindMe {
+    font-family: Arial, Verdana, Helvetica, Sans-serif;
+    background: #eee url(/PenFedOnline/Images/btnRemindMe_Blank.gif);
+    background-repeat: no-repeat;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 3px 16px 13px;
+    color: #5D8928;
+    cursor: pointer;
+    line-height: 20px !important;
+    margin: 4px 10px 4px 10px;
+    width: 125px;
+    height: 30px;
+    text-decoration: none;
+    overflow: visible !important;
+    /* Removes extra padding on buttons for IE only */
+    border: none;
+
+}
+
+.buttonRemindMe:hover {
+    font-family: Arial, Verdana, Helvetica, Sans-serif;
+    background: #eee url(/PenFedOnline/Images/btnRemindMe_Blank.gif);
+    background-repeat: no-repeat;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 3px 16px 13px;
+    color: #5D8928;
+    cursor: pointer;
+    line-height: 20px !important;
+    margin: 4px 10px 4px 10px;
+    width: 125px;
+    height: 30px;
+    text-decoration: none;
+    overflow: visible !important;
+    /* Removes extra padding on buttons for IE only */
+    border: none;
+}
+
+.ButtonLimitIncrease {
+    padding: 3px 5px 3px 5px !important;
+    margin: 4px 3px 4px 3px !important;
+    border: none;
+}
+
+.ButtonEstimatePmt {
+    padding: 3px 5px 3px 5px !important;
+    margin: 4px 3px 4px 3px !important;
+    border: none;
+}
+
+.ButtonContinue {
+    font-family: Arial;
+    font-size: 12px !important;
+    font-weight: bold !important;
+    color: #ffffff !important;
+    padding: 3px 5px 3px 5px !important;
+    margin: 4px 3px 4px 3px !important;
+    border: none;
+}
+
+.ButtonESign {
+    font-family: Arial;
+    background-image: url(../images/btn-esign.gif) !important;
+    background: url(../images/btn-esign.gif) !important;
+    /* For IE */
+    background-repeat: no-repeat !important;
+    font-size: 12px !important;
+    font-weight: bold !important;
+    color: #ffffff !important;
+    padding: 3px 5px 3px 5px !important;
+    margin: 4px 3px 4px 3px !important;
+    border: none;
+    width: 175px;
+    height: 30px;
+}
+
+.ButtonSave {
+    font-family: Arial;
+    font-size: 12px !important;
+    font-weight: bold !important;
+    color: #00407e !important;
+    padding: 3px 25px 3px 20px !important;
+    margin: 4px 3px 4px 3px !important;
+    overflow: visible !important;
+    /* Removes extra padding on buttons for IE only */
+    border: none;
+}
+
+.ButtonCancelSmall {
+    background-image: url(../images/btn-small-cancel.gif) !important;
+    background: url(../images/btn-small-cancel.gif) !important;
+    /* For IE */
+    background-repeat: repeat-x !important;
+    padding: -1px 25px 3px 20px !important;
+    margin: 4px 3px 4px 3px !important;
+    overflow: visible !important;
+    /* Removes extra padding on buttons for IE only */
+    border: none;
+    width: 80px;
+    height: 27px;
+}
+
+.ButtonCancel {
+    font-family: Arial;
+    font-size: 12px !important;
+    font-weight: bold !important;
+    color: #00407e !important;
+    padding: 3px 25px 3px 20px !important;
+    margin: 4px 3px 4px 3px !important;
+    overflow: visible !important;
+    /* Removes extra padding on buttons for IE only */
+    border: none;
+}
+
+.ButtonBlue {
+    font-family: Arial;
+    background-image: url(../images/btn-update.gif) !important;
+    background: url(../images/btn-update.gif) !important;
+    /* For IE */
+    background-repeat: repeat-x !important;
+    font-size: 10px !important;
+    font-weight: bold !important;
+    color: #ffffff !important;
+    padding: 0px 10px 0px 10px !important;
+    margin: 4px 3px 4px 3px !important;
+    overflow: visible !important;
+    /* Removes extra padding on buttons for IE only */
+    border: none;
+    width: 75px;
+    height: 20px;
+}
+
+.ButtonMainMenu {
+    padding: 0px 10px 0px 10px !important;
+    margin: 4px 3px 4px 3px !important;
+    overflow: visible !important;
+    /* Removes extra padding on buttons for IE only */
+    border: none;
+}
+
+/* Form Styles */
+div.edit-form-wrapper {
+    width: 600px;
+    text-align: left;
+}
+
+.col1 {
+    float: left;
+    margin-right: 10px;
+    width: 170px;
+    height: auto;
+    text-align: right;
+    vertical-align: middle;
+}
+
+.col1-long {
+    float: left;
+    margin-right: 2px;
+    width: 320px;
+    height: auto;
+    text-align: right;
+    vertical-align: middle;
+}
+
+.col2 {
+    display: block;
+    float: left;
+    margin: 0px;
+    width: 420px;
+    height: auto;
+    text-align: left;
+    vertical-align: middle;
+    position: relative;
+}
+
+.col2-short {
+    display: block;
+    float: left;
+    margin: 0px;
+    width: 270px;
+    height: auto;
+    text-align: left;
+    vertical-align: middle;
+    position: relative;
+}
+
+div.row {
+    clear: both;
+    width: 600px;
+    padding-bottom: 2px;
+}
+
+.field-img {
+    height: 21px;
+    display: inline;
+    vertical-align: middle;
+}
+
+/* Links */
+.links a {
+    text-decoration: underline;
+}
+
+/* Disclosures */
+.disclosure a {
+    text-decoration: underline;
+}
+
+.disclosure {
+    margin: 0 0 0 20px;
+}
+
+.leftcol1 {
+    float: left;
+    margin-right: 2px;
+    width: 150px;
+    height: auto;
+    vertical-align: middle;
+}
+
+.leftcol2 {
+    display: block;
+    float: left;
+    margin: 0px;
+    width: 420px;
+    height: auto;
+    vertical-align: middle;
+}
+
+/* API Credit Card images */
+#cardthumb0,
+#cardthumb1,
+#cardthumb2,
+#cardthumb3,
+#cardthumb4,
+#cardthumb5,
+#cardthumb6,
+#cardthumb7,
+#cardthumb8,
+#cardthumb9,
+#cardthumb10,
+#cardthumb11,
+#cardthumb12,
+#cardthumb13,
+#cardthumb14,
+#cardthumb15 {
+    padding: 2px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    float: left;
+    position: static;
+    width: 118px;
+    height: 75px;
+    border: 0;
+    background: transparent;
+    left: 0;
+    top: 0;
+    -ms-interpolation-mode: bicubic;
+    /* IE Fix for Bicubic Scaling */
+}
+
+.cardlabel {
+    padding: 5px 0px 10px 0px;
+    width: 120px;
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    color: #666;
+    font-size: 11px;
+}
+
+#cardthumb0.selected,
+#cardthumb1.selected,
+#cardthumb2.selected,
+#cardthumb3.selected,
+#cardthumb4.selected,
+#cardthumb5.selected,
+#cardthumb6.selected,
+#cardthumb7.selected,
+#cardthumb8.selected,
+#cardthumb9.selected,
+#cardthumb10.selected {
+    border-width: 4px;
+    border-style: solid;
+    border-color: #2A8502;
+}
+
+#preview {
+    position: absolute;
+    border: 0;
+    background: transparent;
+    padding: 0;
+    display: none;
+    height: 110px;
+    width: 150px;
+}
+
+#cardthumbvert0,
+#cardthumbvert1,
+#cardthumbvert2,
+#cardthumbvert3,
+#cardthumbvert4,
+#cardthumbvert5,
+#cardthumbvert6,
+#cardthumbvert7,
+#cardthumbvert8,
+#cardthumbvert9,
+#cardthumbvert10,
+#cardthumbvert11,
+#cardthumbvert12,
+#cardthumbvert13,
+#cardthumbvert14,
+#cardthumbvert15 {
+    padding: 2px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    float: left;
+    position: static;
+    width: 75px;
+    height: 118px;
+    border: 0;
+    background: transparent;
+    left: 0;
+    top: 0;
+    -ms-interpolation-mode: bicubic;
+    /* IE Fix for Bicubic Scaling */
+}
+
+.cardlabelvert {
+    padding: 5px 0px 10px 0px;
+    width: 80px;
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    color: #666;
+    font-size: 11px;
+}
+
+#cardthumbvert0.selected,
+#cardthumbvert1.selected,
+#cardthumbvert2.selected,
+#cardthumbvert3.selected,
+#cardthumbvert4.selected,
+#cardthumbvert5.selected,
+#cardthumbvert6.selected,
+#cardthumbvert7.selected,
+#cardthumbvert8.selected,
+#cardthumbvert9.selected,
+#cardthumbvert10.selected {
+    border-width: 4px;
+    border-style: solid;
+    border-color: #2A8502;
+}
+
+/*--------*/
+/* Styles for the API layout and modules */
+
+/*contains the textual content of each module */
+.page-content {
+    font: "trebuchet MS", Arial, Helvetica, "Sans Serif";
+    padding: 0 0 30px 0;
+    overflow: hidden;
+}
+
+.page-content h2 {
+    margin: 6px 0 4px 0;
+}
+
+/*12 columns layout */
+#twelve-column-wrapper {
+    margin: 28px 0 0 0;
+    width: 960px;
+}
+
+.twelve-column-content {
+    width: 940px;
+    margin: 0 0 10px 0;
+    padding: 5px 0 0;
+}
+
+.twelve-column-content .call-to-action {
+    width: 940px;
+}
+
+.twelve-column-content .three-column-content {
+    margin: 0 11px 10px 0
+}
+
+.twelve-column-content .last-twelve-column-content {
+    margin: 0 0 10px 0;
+}
+
+.twelve-column-content h2 {
+    margin: 6px 0 4px;
+}
+
+#twelve-column-wrapper .module-content {
+    padding: 20px 0 0 0;
+}
+
+/* nine-columns */
+#nine-column-wrapper {
+    float: right;
+    display: inline;
+    width: 670px;
+    margin: 20px 0 0 0;
+}
+
+.nine-column-wrapper {
+    display: inline;
+    width: 680px;
+    margin: 0 10px 10px 10px;
+}
+
+/*three columns */
+#three-column-wrapper {
+    float: left;
+    display: inline;
+    width: 250px;
+    margin: 20px 20px 0 0;
+}
+
+.three-column-wrapper {
+    float: right;
+    display: inline;
+    width: 250px;
+}
+
+/*schumer disclosure text */
+.fixed-height-scroll {
+    color: #8c8c8c;
+    padding: 0 20px 10px 20px;
+    border-top: 1px solid #d8d8d8;
+    border-bottom: 1px solid #d8d8d8;
+    height: 290px;
+    margin-top: 8px;
+    overflow: auto;
+}
+
+.confirmation-scroll {
+    color: #8c8c8c;
+    padding: 0 20px 10px 20px;
+    border: 1px solid #d8d8d8;
+    height: 100px;
+    margin-top: 8px;
+    overflow: auto;
+}
+
+.disclosures {
+    color: #8c8c8c;
+    padding: 0 20px 10px 20px;
+}
+
+.disclosures h3 {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.disclosures h4 {
+    font-size: 0.9em;
+    margin: 0.6em 0;
+}
+
+.disclosures p {
+    font-size: 1em;
+    margin: 0.5em 0;
+}
+
+.disclosures ul {
+    font-size: 1em;
+    margin: 0.5em 0;
+    list-style-type: disc;
+    margin: 0 3em;
+}
+
+.disclosures ul li {
+    margin: 0.5em 0;
+}
+
+.disclosures p.callout {
+    border: 1px solid #d8d8d8;
+    padding: 0.5em;
+    margin: 1em 0;
+}
+
+/*rates table */
+table.rates-charges-chart {
+    border-collapse: collapse;
+    margin-top: 8px;
+}
+
+table.rates-charges-chart td h3 {
+    font-size: 1.6em;
+    padding: 5px 5px 8px 0;
+    text-align: left;
+}
+
+table.rates-charges-chart td.rate-topic {
+    padding: 5px 35px 0 0;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+table.rates-charges-chart td span.large {
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+a.print-info {
+    background: url(../images/icon-print.gif) no-repeat 0 0;
+    padding: 2px 0 0 22px;
+}
+
+/* display loading img next to search fields */
+.loading {
+    width: 100%;
+    height: 22px;
+    margin: 0;
+    padding: 0;
+    background: url(/PenFedOnline/Images/in-process-small.gif) no-repeat center;
+}
+
+/* styles for the accordion */
+h2.acc-trigger {
+    padding: 0;
+    margin: 0 0 0 0;
+    background: url(../images/accordion-bkg.png) no-repeat;
+    height: 36px;
+    line-height: 36px;
+    width: 660px;
+    font-size: 1.8em;
+    font-weight: normal;
+    float: left;
+    position: relative;
+}
+
+/* styles for the accordion */
+h2.acc-wide-trigger {
+    padding: 0;
+    margin-left: 8px;
+    background: url(../images/wide-accordion-bkg.png) no-repeat;
+    height: 36px;
+    line-height: 36px;
+    width: 940px;
+    font-size: 1.8em;
+    font-weight: normal;
+
+    position: relative;
+}
+
+h2.revise {
+    padding: 0;
+    margin: 0 0 0 0;
+    background: url(../images/accordion-revise.png) no-repeat;
+    height: 36px;
+    line-height: 36px;
+    width: 660px;
+    font-size: 1.8em;
+    font-weight: normal;
+    float: left;
+    position: relative;
+}
+
+h2.acc-trigger a {
+    text-decoration: none;
+    display: block;
+    padding: 0 0 0 35px;
+    font-family: "trebuchet MS", Arial, Helvetica, "Sans Serif";
+    font-size: 14px;
+    font-weight: bold;
+}
+
+h2.acc-wide-trigger a {
+    text-decoration: none;
+    display: block;
+    padding: 0 0 0 35px;
+    font-family: "trebuchet MS", Arial, Helvetica, "Sans Serif";
+    font-size: 14px;
+    font-weight: bold;
+}
+
+h2.acc-trigger a:hover {
+    text-decoration: underline;
+}
+
+h2.active {
+    background-position: left bottom;
+}
+
+.acc-container {
+    margin: 0 0 5px;
+    padding: 0;
+    overflow: hidden;
+    width: 666px;
+    clear: both;
+}
+
+.acc-container .block {
+    padding: 10px 35px;
+    overflow: hidden;
+    font-size: 1.1em;
+}
+
+.acc-container .block ul {
+    float: left;
+    display: inline;
+    color: #666;
+}
+
+.acc-container .block li {
+    font-size: 0.8em;
+    padding-top: 10px;
+}
+
+.acc-container .block .acc-table {
+    border-collapse: collapse;
+    float: right;
+    display: inline;
+}
+
+.acc-container .block h4 {
+    color: #444;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.acc-container .block .acc-table th {
+    font-size: 1.2em;
+    color: #2A8502;
+    padding: 4px 6px;
+}
+
+.acc-container .block .acc-table td {
+    font-size: 1.1em;
+    color: #666;
+    border: 1px solid #e3dfdf;
+    padding: 4px 6px;
+}
+
+h2.acc-wide-trigger a:hover {
+    text-decoration: underline;
+}
+
+h2.acc-wide-trigger .no-hover-underline a:hover {
+    text-decoration: none;
+}
+
+.acc-wide-container {
+    margin-left: 5px;
+    padding: 0;
+    overflow: hidden;
+    width: 955px;
+    clear: both;
+}
+
+.acc-wide-container .block {
+    margin: 10px 5px;
+    overflow: hidden;
+}
+
+.acc-wide-container .block ul {
+    float: left;
+    display: inline;
+    color: #666;
+}
+
+.acc-wide-container .block .rates-table ul {
+    float: none;
+    color: #666;
+}
+
+.acc-wide-container .block .acc-wide-table {
+    border-collapse: collapse;
+    float: right;
+    display: inline;
+}
+
+.acc-wide-container .block .acc-wide-table th {
+    font-size: 1.2em;
+    color: #2A8502;
+    padding: 4px 6px;
+}
+
+.acc-wide-container .block .acc-wide-table td {
+    font-size: 1.1em;
+    color: #666;
+    border: 1px solid #e3dfdf;
+    padding: 4px 6px;
+}
+
+.acc-table {
+    border-collapse: collapse;
+    display: inline;
+}
+
+.acc-table th {
+    color: #2A8502;
+    padding: 4px 6px;
+}
+
+.acc-table td {
+    color: #666;
+    border: 1px solid #e3dfdf;
+    padding: 4px 6px;
+}
+
+/* Repeating Div Styles */
+.div-repeating {
+    text-align: left;
+    border-bottom: 1px solid #d8d8d8;
+    margin: 10px 0 10px 0;
+    display: block;
+    float: left !important;
+    width: 95%;
+}
+
+/* RadioButtonList Styles */
+.RadioButtonList label {
+    margin-top: 10px;
+    display: inline-block;
+    width: 610px;
+    padding-left: 5px;
+    vertical-align: top;
+}
+
+.RadioButtonList input {
+    margin-top: 10px;
+}
+
+/* Lenders Protection Mileage Restrictions */
+table.tblMileageRestrictions {
+    border-collapse: collapse;
+    text-align: center;
+}
+
+table.tblMileageRestrictions td,
+table.tblMileageRestrictions th {
+    border: 1px solid black;
+    white-space: nowrap;
+    padding: 0 2px 0 2px;
+}
+
+/* ------------------------------------------------- Vehicle/Payment Protection Coverage ------------------------------------------------- */
+/* outer layer (gray) */
+#veh-outside-content-wrapper {
+    height: auto;
+    width: 620px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#veh-content-wrapper {
+    clear: left;
+    margin: 0 auto;
+}
+
+#veh-content {
+    width: 615px;
+    margin: 0 auto;
+    padding-left: 5px;
+}
+
+#veh-content .header {
+    width: 285px;
+    float: left
+}
+
+#veh-content .header-text {
+    font-size: 14px !important;
+    color: #00407e;
+}
+
+#veh-content .header-img {
+    width: 285px;
+    float: left;
+    padding-bottom: 10px;
+}
+
+#veh-content .debt-header {
+    width: 210px;
+    float: left;
+    margin-right: 10px;
+}
+
+#veh-content .debt-header-img {
+    width: 350px;
+    float: left;
+    padding-bottom: 10px;
+}
+
+#veh-footer-wrapper {
+    width: 600px;
+    clear: left;
+    margin: 0 auto;
+    height: 14px;
+}
+
+/* inner layer for individual products */
+.veh-inner-content .desc-text {
+    float: left;
+    vertical-align: top;
+    width: 160px;
+    height: 185px;
+    padding-top: 10px;
+}
+
+.veh-inner-outside {
+    float: left;
+    width: 185px;
+    margin-right: 10px;
+}
+
+.veh-inner-outside-content-wrapper {
+    background: url(/PenFedOnline/Images/VehicleProtection/veh-protection-inner-bkg-inactive.gif) repeat-y top center;
+    margin: 0 auto 10px auto;
+}
+
+.veh-inner-content-wrapper {
+    background: url(/PenFedOnline/Images/VehicleProtection/veh-protection-inner-inactive.gif) no-repeat top center;
+    margin: 0 auto;
+}
+
+.veh-inner-content {
+    width: 160px;
+    height: 425px;
+    margin: 15px 15px 0 15px;
+    font-size: 12px !important;
+    overflow: hidden;
+}
+
+.veh-inner-content .header-inactive {
+    vertical-align: top;
+    width: 90px;
+    height: 40px;
+    font-size: 14px !important;
+    font-weight: bold;
+    color: #00407e;
+    float: left;
+    padding-top: 15px;
+}
+
+.veh-inner-content .header-inner-img {
+    vertical-align: top;
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin-top: 15px;
+}
+
+.veh-inner-content .gap {
+    background: url(/PenFedOnline/Images/icon-gap.gif) no-repeat top center;
+}
+
+.veh-inner-content .debt {
+    background: url(/PenFedOnline/Images/icon-debt-protection.gif) no-repeat top center;
+}
+
+.veh-inner-content .ext-warranty {
+    background: url(/PenFedOnline/Images/icon-ext-warranty.gif) no-repeat top center;
+}
+
+.veh-inner-content .cbx {
+    vertical-align: top;
+    width: 10px;
+    float: left;
+    margin-top: 5px;
+}
+
+.veh-inner-content .cbx-text {
+    vertical-align: top;
+    width: 145px;
+    float: right;
+    font-weight: bold;
+    color: #444;
+    margin-top: 5px;
+}
+
+.veh-inner-footer-wrapper {
+    width: 185px;
+    clear: left;
+    margin: 0 auto;
+    background: url(/PenFedOnline/Images/VehicleProtection/veh-protection-inactive-footer.gif) no-repeat top center;
+    height: 9px;
+}
+
+.debt-inner-content .desc-text {
+    vertical-align: top;
+    width: 375px;
+    height: 85px;
+    float: left;
+    margin: 2px 0 10px 0;
+}
+
+.debt-inner-content .debt-bullet {
+    margin-bottom: 5px;
+    clear: both;
+}
+
+.debt-inner-outside {
+    float: left;
+    width: 620px;
+    margin-right: 10px;
+}
+
+.debt-inner-outside-content-wrapper {
+    height: 200px;
+    background: url(/PenFedOnline/Images/VehicleProtection/debt-protection-inner-bkg.gif) repeat-x top center;
+    margin: 0 auto;
+    float: left;
+}
+
+.debt-inner-content-wrapper {
+    height: 185px;
+    background: url(/PenFedOnline/Images/VehicleProtection/debt-protection-inner.gif) no-repeat top left;
+    margin: 0 auto 10px auto;
+    float: left;
+}
+
+.debt-inner-content {
+    height: 175px;
+    float: left;
+    width: 410px;
+    margin: 10px 5px 0 10px;
+    font-size: 12px !important;
+    overflow: hidden;
+}
+
+.debt-inner-content .header-inactive {
+    vertical-align: top;
+    width: 85px;
+    height: 90px;
+    font-size: 14px !important;
+    font-weight: bold;
+    color: #00407e;
+    float: left;
+}
+
+.debt-inner-content .header-inner-img {
+    vertical-align: top;
+    width: 40px;
+    height: 40px;
+    float: left;
+}
+
+.debt-inner-content .debt {
+    background: url(/PenFedOnline/Images/icon-debt-protection.gif) no-repeat 12px 40px;
+}
+
+.debt-inner-content .cbx {
+    margin-left: 2px;
+}
+
+.debt-inner-content .cbx-text {
+    width: 236px;
+    font-weight: bold;
+    color: #444;
+}
+
+.debt-inner-content .cbx-list {
+    float: right;
+    height: 90px;
+    width: 320px;
+    white-space: nowrap;
+}
+
+.debt-cost-divider {
+    float: left;
+    width: 5px;
+    height: 179px;
+    background: url(/PenFedOnline/Images/VehicleProtection/debt-cost-divider.gif) repeat-y;
+    margin-top: 3px;
+}
+
+.debt-cost {
+    float: left;
+    text-align: center;
+    width: 170px;
+    height: 148px;
+    padding-top: 30px;
+    background: url(/PenFedOnline/Images/VehicleProtection/debt-cost-bkg.png) repeat-y;
+    margin-top: 4px;
+    font-weight: bold;
+    color: #444;
+    font-size: 12px !important;
+    overflow: hidden;
+}
+
+.debt-cost .learn-more {
+    margin-top: 10px;
+}
+
+.debt-cost .fine-print {
+    font-size: 10px !important;
+}
+
+.debt-footnote {
+    margin-left: 20px;
+    font-size: 9px;
+    width: 100%;
+    line-height: 22px;
+}
+
+.debt-inner-footer-wrapper {
+    width: 9px;
+    height: 185px;
+    float: left;
+    margin: 0 auto;
+    background: url(/PenFedOnline/Images/VehicleProtection/debt-protection-inactive-footer.gif) no-repeat top left;
+}
+
+.debt-inner-questions {
+    width: 550px;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* cost section & extended term option */
+.veh-cost-divider {
+    width: 180px;
+    height: 5px;
+    background: url(/PenFedOnline/Images/VehicleProtection/veh-cost-divider.gif) repeat-x top center;
+    margin: 0 auto;
+}
+
+.veh-cost {
+    text-align: center;
+    width: 177px;
+    height: 160px;
+    background: url(/PenFedOnline/Images/VehicleProtection/veh-cost-bkg.png) repeat-x top center;
+    margin: 0 auto;
+    font-weight: bold;
+    color: #444;
+    font-size: 12px !important;
+    overflow: hidden;
+}
+
+.veh-cost .same-term,
+.veh-cost .ext-term {
+    color: #444;
+    margin: 5px 0 2px 2px;
+    vertical-align: top;
+    width: 85px;
+    height: 85px;
+    float: left;
+    background: url(/PenFedOnline/Images/VehicleProtection/veh-ext-term-inactive.gif) no-repeat top center;
+    padding-top: 10px;
+    font-size: 10px !important;
+}
+
+.veh-cost .learn-more {
+    margin-top: 30px;
+}
+
+.veh-cost .learn-more-ext-term {
+    clear: both;
+}
+
+.veh-cost .selected {
+    color: #fff;
+    background: url(/PenFedOnline/Images/VehicleProtection/veh-ext-term-inactive-selected.gif) no-repeat top center !important;
+}
+
+#warranty {
+    width: 100px;
+}
+
+/* styling for selected product */
+.active .veh-cost-divider {
+    width: 180px;
+    height: 5px;
+    background: url(/PenFedOnline/Images/VehicleProtection/veh-cost-divider-active.gif) repeat-x top center;
+    margin: 0 auto;
+}
+
+.active .veh-cost {
+    text-align: center;
+    width: 179px;
+    height: 160px;
+    background: url(/PenFedOnline/Images/VehicleProtection/veh-cost-active-bkg.png) repeat-x top center;
+    margin: 0 auto;
+    font-weight: bold;
+    color: #fff;
+}
+
+.active .veh-cost .same-term,
+.active .veh-cost .ext-term {
+    margin: 5px 0 2px 3px;
+    vertical-align: top;
+    width: 85px;
+    height: 85px;
+    float: left;
+    background: url(/PenFedOnline/Images/VehicleProtection/veh-ext-term-active.gif) no-repeat top center;
+    padding-top: 10px;
+    font-size: 10px !important;
+}
+
+.active .veh-cost .learn-more {
+    margin-top: 30px;
+}
+
+.active .veh-cost .learn-more a {
+    color: #fff !important;
+}
+
+.active .veh-cost .learn-more-ext-term {
+    clear: both;
+}
+
+.active .veh-cost .learn-more-ext-term a {
+    color: #fff !important;
+}
+
+.active .veh-inner-content .desc-text {
+    color: #fff !important;
+}
+
+.active .veh-inner-outside-content-wrapper {
+    background: url(/PenFedOnline/Images/VehicleProtection/veh-protection-inner-bkg-active.png) repeat-y top center;
+    margin: 0 auto;
+}
+
+.active .veh-inner-content-wrapper {
+    background: url(/PenFedOnline/Images/VehicleProtection/veh-protection-inner-active.gif) no-repeat top center;
+    margin: 0 auto;
+}
+
+.active .veh-inner-content .header-inactive {
+    vertical-align: top;
+    width: 90px;
+    height: 40px;
+    font-size: 14px !important;
+    font-weight: bold;
+    color: #fff;
+    float: left;
+    padding-top: 15px;
+}
+
+.active .veh-inner-content .gap {
+    background: url(/PenFedOnline/Images/icon-gap-active.gif) no-repeat top center;
+}
+
+.active .veh-inner-content .debt {
+    background: url(/PenFedOnline/Images/icon-debt-protection-active.gif) no-repeat top center;
+}
+
+.active .veh-inner-content .ext-warranty {
+    background: url(/PenFedOnline/Images/icon-ext-warranty-active.gif) no-repeat top center;
+}
+
+.active .veh-inner-content .cbx-text {
+    vertical-align: top;
+    width: 145px;
+    float: right;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 5px;
+}
+
+.active .veh-inner-footer-wrapper {
+    width: 185px;
+    clear: left;
+    margin: 0 auto;
+    background: url(/PenFedOnline/Images/VehicleProtection/veh-protection-active-footer.gif) no-repeat top center;
+    height: 9px;
+}
+
+.active .veh-cost .selected {
+    color: #fff;
+    background: url(/PenFedOnline/Images/VehicleProtection/veh-ext-term-active-selected.gif) no-repeat top center !important;
+}
+
+.productComparison .page-content span {
+    font-size: 10px;
+    padding: 0 0 0 10px;
+}
+
+.productComparison .rates-table .page-content span {
+    font-size: 10px;
+    padding: 0;
+}
+
+.comp-row {
+    width: 100%;
+    display: table;
+    table-layout: fixed;
+}
+
+.comp-col {
+    display: table-cell;
+}
+
+.comp-access-america-checking-pfol {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #F3F4F5;
+    padding-bottom: 20px;
+}
+
+.comp-access-america-checking-pfol .comp-header {
+    text-align: left;
+    font-size: 2.3em;
+    border: 1px solid gray;
+    padding: 15px 50px;
+    font-family: "Gotham A", "Gotham B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 800;
+    background-image: url(/PenFedOnline/Images/mobilephone-lights.jpeg);
+    background-position: 40% 50%;
+    background-size: cover;
+    color: #eee;
+}
+
+.comp-access-america-checking-pfol .comp-content {
+    text-align: center;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.comp-access-america-checking-pfol .comp-content p {
+    font-size: 1.55em;
+}
+
+.comp-access-america-checking-pfol .comp-content p:first-child {
+    color: #29596F;
+    font-size: 1.7em;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.comp-access-america-checking-pfol .comp-explore-button {
+    cursor: pointer !important;
+    color: #29596F;
+    border: 1px solid #29596F;
+    border-radius: 5px 5px 5px 5px;
+    display: inline-block;
+    font-size: 1.6em;
+    padding: 5px 50px;
+    font-weight: 500;
+    text-decoration: none;
+    -webkit-transition: all 0.1s ease-out;
+    transition: all 0.1s ease-out;
+}
+
+.comp-access-america-checking-pfol .comp-explore-button:hover {
+    -webkit-transform: scale(1.07);
+    transform: scale(1.07);
+    color: #224a5c;
+    border-color: #224a5c;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+span.inline-blue {
+    color: #032E59;
+    font-weight: 800;
+}
+
+.comp-full-width {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.comp-full-width input[type="radio"] {
+    position: absolute;
+    left: -9999px;
+    visibility: visible;
+}
+
+.comp-left-art {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    text-transform: center;
+    padding: 25px 0px;
+    width: 50%;
+}
+
+.comp-left-art label {
+    text-align: center;
+    padding: 25px 0px;
+}
+
+.comp-left-art img {
+    width: 80%;
+}
+
+.comp-right-art {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    text-transform: center;
+    padding: 25px 0px;
+    width: 50%;
+}
+
+.comp-right-art label {
+    text-align: center;
+    padding: 25px 0px;
+}
+
+.comp-right-art img {
+    width: 80%;
+}
+
+.check-marked,
+.comp-right-art input[type="radio"]:checked+label,
+.comp-left-art input[type="radio"]:checked+label {
+    background-color: #a8e2f8;
+    border-color: 1px solid #3f838e;
+    border-top-right-radius: 0px;
+    background-image: url(https://www.penfed.org/uploadedImages/Content/_images/select-side-check.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    transition: none;
+    -webkit-transition: none;
+    -webkit-transition: background-color 0.2s ease-in-out;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.unchecked,
+.comp-right-art input[type="radio"]+label,
+.comp-left-art input[type="radio"]+label {
+    background-color: rgba(221, 221, 221, 0.3);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.chooseTODO {
+    padding: 0px 20px 6px 20px;
+}
+
+ul.TODOPanel {
+    border-collapse: separate;
+    border-spacing: 15px;
+    margin: -15px;
+    text-align: center;
+    list-style-type: none
+}
+
+.TODOPanel li {
+    width: 18%;
+    border: 1px solid #999999;
+    height: 70px;
+    padding: 12px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    color: #4e4e4e;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(89, 89, 89, 1);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(89, 89, 89, 1);
+    box-shadow: 0px 0px 5px 0px rgba(89, 89, 89, 1);
+    cursor: pointer;
+    line-height: 14px;
+    background-repeat: no-repeat;
+    margin: 6px;
+    float: left;
+    text-align: center;
+}
+
+.TODOPanel li.TODOChosen {
+    border-color: #67cc66;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(103, 204, 102, 1) !important;
+    -moz-box-shadow: 0px 0px 5px 0px rgba(103, 204, 102, 1) !important;
+    box-shadow: 0px 0px 5px 0px rgba(103, 204, 102, 1) !important;
+
+}
+
+
+.TODOPanel li:focus {
+    outline: #67cc66 solid 1px;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(103, 204, 102, 1) !important;
+    -moz-box-shadow: 0px 0px 5px 0px rgba(103, 204, 102, 1) !important;
+    box-shadow: 0px 0px 5px 0px rgba(103, 204, 102, 1) !important;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.TODOPanel li:hover {
+    border-color: #67cc66;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(103, 204, 102, 1) !important;
+    -moz-box-shadow: 0px 0px 5px 0px rgba(103, 204, 102, 1) !important;
+    box-shadow: 0px 0px 5px 0px rgba(103, 204, 102, 1) !important;
+}
+
+.TODOHeading {
+    display: block;
+    text-align: left;
+    margin: 0px 0px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin-bottom: 16px;
+}
+
+.makePayment {
+    background-image: url(/PenFedOnline/Images/makepayment.png);
+    background-position: center 38px;
+    background-size: 50px;
+}
+
+.xferPFAccts {
+    background-image: url(/PenFedOnline/Images/transfer.png);
+    background-position: center 58px;
+    background-size: 100px;
+}
+
+.xferNonPF {
+    background-image: url(/PenFedOnline/Images/transfernonpenfed.png);
+    background-position: center 56px;
+    background-size: 97px;
+}
+
+.addNonPF {
+    background-image: url(/PenFedOnline/Images/addaccount.png);
+    background-position: center 56px;
+    background-size: 28px;
+}
+
+.ssip {
+    background-color: #F4F4F4;
+    border-top: 2px solid #E3E3E3;
+    width: 695px;
+    margin-left: 2px;
+}
+
+.ssip .title {
+    color: #0A223F;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.ssip a {
+    font-size: 12px;
+    color: #2180B3;
+}
+
+.ssip button {
+    color: #558B2F;
+    background: none;
+    border: 1px solid #558B2F;
+    border-radius: 2px;
+    padding: 8px 20px;
+    text-transform: uppercase;
+}
+
+.ssip .debt-protection,
+.ssip .extended-warranty,
+.ssip .gap {
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ssip .left img {
+    vertical-align: middle;
+    margin-right: 12px;
+}
+
+.ssip .left img+div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.ssip .right .hide {
+    margin-bottom: 12px;
+}
+
+.ssip .chevron::before {
+    border-style: solid;
+    border-width: 0.1em 0.1em 0 0;
+    content: '';
+    display: inline-block;
+    height: 0.4em;
+    position: relative;
+    top: 0.3em;
+    vertical-align: top;
+    width: 0.4em;
+}
+
+.ssip .chevron.right:before {
+    left: 0;
+    transform: rotate(45deg);
+    margin-left: 5px;
+}
+
+.ssip .extended-warranty-and-gap {
+    padding: 12px;
+    text-align: center;
+}
+
+.ssip .extended-warranty-and-gap .title {
+    margin-bottom: 12px;
+}
+
+.ssip .extended-warranty-and-gap .hide {
+    position: absolute;
+    right: 17px;
+    margin-top: 3px;
+}
+
+.ssip .extended-warranty-and-gap .options {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ssip .extended-warranty-and-gap .options .option {
+    width: 330px;
+    border-radius: 3px;
+    background-color: #fff;
+}
+
+.ssip .extended-warranty-and-gap .options .option .subtitle {
+    background-color: #cde5ef;
+    padding: 8px;
+    color: #282828;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.ssip .extended-warranty-and-gap .options .option .subtitle+div {
+    padding: 12px;
+}
+
+.ssip .extended-warranty-and-gap .options .option button {
+    margin-bottom: 12px;
+}
+
+.ssiperror {
+    height: 81px;
+    width: 618px;
+    line-height: 16px;
+    font-size: 12px;
+    font-family: Montserrat;
+    color: #F80102;
+}
+
+.ssip .hidePanel {
+    height: 15px;
+    width: 150px;
+    color: #2180B3;
+    float: right;
+    text-align: right;
+    cursor: pointer;
+    padding-bottom: 5px;
+}
+
+/*
+ * FancyBox - jQuery Plugin
+ * Simple and fancy lightbox alternative
+ *
+ * Examples and documentation at: http://fancybox.net
+ * 
+ * Copyright (c) 2008 - 2010 Janis Skarnelis
+ * That said, it is hardly a one-person project. Many people have submitted bugs, code, and offered their advice freely. Their support is greatly appreciated.
+ * 
+ * Version: 1.3.4 (11/11/2010)
+ * Requires: jQuery v1.3+
+ *
+ * Dual licensed under the MIT and GPL licenses:
+ *   http://www.opensource.org/licenses/mit-license.php
+ *   http://www.gnu.org/licenses/gpl.html
+ */
+
+#fancybox-loading {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 40px;
+    height: 40px;
+    margin-top: -20px;
+    margin-left: -20px;
+    cursor: pointer;
+    overflow: hidden;
+    z-index: 1104;
+    display: none;
+}
+
+#fancybox-loading div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 480px;
+    background-image: url('/PenFedOnline/Images/fancybox/fancybox.png');
+}
+
+#fancybox-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1100;
+    display: none;
+}
+
+#fancybox-tmp {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    overflow: auto;
+    display: none;
+}
+
+#fancybox-wrap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    z-index: 1101;
+    outline: none;
+    display: none;
+}
+
+#fancybox-outer {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+}
+
+#fancybox-content {
+    width: 0;
+    height: 0;
+    padding: 0;
+    outline: none;
+    position: relative;
+    overflow: hidden;
+    z-index: 1102;
+    border: 0px solid #fff;
+}
+
+#fancybox-hide-sel-frame {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    z-index: 1101;
+}
+
+#fancybox-close {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 30px;
+    height: 30px;
+    background: transparent url('/PenFedOnline/Images/fancybox/fancy_close.png') 0px 0px;
+    cursor: pointer;
+    z-index: 1103;
+    display: none;
+}
+
+#fancybox-error {
+    color: #444;
+    font: normal 12px/20px Arial;
+    padding: 14px;
+    margin: 0;
+}
+
+#fancybox-img {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    border: none;
+    outline: none;
+    line-height: 0;
+    vertical-align: top;
+}
+
+#fancybox-frame {
+    width: 100%;
+    height: 100%;
+    border: none;
+    display: block;
+}
+
+#fancybox-left,
+#fancybox-right {
+    position: absolute;
+    bottom: 0px;
+    height: 100%;
+    width: 35%;
+    cursor: pointer;
+    outline: none;
+    background: transparent url('/PenFedOnline/Images/fancybox/blank.gif');
+    z-index: 1102;
+    display: none;
+}
+
+#fancybox-left {
+    left: 0px;
+}
+
+#fancybox-right {
+    right: 0px;
+}
+
+#fancybox-left-ico,
+#fancybox-right-ico {
+    position: absolute;
+    top: 50%;
+    left: -9999px;
+    width: 30px;
+    height: 30px;
+    margin-top: -15px;
+    cursor: pointer;
+    z-index: 1102;
+    display: block;
+}
+
+#fancybox-left-ico {
+    background-image: url('/PenFedOnline/Images/fancybox/fancybox.png');
+    background-position: -40px -30px;
+}
+
+#fancybox-right-ico {
+    background-image: url('/PenFedOnline/Images/fancybox/fancybox.png');
+    background-position: -40px -60px;
+}
+
+#fancybox-left:hover,
+#fancybox-right:hover {
+    visibility: visible;
+    /* IE6 */
+}
+
+#fancybox-left:hover span {
+    left: 20px;
+}
+
+#fancybox-right:hover span {
+    left: auto;
+    right: 20px;
+}
+
+.fancybox-bg {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    width: 20px;
+    height: 20px;
+    z-index: 1001;
+}
+
+#fancybox-bg-n {
+    top: -20px;
+    left: 0;
+    width: 100%;
+    background-image: url('/PenFedOnline/Images/fancybox/fancybox-x.png');
+}
+
+#fancybox-bg-ne {
+    top: -20px;
+    right: -20px;
+    background-image: url('/PenFedOnline/Images/fancybox/fancybox.png');
+    background-position: -40px -162px;
+}
+
+#fancybox-bg-e {
+    top: 0;
+    right: -20px;
+    height: 100%;
+    background-image: url('/PenFedOnline/Images/fancybox/fancybox-y.png');
+    background-position: -20px 0px;
+}
+
+#fancybox-bg-se {
+    bottom: -20px;
+    right: -20px;
+    background-image: url('/PenFedOnline/Images/fancybox/fancybox.png');
+    background-position: -40px -182px;
+}
+
+#fancybox-bg-s {
+    bottom: -20px;
+    left: 0;
+    width: 100%;
+    background-image: url('/PenFedOnline/Images/fancybox/fancybox-x.png');
+    background-position: 0px -20px;
+}
+
+#fancybox-bg-sw {
+    bottom: -20px;
+    left: -20px;
+    background-image: url('/PenFedOnline/Images/fancybox/fancybox.png');
+    background-position: -40px -142px;
+}
+
+#fancybox-bg-w {
+    top: 0;
+    left: -20px;
+    height: 100%;
+    background-image: url('/PenFedOnline/Images/fancybox/fancybox-y.png');
+}
+
+#fancybox-bg-nw {
+    top: -20px;
+    left: -20px;
+    background-image: url('/PenFedOnline/Images/fancybox/fancybox.png');
+    background-position: -40px -122px;
+}
+
+#fancybox-title {
+    font-family: Helvetica;
+    font-size: 12px;
+    z-index: 1102;
+}
+
+.fancybox-title-inside {
+    padding-bottom: 10px;
+    text-align: center;
+    color: #333;
+    background: #fff;
+    position: relative;
+}
+
+.fancybox-title-outside {
+    padding-top: 10px;
+    color: #fff;
+}
+
+.fancybox-title-over {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: #FFF;
+    text-align: left;
+}
+
+#fancybox-title-over {
+    padding: 10px;
+    background-image: url('/PenFedOnline/Images/fancybox/fancy_title_over.png');
+    display: block;
+}
+
+.fancybox-title-float {
+    position: absolute;
+    left: 0;
+    bottom: -20px;
+    height: 32px;
+}
+
+#fancybox-title-float-wrap {
+    border: none;
+    border-collapse: collapse;
+    width: auto;
+}
+
+#fancybox-title-float-wrap td {
+    border: none;
+    white-space: nowrap;
+}
+
+#fancybox-title-float-left {
+    padding: 0 0 0 15px;
+    background: url('/PenFedOnline/Images/fancybox/fancybox.png') -40px -90px no-repeat;
+}
+
+#fancybox-title-float-main {
+    color: #FFF;
+    line-height: 29px;
+    font-weight: bold;
+    padding: 0 0 3px 0;
+    background: url('/PenFedOnline/Images/fancybox/fancybox-x.png') 0px -40px;
+}
+
+#fancybox-title-float-right {
+    padding: 0 0 0 15px;
+    background: url('/PenFedOnline/Images/fancybox/fancybox.png') -55px -90px no-repeat;
+}
+
+/* IE6 */
+
+.fancybox-ie6 #fancybox-close {
+    background: transparent;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='fancybox/fancy_close.png', sizingMethod='scale');
+}
+
+.fancybox-ie6 #fancybox-left-ico {
+    background: transparent;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='fancybox/fancy_nav_left.png', sizingMethod='scale');
+}
+
+.fancybox-ie6 #fancybox-right-ico {
+    background: transparent;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='fancybox/fancy_nav_right.png', sizingMethod='scale');
+}
+
+.fancybox-ie6 #fancybox-title-over {
+    background: transparent;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='fancybox/fancy_title_over.png', sizingMethod='scale');
+    zoom: 1;
+}
+
+.fancybox-ie6 #fancybox-title-float-left {
+    background: transparent;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='fancybox/fancy_title_left.png', sizingMethod='scale');
+}
+
+.fancybox-ie6 #fancybox-title-float-main {
+    background: transparent;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='fancybox/fancy_title_main.png', sizingMethod='scale');
+}
+
+.fancybox-ie6 #fancybox-title-float-right {
+    background: transparent;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='fancybox/fancy_title_right.png', sizingMethod='scale');
+}
+
+.fancybox-ie6 #fancybox-bg-w,
+.fancybox-ie6 #fancybox-bg-e,
+.fancybox-ie6 #fancybox-left,
+.fancybox-ie6 #fancybox-right,
+#fancybox-hide-sel-frame {
+    height: expression(this.parentNode.clientHeight + "px");
+}
+
+#fancybox-loading.fancybox-ie6 {
+    position: absolute;
+    margin-top: 0;
+    top: expression((-20 + (document.documentElement.clientHeight ? document.documentElement.clientHeight/2: document.body.clientHeight/2) + (ignoreMe=document.documentElement.scrollTop ? document.documentElement.scrollTop: document.body.scrollTop)) + 'px');
+}
+
+#fancybox-loading.fancybox-ie6 div {
+    background: transparent;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='fancybox/fancy_loading.png', sizingMethod='scale');
+}
+
+/* IE6, IE7, IE8 */
+
+.fancybox-ie .fancybox-bg {
+    background: transparent !important;
+}
+
+.fancybox-ie #fancybox-bg-n {
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='fancybox/fancy_shadow_n.png', sizingMethod='scale');
+}
+
+.fancybox-ie #fancybox-bg-ne {
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='fancybox/fancy_shadow_ne.png', sizingMethod='scale');
+}
+
+.fancybox-ie #fancybox-bg-e {
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='fancybox/fancy_shadow_e.png', sizingMethod='scale');
+}
+
+.fancybox-ie #fancybox-bg-se {
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='fancybox/fancy_shadow_se.png', sizingMethod='scale');
+}
+
+.fancybox-ie #fancybox-bg-s {
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='fancybox/fancy_shadow_s.png', sizingMethod='scale');
+}
+
+.fancybox-ie #fancybox-bg-sw {
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='fancybox/fancy_shadow_sw.png', sizingMethod='scale');
+}
+
+.fancybox-ie #fancybox-bg-w {
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='fancybox/fancy_shadow_w.png', sizingMethod='scale');
+}
+
+.fancybox-ie #fancybox-bg-nw {
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='fancybox/fancy_shadow_nw.png', sizingMethod='scale');
+}
+
+/* ----- Import external stylesheets ------------------------------------ */
+
+/* Primary Navigation */
+#primary-navigation {
+    float: left;
+    display: inline;
+    width: 946px;
+    margin: 0 0 0 14px;
+}
+
+#primary-navigation ul {
+    margin: 0;
+    padding: 0;
+    float: left;
+    width: 100%;
+    list-style: none;
+}
+
+#primary-navigation ul li {
+    float: left;
+    display: inline;
+    margin: 0;
+    padding: 6px 1px 1px 1px;
+}
+
+#primary-navigation ul li a {
+    display: block;
+    height: 41px;
+    background-repeat: no-repeat;
+    background-position: 0 -41px;
+}
+
+#primary-navigation ul li a#nav-account-actions {
+    background-image: url(/PenFedOnline/Images/nav/nav-account-actions.png);
+    width: 141px;
+}
+
+#primary-navigation ul li a#nav-apply {
+    background-image: url(/PenFedOnline/Images/nav/nav-apply.png);
+    width: 130px;
+}
+
+#primary-navigation ul li a#nav-check-image {
+    background-image: url(/PenFedOnline/Images/nav/nav-check-image.png);
+    width: 133px;
+}
+
+#primary-navigation ul li a#nav-dashboard {
+    background-image: url(/PenFedOnline/Images/nav/nav-dashboard.png);
+    width: 130px;
+}
+
+#primary-navigation ul li a#nav-main-menu {
+    background-image: url(/PenFedOnline/Images/nav/nav-main-menu.png);
+    width: 130px;
+}
+
+#primary-navigation ul li a#nav-payoff-letter {
+    background-image: url(/PenFedOnline/Images/nav/nav-payoff-letter.png);
+    width: 133px;
+}
+
+#primary-navigation ul li a#nav-pay-bills {
+    background-image: url(/PenFedOnline/Images/nav/nav-pay-bills.png);
+    width: 130px;
+}
+
+#primary-navigation ul li a#nav-remote-deposit {
+    background-image: url(/PenFedOnline/Images/nav/nav-remote-deposit.png);
+    width: 133px;
+}
+
+#primary-navigation ul li a#nav-statements {
+    background-image: url(/PenFedOnline/Images/nav/nav-statements.png);
+    width: 133px;
+}
+
+#primary-navigation ul li a#nav-tax-statements {
+    background-image: url(/PenFedOnline/Images/nav/nav-tax-statements.png);
+    width: 133px;
+}
+
+#primary-navigation ul li a#nav-transfers {
+    background-image: url(/PenFedOnline/Images/nav/nav-transfers.png);
+    width: 130px;
+}
+
+#primary-navigation ul li a#products-rates {
+    background-image: url(/PenFedOnline/Images/nav/nav-product-rates.png);
+    width: 141px;
+}
+
+#primary-navigation ul li.current a {
+    background-position: 0 0;
+}
+
+#primary-navigation ul li:hover a,
+#primary-navigation ul li a:hover {
+    background-position: 0 0 !important;
+}
+
+/* Sub Navigation */
+#sub-navigation {
+    float: left;
+    display: inline;
+    width: 925px;
+    margin: 0 0 0 35px;
+}
+
+#sub-navigation ul {
+    margin: 0;
+    padding: 0;
+    float: left;
+    width: 100%;
+    list-style: none;
+    font-size: 1.0em;
+}
+
+#sub-navigation ul li {
+    float: left;
+    display: inline;
+    margin: 8px 15px 10px 0;
+    padding: 0;
+}
+
+#sub-navigation ul li a {
+    color: #002856;
+    display: block;
+    font-size: 1.3em;
+}
+
+#sub-navigation ul li.current a {
+    font-weight: bold;
+}
+
+/* Print this page */
+.print-page {
+    clear: both;
+    display: block;
+    text-align: right;
+    margin: 0 0 10px 0;
+}
+
+/* Utility Navigation */
+#utility-navigation {
+    float: right;
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 0 10px 0;
+}
+
+#utility-navigation ul {
+    float: right;
+    list-style: none;
+    font-size: 1.0em;
+    margin: 0;
+}
+
+#utility-navigation ul li {
+    float: left;
+    display: inline;
+    margin-left: 20px;
+}
+
+#utility-navigation ul li a {
+    margin-left: 20px;
+}
+
+/* Welcome/Login/Message */
+.login-message {
+    float: right;
+    display: inline;
+    width: 100%;
+}
+
+.login-message #spacer {
+    width: 100%;
+    height: 97px;
+}
+
+.login-message ul {
+    float: right;
+    list-style: none;
+    font-size: 1.0em;
+    margin: 16px 0 45px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.login-message ul li {
+    float: left;
+    display: inline;
+    margin: 8px 0 0 10px;
+}
+
+.login-message ul li a span.mail-count {
+    color: #00407e;
+    text-transform: uppercase;
+}
+
+.login-message ul li#nav-page-options,
+#login-message ul li#nav-logout {
+    margin: 0 0 0 10px;
+}
+
+.login-message ul li#nav-page-options a {
+    background-image: url(/PenFedOnline/Images/nav-page-options.gif);
+    background-repeat: no-repeat;
+    background-position: 0 -28px;
+    width: 106px;
+    height: 28px;
+    display: block;
+}
+
+.login-message ul li#nav-page-options a.current {
+    background-position: 0 0;
+}
+
+.login-message ul li.nav-logout a {
+    position: relative;
+    top: -8px;
+    background-image: url(/PenFedOnline/Images/nav-logout.gif);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    width: 71px;
+    height: 28px;
+    display: block;
+}
+
+/* Welcome/Login/Message - AAA */
+.login-message-AAA {
+    float: right;
+    position: relative;
+    top: -180px;
+}
+
+.login-message-AAA ul {
+    float: right;
+    list-style: none;
+    font-size: 1.0em;
+    margin: 16px 0 -35px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.login-message-AAA ul li {
+    float: left;
+    display: inline;
+    margin: 8px 0 0 10px;
+}
+
+.login-message-AAA ul li a span.mail-count {
+    color: #00407e;
+    text-transform: uppercase;
+}
+
+.login-message-AAA ul li#nav-page-options,
+#login-message ul li#nav-logout {
+    margin: 0 0 0 10px;
+}
+
+.login-message-AAA ul li#nav-page-options a {
+    background-image: url(/PenFedOnline/Images/nav-page-options.gif);
+    background-repeat: no-repeat;
+    background-position: 0 -28px;
+    width: 106px;
+    height: 28px;
+    display: block;
+}
+
+.login-message-AAA ul li#nav-page-options a.current {
+    background-position: 0 0;
+}
+
+.login-message-AAA ul li.nav-logout a {
+    position: relative;
+    top: -8px;
+    background-image: url(/PenFedOnline/Images/nav-logout.gif);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    width: 71px;
+    height: 28px;
+    display: block;
+}
+
+#header #page-options {
+    background: url(../images/page-options-menu-bkg.gif) no-repeat 0 0;
+    position: absolute;
+    top: 43px;
+    right: 81px;
+    z-index: 1;
+    width: 161px;
+}
+
+#header #page-options ul {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .9em;
+    color: #444;
+    list-style: none;
+    margin: 12px 8px;
+}
+
+#header #page-options ul li {
+    margin: 10px 0;
+}
+
+#header #page-options ul li span {
+    padding-right: 4px;
+}
+
+#header #page-options ul li a img {
+    vertical-align: middle;
+}
+
+#Paperless-iframe {
+    overflow-x: hidden;
+}
+
+/* main-content:  Content w/ right side content */
+.main-content td {
+    padding: 3px 3px 3px 3px;
+    color: #444444;
+}
+
+.main-content td.PrimaryHeader {
+    font-weight: bold;
+    padding: 5px;
+    color: White;
+    background-color: #004B8D;
+    text-align: left;
+}
+
+.main-content ul,
+ol {
+    font-size: inherit;
+    color: #444444;
+    margin: 0 25px;
+    font-size: 12px;
+}
+
+.main-content .no-padding td {
+    padding: 0;
+}
+
+.main-content span.header-link {
+    color: White
+}
+
+.main-content span.header-link a {
+    color: White
+}
+
+/* main-content:  API Loan Apps -- no side content */
+.main-content-apply {
+    float: left;
+    display: inline;
+    width: 99%;
+    margin-left: 5px;
+    position: relative;
+}
+
+.main-content-apply td {
+    padding: 3px 3px 3px 3px;
+    font-size: 12px;
+    color: #444444;
+}
+
+.main-content-apply td.PrimaryHeader {
+    font-weight: bold;
+    padding: 5px;
+    color: White;
+    background-color: #004B8D;
+    text-align: left;
+}
+
+.main-content-apply .rates-table td {
+    padding: 3px 3px 3px 3px;
+    font-size: 10px;
+    color: #444444;
+}
+
+/* main-content:  Full width -- no side content */
+.main-content-full-width td {
+    padding: 3px 3px 3px 3px;
+    color: #444444;
+}
+
+.main-content-full-width td.PrimaryHeader {
+    font-weight: bold;
+    padding: 5px;
+    color: White;
+    background-color: #004B8D;
+    text-align: left;
+}
+
+.main-content-full-width table.TransferHeader {
+    width: 100%;
+    text-align: center;
+}
+
+.main-content-full-width td.TransferHeader {
+    padding: 0;
+}
+
+/* main-content-mainmenu:  Just for the Main Menu display */
+.main-content-mainmenu {
+    float: left;
+    display: inline;
+    width: 702px;
+    margin: 22px 0 0 13px;
+    position: relative;
+    padding-top: 5px;
+}
+
+.main-content-mainmenu td.PrimaryHeaderText {
+    font-weight: bold;
+    padding: 5px;
+    color: #444444;
+    background-color: White;
+    text-align: left;
+}
+
+/* Right sidebar show/hide modules */
+#right-sidebar {
+    float: right;
+    display: inline;
+    width: 224px;
+    margin: 44px 10px 0 0;
+}
+
+#right-sidebar .module-wrapper {
+    background: url(../images/sidebar-accordion-bottom.gif) no-repeat 0 100%;
+    width: 224px;
+    padding-bottom: 6px;
+    margin-bottom: 7px;
+}
+
+#right-sidebar .module-toggle {
+    background: url(../images/sidebar-accordion-top.gif) no-repeat 0 0;
+    padding: 13px 13px 7px 13px;
+}
+
+#right-sidebar .module-content {
+    border-top: 1px solid #edeff1;
+    margin: 6px 13px 0 13px;
+    padding: 10px 0;
+}
+
+#right-sidebar .module-content-displayed {
+    border-top: 1px solid #edeff1;
+    margin: 6px 13px 0 13px;
+    padding: 10px 0;
+}
+
+#right-sidebar .module-content h4,
+#right-sidebar .module-content p {
+    color: #444;
+}
+
+#right-sidebar .module-inside-wrapper {
+    background: url(../images/sidebar-accordion-repeater.gif) repeat-y 0 0;
+}
+
+#right-sidebar .module-toggle a {
+    background: url(/PenFedOnline/Images/icon-arrow-right.gif) no-repeat 100% 50%;
+    display: block;
+    font-size: 1.8em;
+    text-decoration: none;
+}
+
+#right-sidebar .module-toggle a.collapsed {
+    background: url(/PenFedOnline/Images/icon-arrow-down.gif) no-repeat 100% 50%;
+}
+
+#right-sidebar .module-toggle a span.red {
+    color: #be1010;
+    font-weight: bold;
+    font-size: 0.6em;
+}
+
+#right-sidebar .module-wrapper select {
+    padding: 4px 3px 4px 4px;
+}
+
+#right-sidebar .module-wrapper select option {
+    padding: 0 2px 0 4px;
+}
+
+#right-sidebar .module-wrapper input {
+    padding: 4px 3px 4px 4px;
+}
+
+#right-sidebar .module-wrapper .TransferSection {
+    padding: 3px;
+    font-size: 12px;
+    color: #444444;
+}
+
+#right-sidebar .module-wrapper table.TransferBox td {
+    padding: 3px;
+}
+
+#right-sidebar #manage-account-trigger {
+    float: none;
+    clear: both;
+    display: inline;
+}
+
+#right-sidebar #manage-account-trigger a {
+    width: 157px;
+    height: 30px;
+    display: block;
+}
+
+#right-sidebar #manage-account-trigger a.current {
+    background-position: 0 0;
+    text-decoration: underline;
+}
+
+/*
+Created a separate CSS entries for these so that it doesn't trigger the jQuery code
+*/
+#right-sidebar .module-toggle-preapprovals {
+    background: url(../images/sidebar-accordion-top.gif) no-repeat 0 0;
+    padding: 13px 13px 7px 13px;
+}
+
+#right-sidebar .module-toggle-preapprovals a {
+    background: url(/PenFedOnline/Images/icon-arrow-right.gif) no-repeat 100% 50%;
+    display: block;
+    font-size: 1.8em;
+    text-decoration: none;
+}
+
+#right-sidebar .module-toggle-preapprovals a.collapsed {
+    background: url(/PenFedOnline/Images/icon-arrow-down.gif) no-repeat 100% 50%;
+}
+
+#right-sidebar .module-content-preapprovals {
+    border-top: 1px solid #edeff1;
+    margin: 6px 13px 0 13px;
+    padding: 10px 0;
+}
+
+#right-sidebar .promotions {
+    margin: 6px 13px 0 13px;
+    padding: 10px 10px 0 10px;
+    color: #666666;
+    font-size: 1.2em;
+}
+
+#right-sidebar .promotions img {
+    padding: 15px 0 0 0;
+}
+
+a.CertApplyNowLink {
+    text-decoration: underline;
+    text-decoration-color: #00407e;
+}
+
+#more-transfer-options {
+    border: 1px solid #edeff1;
+}
+
+#more-transfer-options ul {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #444;
+    list-style: none;
+    margin: 0 0 0 5px;
+}
+
+#more-transfer-options ul li {
+    margin: 0px 0px 3px 0px;
+}
+
+#header #page-options {
+    background: url(../images/page-options-menu-bkg.gif) no-repeat 0 0;
+    position: absolute;
+    top: 43px;
+    right: 81px;
+    z-index: 1;
+    width: 161px;
+    height: 91px;
+}
+
+#header #page-options ul {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .9em;
+    color: #444;
+    list-style: none;
+    margin: 12px 8px;
+}
+
+#header #page-options ul li {
+    margin: 10px 0;
+}
+
+#header #page-options ul li span {
+    padding-right: 4px;
+}
+
+#header #page-options ul li a img {
+    vertical-align: middle;
+}
+
+.featured-topics .LineSeparator {
+    border-top: 1px solid #d8d8d8;
+    width: 200px;
+    margin: 3px 13px 0;
+}
+
+.featured-topics .IWantTo {
+    font-size: 12px;
+    color: #444444;
+    margin: 0 10px 0 13px;
+}
+
+.featured-topics table.IWantTo td {
+    padding: 0 5px 5px 0;
+    vertical-align: middle;
+}
+
+.important-notes {
+    color: #666666;
+}
+
+.important-notes .important-notes-body {
+    border-top: 1px solid #d8d8d8;
+    margin: 0 10px 0 13px;
+    padding: 10px 0 10px 0;
+}
+
+.important-notes ul {
+    list-style-type: disc;
+    list-style-position: outside;
+}
+
+.important-notes li {
+    padding: 5px 0 5px 0;
+}
+
+.important-notes td {
+    font-size: 1.1em;
+    padding: 5px 5px 5px 5px;
+}
+
+#account-datestamp {
+    font-size: 1.0em;
+    margin: 12px 11px;
+}
+
+.promo-above-mainmenu {
+    margin: 15px 10px 25px 12px;
+}
+
+.promo-above-mainmenu a {
+    padding-right: 20px
+}
+
+h1#page-heading {
+    color: #002856;
+    font-size: 3em;
+    margin: 0 11px 12px 11px;
+    float: left;
+    display: inline;
+}
+
+#manage-account-trigger {
+    float: right;
+    display: inline;
+}
+
+#manage-account-trigger a {
+    width: 157px;
+    height: 30px;
+    display: block;
+    text-decoration: underline;
+}
+
+#manage-account-trigger a.current {
+    background-position: 0 0;
+}
+
+/* "Manage Accounts" popout menu */
+#account-overview #accounts-menu {
+    background: url(../images/sort-menu-popup-repeater.jpg) repeat 0 0;
+    position: absolute;
+    top: 66px;
+    right: 0;
+    z-index: 1;
+    width: 460px;
+}
+
+#account-overview #accounts-menu #sort-account-form {
+    margin: 20px 25px 15px 25px;
+}
+
+#account-overview #accounts-menu #sort-account-form h3,
+#account-overview #accounts-menu #sort-account-form p {
+    margin-bottom: 1em;
+}
+
+#account-overview #accounts-menu #sort-account-form .field {
+    margin: 7px 0;
+}
+
+#account-overview #accounts-menu #sort-account-form .field table td {
+    font-size: 1.0em;
+    color: #444;
+    padding-left: 10px;
+}
+
+#account-overview #accounts-menu #sort-account-form .divider {
+    border-top: 1px solid #f1f2f3;
+    padding: 10px 0 0 0;
+}
+
+#account-overview #accounts-menu #sort-account-form .label {
+    font-size: 1.2em;
+    float: left;
+    display: inline;
+    margin: 2px 10px 0 0;
+    font-size: 1.2em;
+    color: #444;
+}
+
+#account-overview #accounts-menu #sort-account-form .order {
+    border: 1px solid #e1e0e0;
+    background-color: #e8e8e8;
+    padding: 2px;
+    margin: 0 16px 0 0;
+    width: 16px;
+    float: left;
+}
+
+#account-overview #accounts-menu #sort-account-form .submit {
+    margin: 0 0 20px 0;
+}
+
+#account-overview #accounts-menu #sort-account-form {
+    border-color: #e5e4e1;
+    padding: 4px 3px 0px 10px;
+}
+
+#account-overview #accounts-menu #sort-account-form select {
+    padding: 4px 3px 4px 4px;
+}
+
+#account-overview #accounts-menu #sort-account-form select option {
+    padding: 0 2px 0 4px;
+}
+
+#account-overview #accounts-menu #sort-account-form .list .hidden {
+    text-align: left;
+    text-indent: -9999px;
+}
+
+#account-overview #accounts-menu #sort-account-form .list ul {
+    font-size: 1em !important;
+    margin: 0 0 0 5px !important;
+    list-style: none !important;
+    float: left;
+    display: inline-block;
+}
+
+#account-overview #accounts-menu #sort-account-form .list ul li {
+    overflow: hidden;
+    margin-bottom: 4px;
+}
+
+#account-overview #accounts-menu #sort-account-form .list ul li label {
+    margin: 0 15px 0 5px;
+    top: 0;
+    position: relative;
+    float: left;
+    display: inline;
+    text-align: left;
+    width: 250px;
+}
+
+#account-overview #accounts-menu #sort-account-form .list ul li label span {
+    margin-left: 5px;
+    top: 0;
+    position: relative;
+    float: left;
+    display: inline;
+    text-align: left;
+    width: 150px;
+}
+
+#account-overview #accounts-menu #sort-account-form .field a img {
+    position: relative;
+    float: left;
+    padding: 1px 0px 1px 0px;
+    display: inline;
+    text-align: left;
+    width: auto;
+}
+
+#account-overview #accounts-menu #sort-account-form #show-hide-all {
+    text-align: left;
+    padding: 10px 0 0 235px;
+}
+
+/* Sort accounts tabbed navigation */
+#sort-accounts-menu {
+    float: left;
+    display: inline;
+    margin: 0 0 20px 0;
+    padding: 0 0 0 14px;
+    background: url(../images/sort-menu-bkg.gif) repeat-x 0 0;
+    width: 687px;
+}
+
+#sort-accounts-menu ul {
+    margin: 0;
+    padding: 0;
+    float: left;
+    width: 100%;
+    list-style: none;
+}
+
+#sort-accounts-menu ul li {
+    float: left;
+    display: inline;
+    background: url(../images/sort-menu-tab-li-bkg.gif) no-repeat top right;
+}
+
+#sort-accounts-menu ul li span {
+    background: url(../images/sort-menu-tab-span-bkg.gif) no-repeat 0 0;
+    padding: 1px 4px 0 2px;
+    float: left;
+    display: inline;
+}
+
+#sort-accounts-menu ul li a {
+    display: block;
+    color: #00407e;
+    font-size: 1.1em;
+    padding: 5px 5px 5px 5px;
+    height: 31px;
+}
+
+#sort-accounts-menu ul li.active-tab a {
+    color: #fff;
+    background: url(../images/active-tab-bkg.gif) no-repeat 50% 0;
+}
+
+/* Important Message */
+#important-message-content {
+    clear: left;
+}
+
+#important-message-content .module-wrapper {
+    background: url(../images/content-accordion-bottom.gif) no-repeat 0 100%;
+    width: 701px;
+    padding-bottom: 6px;
+    margin-bottom: 7px;
+    color: #444;
+}
+
+#important-message-content .module-header {
+    background: url(../images/content-accordion-top.gif) no-repeat 0 0;
+    padding: 13px 13px 7px 13px;
+    font-size: 1.0em;
+}
+
+#important-message-content .module-inside-wrapper {
+    background: url(../images/content-accordion-repeater.gif) repeat-y 0 0;
+    font-size: 1.2em;
+}
+
+#important-message-content .module-wrapper .module-header .important-message {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+#important-message-content .module-wrapper .module-header .important-message .red {
+    color: #be1010;
+    font-size: 1.1em;
+}
+
+#important-message-content .module-wrapper .module-header .important-message ul {
+    list-style-type: circle;
+    padding-left: 15px;
+    font-size: 1.0em;
+}
+
+#important-message-content .module-wrapper .module-header .important-message li {
+    padding-top: 10px;
+}
+
+/* Account Overview show/hide modules */
+#accounts-module-content {
+    clear: left;
+}
+
+#accounts-module-content .module-wrapper {
+    background: url(../images/content-accordion-bottom.gif) no-repeat 0 100%;
+    width: 701px;
+    padding-bottom: 6px;
+    margin-bottom: 7px;
+    color: #444;
+}
+
+#accounts-module-content .module-header {
+    background: url(../images/content-accordion-top.gif) no-repeat 0 0;
+    padding: 13px 13px 7px 13px;
+    font-size: 1.0em;
+}
+
+#accounts-module-content .module-toggle {
+    height: 32px;
+    width: 696px;
+    margin-top: 10px;
+}
+
+#accounts-module-content .module-overview {
+    margin: 6px 36px 0 36px;
+    padding: 7px 0;
+}
+
+#accounts-module-content .main-menu-module-content {
+    margin: 0 20px 0 36px;
+    padding: 10px 0;
+}
+
+#accounts-module-content .main-menu-module-content .rewards {
+    font-size: 13px;
+    font-weight: bold;
+    color: #2E8B07;
+}
+
+#accounts-module-content .main-menu-module-content a.rewards {
+    text-decoration: underline
+}
+
+#accounts-module-content .main-menu-module-content a.rewards:Hover {
+    text-decoration: none
+}
+
+#accounts-module-content .module-content-displayed {
+    border-top: 1px solid #edeff1;
+    margin: 6px 20px 0 36px;
+    padding: 7px 0;
+}
+
+#accounts-module-content .module-inside-wrapper {
+    background: url(../images/content-accordion-repeater.gif) repeat-y 0 0;
+    font-size: 1.2em;
+}
+
+#accounts-module-content .main-menu-module-toggle {
+    margin-left: 13px;
+    padding-top: 5px;
+}
+
+#accounts-module-content .main-menu-module-toggle .Plus {
+    background: url(/PenFedOnline/Images/icon-arrow-right.gif) no-repeat 0 50%;
+    font-size: 1.4em;
+    text-decoration: none;
+    padding: 0 0 0 15px;
+}
+
+#accounts-module-content .main-menu-module-toggle .Minus {
+    background: url(/PenFedOnline/Images/icon-arrow-down.gif) no-repeat 0 50%;
+    font-size: 1.4em;
+    text-decoration: none;
+    padding: 0 0 0 15px;
+}
+
+#accounts-module-content .main-menu-module-toggle .more-info {
+    font-size: 13px;
+    color: #002856;
+}
+
+#accounts-module-content .main-menu-module-toggle a span.red {
+    color: #be1010;
+    font-weight: bold;
+    font-size: 0.5em;
+}
+
+#accounts-module-content .main-menu-module-toggle a.collapsed {
+    background: url(/PenFedOnline/Images/icon-arrow-down.gif) no-repeat 0 50%;
+}
+
+#accounts-module-content .closed {
+    background: url(../images/content-accordion-collapsed.gif) no-repeat 3px 100%;
+}
+
+#accounts-module-content .account-number a {
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+#accounts-module-content .account-badge content {
+    vertical-align: middle;
+    height: 15px;
+    width: 95px;
+    color: #282828;
+    font-family: Montserrat;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+#accounts-module-content .module-wrapper .red {
+    font-weight: bold;
+    font-size: 2.0em;
+    color: #be1010;
+}
+
+#accounts-module-content .module-wrapper .blue {
+    font-weight: bold;
+    font-size: 2.0em;
+    color: #1e73b8;
+}
+
+#accounts-module-content .module-wrapper .green {
+    font-weight: bold;
+    font-size: 2.0em;
+    color: #689c01;
+}
+
+#accounts-module-content .module-wrapper .gray {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #444;
+}
+
+#accounts-module-content .module-wrapper .redsmall {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #be1010;
+}
+
+#accounts-module-content .module-wrapper .bluesmall {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #1e73b8;
+}
+
+#accounts-module-content .module-wrapper .addl-summary {
+    padding-top: 5px;
+}
+
+#accounts-module-content .module-wrapper table.account-summary td {
+    vertical-align: top;
+}
+
+#accounts-module-content .module-wrapper .module-header .account-category {
+    margin-left: 22px;
+}
+
+#accounts-module-content .module-wrapper .module-header .special-message {
+    color: #be1010;
+    font-weight: bold;
+}
+
+#accounts-module-content .module-wrapper .module-header .special-message a {
+    color: #be1010;
+}
+
+#accounts-module-content .module-wrapper .icon a img {
+    vertical-align: bottom;
+}
+
+#accounts-module-content .module-wrapper .module-content .align-left {
+    width: 60%;
+}
+
+#accounts-module-content .module-wrapper .module-content .align-right {
+    width: 40%;
+}
+
+#accounts-module-content .module-wrapper ul {
+    list-style: none;
+    margin: 0 0 14px 0;
+    font-size: 1.0em;
+    color: #444;
+}
+
+#accounts-module-content .module-wrapper ul li {
+    padding: 4px 0 0 0;
+}
+
+#accounts-module-content .module-wrapper ul.account-options li h5 {
+    margin-bottom: 5px;
+}
+
+#accounts-module-content .module-wrapper ul.account-options {
+    border: 1px solid #e1e0e0;
+    padding: 12px;
+    background: #f6f5f5 url(../images/account-options-bkg.gif) repeat-x 0 0;
+    font-size: 1.0em;
+}
+
+#accounts-module-content .module-wrapper ul ul {
+    margin-left: 15px;
+}
+
+#accounts-module-content .module-wrapper sup {
+    font-size: 0.7em;
+}
+
+#accounts-module-content .available-balance-error {
+    width: 175px;
+    white-space: normal;
+    float: right;
+    padding-top: 10px;
+    text-align: left;
+}
+
+/* Carousel */
+/* homepage carousel */
+#carousel-wrapper {
+    clear: left;
+    position: relative;
+    /* width:138px; height: 90px;*/
+    margin: 13px 0 20px 0;
+    padding: 0 30px;
+}
+
+#carousel-wrapper .carousel {
+    height: 90px;
+    margin: 0;
+    padding: 0;
+}
+
+#carousel-wrapper .carousel li {
+    height: 90px;
+    width: 138px;
+}
+
+#carousel-wrapper .pagination {
+    text-align: center;
+    margin: 13px auto;
+}
+
+#carousel-wrapper .pagination span {
+    height: 11px;
+    width: 10px;
+    margin: 0 3px;
+}
+
+#carousel-wrapper .pagination a {
+    background-image: url(/PenFedOnline/Images/carousel/bx-slider-pager.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    padding: 0 5px;
+}
+
+#carousel-wrapper .pagination a.pager-active {
+    background-position: 100% 0 !important;
+}
+
+#carousel-wrapper .pagination a.pager-link {
+    display: none;
+}
+
+#carousel-wrapper2 {
+    clear: left;
+    position: relative;
+    /*margin:0 8px;*/
+    padding: 10px 34px;
+    background: url(/PenFedOnline/Images/carousel/large-carousel-bkg.gif) no-repeat 0 0;
+}
+
+#carousel-wrapper2 .carousel {
+    height: 173px;
+    margin: 0;
+    padding: 0;
+}
+
+#carousel-wrapper2 .carousel li {
+    height: 173px;
+    width: 139px;
+}
+
+#carousel-wrapper2 .pagination2 {
+    text-align: center;
+    margin: 8px auto 4px auto;
+}
+
+#carousel-wrapper2 .pagination2 span {
+    height: 11px;
+    width: 10px;
+    margin: 0 3px;
+}
+
+#carousel-wrapper2 .pagination2 a {
+    background-image: url(/PenFedOnline/Images/carousel/bx-slider-pager.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    padding: 0 5px;
+}
+
+#carousel-wrapper2 .pagination2 a.pager-active {
+    background-position: 100% 0 !important;
+}
+
+#carousel-wrapper2 .pagination2 a.pager-link {
+    display: none;
+}
+
+#outside-carousel-wrapper .module-content {
+    border-top: none;
+    margin: 0;
+    padding: 4px 8px;
+}
+
+#outside-carousel-wrapper .module-toggle {
+    padding: 6px 0 0 0;
+}
+
+/* Next Button */
+.carousel .bx-next {
+    position: absolute;
+    top: 40%;
+    right: -30px;
+    z-index: 999;
+    width: 26px;
+    height: 25px;
+    text-indent: -999999px;
+    background: url(/PenFedOnline/Images/carousel/btn-next.png) no-repeat 0 0;
+}
+
+/* Previous Button */
+.carousel .bx-prev {
+    position: absolute;
+    top: 40%;
+    left: -30px;
+    z-index: 999;
+    width: 26px;
+    height: 25px;
+    text-indent: -999999px;
+    background: url(/PenFedOnline/Images/carousel/btn-prev.png) no-repeat 0 0;
+}
+
+/* Hover Pop-Ups */
+#HoverTip {
+    position: absolute;
+    left: -300px;
+    width: 150px;
+    border: 2px solid #00407E;
+    font-size: 1.2em;
+    padding: 10px 10px 10px 10px;
+    background-color: white;
+    visibility: hidden;
+}
+
+#HoverTip ul li {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    list-style: circle;
+    font-size: 0.8em;
+    color: #444;
+}
+
+#HoverTip h2 {
+    text-decoration: underline;
+    font-size: 112%;
+    font-weight: bold;
+    color: Black;
+    padding: 8px 8px 0px 8px;
+    margin: 0px 0px 0px 0px;
+}
+
+#HoverTip h5 {
+    text-decoration: none;
+    font-size: 100%;
+    font-weight: bold;
+    color: Black;
+    padding: 8px 8px 0px 8px;
+    margin: 0px 0px 0px 0px;
+}
+
+.HoverHelpNotBold {
+    text-decoration: none;
+    border-bottom: 1px dashed;
+}
+
+.HoverHelpNoDash {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.HoverHelpNoDash:hover {
+    cursor: help;
+}
+
+.DEBUGDATA textarea {
+    font: 1.2em Courier New;
+}
+
+.DEBUGDATA td {
+    padding: 3px 3px 3px 3px;
+    font-size: 1.1em;
+}
+
+/* Other Services */
+#other-services-content {
+    clear: left;
+}
+
+#other-services-content .module-wrapper {
+    background: url(../images/content-accordion-bottom.gif) no-repeat 0 100%;
+    width: 701px;
+    padding-bottom: 6px;
+    margin-bottom: 7px;
+    color: #444;
+}
+
+#other-services-content .module-header {
+    background: url(../images/content-accordion-top.gif) no-repeat 0 0;
+    padding: 13px 13px 7px 13px;
+    font-size: 1.0em;
+}
+
+#other-services-content .module-inside-wrapper {
+    background: url(../images/content-accordion-repeater.gif) repeat-y 0 0;
+    font-size: 1.2em;
+}
+
+#other-services-content .module-wrapper .module-header {
+    font-size: 10px;
+}
+
+#other-services-content .module-wrapper .module-header li {
+    list-style: none;
+    padding-top: 10px;
+}
+
+#other-services-content .section-name {
+    font-size: 16px;
+    color: #00407E;
+    font-weight: bold;
+}
+
+/*lightbox using fancy box plugin */
+.lightbox-wrapper {
+    display: none;
+}
+
+#lightbox-modal .clear-float {
+    float: left;
+    display: inline;
+    margin: 20px;
+}
+
+#lightbox-modal .clear-float h2 {
+    margin: 8px 0 0 20px;
+    font-size: 1.6em;
+    font-weight: bold;
+    color: #666;
+}
+
+#lightbox-modal .clear-float h3 {
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #444;
+}
+
+#lightbox-modal .clear-float h4 {
+    font-size: 1.4em;
+    font-weight: normal;
+    color: #444;
+    margin: 8px 0;
+}
+
+#lightbox-modal .clear-float .edit-form-wrapper .col1 .col2 {
+    font-size: 1.4em;
+    color: #666;
+    margin: 6px 0;
+}
+
+#lightbox-modal .clear-float a {}
+
+#lightbox-modal .clear-float ul {
+    list-style: none;
+    margin-left: 10px;
+}
+
+#lightbox-modal .clear-float ol {
+    margin: 14px 0 14px 35px;
+}
+
+#lightbox-modal .clear-float ul li,
+#lightbox-modal .clear-float ol li {
+    font-size: 1.2em;
+    margin: 2px 0;
+    line-height: normal;
+}
+
+#lightbox-modal .clear-float {
+    font-size: 12px;
+    font-weight: normal;
+    color: #444;
+}
+
+#lightbox-modal-VPV .clear-float {
+    float: left;
+    display: inline;
+    margin: 20px;
+}
+
+#lightbox-modal-VPV .clear-float h2 {
+    margin: 8px 0 0 20px;
+    font-size: 1.6em;
+    font-weight: bold;
+    color: #666;
+}
+
+#lightbox-modal-VPV .clear-float h3 {
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #444;
+}
+
+#lightbox-modal-VPV .clear-float h4 {
+    font-size: 1.4em;
+    font-weight: normal;
+    color: #444;
+    margin: 8px 0;
+}
+
+#lightbox-modal-VPV .clear-float .edit-form-wrapper .col1 .col2 {
+    font-size: 1.4em;
+    color: #666;
+    margin: 6px 0;
+}
+
+#lightbox-modal-VPV .clear-float a {}
+
+#lightbox-modal-VPV .clear-float ul {
+    list-style: none;
+    margin-left: 10px;
+}
+
+#lightbox-modal-VPV .clear-float ol {
+    margin: 14px 0 14px 35px;
+}
+
+#lightbox-modal-VPV .clear-float ul li,
+#lightbox-modal-VPV .clear-float ol li {
+    font-size: 1.2em;
+    margin: 2px 0;
+    line-height: normal;
+}
+
+#lightbox-modal-VPV .clear-float {
+    font-size: 12px;
+    font-weight: normal;
+    color: #444;
+}
+
+.lightbox-wrapper {
+    display: none;
+}
+
+#lightbox-modal-MTG {
+    display: block;
+    background-color: #ffffff;
+    width: 100%;
+    float: none;
+    display: inline-block;
+    max-width: 490px;
+    padding-bottom: 10px;
+}
+
+#lightbox-modal-MTG .clear-float {
+    font-size: 12px;
+    font-weight: normal;
+    color: #444;
+    width: 100%;
+    margin: 0px;
+}
+
+#lightbox-modal-MTG .clear-float h2 {
+    margin: 0px 0px 24px 0px;
+    font-weight: bold;
+    background-color: #f4f4f4;
+    text-transform: uppercase;
+    color: #163051;
+    font-size: 22px;
+    padding: 20px;
+    line-height: normal;
+    font-family: Arial;
+}
+
+#lightbox-modal-MTG div.edit-form-wrapper {
+    width: 100%;
+    text-align: left;
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+#lightbox-modal-MTG div.edit-form-wrapper label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+#lightbox-modal-MTG div.edit-form-wrapper span {
+    display: block;
+    font-size: 20px;
+    text-align: center
+}
+
+#lightbox-modal-MTG div.edit-form-wrapper span:nth-child(1) {
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #037fb0
+}
+
+#lightbox-modal-MTG div.edit-form-wrapper span:nth-child(2) {
+    font-size: 25px;
+    margin: 10px auto;
+    font-family: "Montserrat-Light";
+    color: #0a223f
+}
+
+#lightbox-modal-MTG div.edit-form-wrapper span:nth-child(3) {
+    font-size: 14px;
+    font-family: "Montserrat-Light"
+}
+
+#lightbox-modal-MTG div.edit-form-wrapper span:nth-child(4) {
+    text-transform: uppercase;
+    margin: 10px auto 0px auto;
+    font-size: 22px
+}
+
+#lightbox-modal-MTG div.edit-form-wrapper select {
+    max-width: 250px;
+    width: 100%;
+    font-size: 14px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+#lightbox-modal-MTG #divMTGMBotDecl {
+    margin: 0px 20px 20px 20px;
+    font-size: 14px;
+}
+
+.lightbox-wrapper {
+    display: none;
+}
+
+#lightbox-modal-EQT {
+    display: block;
+    background-color: #ffffff;
+    width: 100%;
+    float: none;
+    display: inline-block;
+    max-width: 490px;
+    padding-bottom: 10px;
+}
+
+#lightbox-modal-EQT .clear-float {
+    font-size: 12px;
+    font-weight: normal;
+    color: #444;
+    width: 100%;
+    margin: 0px;
+}
+
+#lightbox-modal-EQT .clear-float h2 {
+    margin: 0px 0px 24px 0px;
+    font-weight: bold;
+    background-color: #f4f4f4;
+    text-transform: uppercase;
+    color: #163051;
+    font-size: 22px;
+    padding: 20px;
+    line-height: normal;
+    font-family: Arial;
+}
+
+#lightbox-modal-EQT div.edit-form-wrapper {
+    width: 100%;
+    text-align: left;
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#lightbox-modal-EQT div.edit-form-wrapper label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+#lightbox-modal-EQT div.edit-form-wrapper span {
+    display: block;
+    font-size: 20px;
+    text-align: center
+}
+
+#lightbox-modal-EQT div.edit-form-wrapper span:nth-child(1) {
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #037fb0
+}
+
+#lightbox-modal-EQT div.edit-form-wrapper span:nth-child(2) {
+    font-size: 25px;
+    margin: 10px auto;
+    font-family: "Montserrat-Light";
+    color: #0a223f
+}
+
+#lightbox-modal-EQT div.edit-form-wrapper span:nth-child(3) {
+    font-size: 14px;
+    font-family: "Montserrat-Light"
+}
+
+#lightbox-modal-EQT div.edit-form-wrapper span:nth-child(4) {
+    text-transform: uppercase;
+    margin: 10px auto 0px auto;
+    font-size: 22px
+}
+
+#lightbox-modal-EQT div.edit-form-wrapper select {
+    max-width: 250px;
+    width: 100%;
+    font-size: 14px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+#divmodalEQT {
+    display: block;
+    width: 100%;
+    text-align: center;
+    max-width: 490px;
+    padding-bottom: 10px;
+    border: solid 1px #CCCCCC;
+}
+
+#divmodalEQT .clear-float {
+    font-size: 12px;
+    font-weight: normal;
+    color: #444;
+    width: 100%;
+    margin: 0px;
+}
+
+#divmodalEQT .clear-float h2 {
+    margin: 0px 0px 24px 0px;
+    font-weight: bold;
+    color: #163051;
+    font-size: 22px;
+    padding: 20px;
+    line-height: normal;
+    font-family: Arial;
+}
+
+#divmodalEQT div.edit-form-wrapper {
+    width: 100%;
+    text-align: left;
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+#divmodalEQT div.edit-form-wrapper label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+#divmodalEQT div.edit-form-wrapper select {
+    display: block;
+    margin: auto;
+    max-width: 250px;
+    width: 100%;
+    font-size: 14px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+#divmodalRatesEQT {
+    display: block;
+    width: 100%;
+    text-align: center;
+    max-width: 490px;
+    padding-bottom: 10px;
+    border: solid 1px #CCCCCC;
+}
+
+#divmodalRatesEQT .clear-float {
+    font-size: 12px;
+    font-weight: normal;
+    color: #444;
+    width: 100%;
+    margin: 0px;
+}
+
+#divmodalRatesEQT .clear-float h2 {
+    margin: 0px 0px 24px 0px;
+    font-weight: bold;
+    color: #163051;
+    font-size: 22px;
+    padding: 20px;
+    line-height: normal;
+    font-family: Arial;
+}
+
+#divmodalRatesEQT div.edit-form-wrapper {
+    width: 100%;
+    text-align: left;
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+#divmodalRatesEQT div.edit-form-wrapper select {
+    display: block;
+    margin: auto;
+    max-width: 250px;
+    width: 100%;
+    font-size: 12px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.lightbox-wrapper {
+    display: none;
+}
+
+#lightbox-important-message .clear-float {
+    float: left;
+    display: inline;
+    margin: 20px;
+}
+
+#lightbox-important-message .clear-float .edit-form-wrapper {
+    font-size: 1.1em;
+    color: #666;
+    margin: 6px 0;
+}
+
+#lightbox-important-message .clear-float .edit-form-wrapper .important-message {
+    font-weight: bold;
+    font-size: 1em;
+}
+
+#lightbox-important-message .clear-float a {}
+
+#lightbox-important-message .clear-float {
+    font-size: 12px;
+    font-weight: bold;
+    color: #666;
+}
+
+.lightbox-wrapper {
+    display: none;
+}
+
+#lightbox-modal-unsupported-browser .clear-float {
+    float: left;
+    display: inline;
+    margin: 20px;
+}
+
+#lightbox-modal-unsupported-browser .clear-float .edit-form-wrapper {
+    font-size: 1.1em;
+    color: #002856;
+    margin: 6px 0;
+    text-align: center;
+}
+
+#lightbox-modal-unsupported-browser .clear-float .edit-form-wrapper .important-message {
+    font-weight: bold;
+    font-size: 1em;
+}
+
+#lightbox-modal-unsupported-browser .clear-float a {}
+
+#lightbox-modal-unsupported-browser .clear-float {
+    font-size: 12px;
+    font-weight: bold;
+    color: #002856;
+}
+
+#lightbox {
+    font-size: 12px;
+    font-weight: normal;
+    color: #444;
+    float: left;
+    display: inline;
+    margin: 10px;
+    padding-bottom: 30px;
+}
+
+#lightbox h2 {
+    margin: 8px 0 0 20px;
+    font-size: 1.6em;
+    font-weight: bold;
+    color: #666;
+}
+
+#in-process {
+    display: inline;
+    font-size: 12px;
+    font-weight: normal;
+    color: #444;
+}
+
+/* Vehicle CSS*/
+.vehicleRow {
+    clear: both;
+    padding-bottom: 5px;
+}
+
+.vehicleLeftColumn {
+    width: 120px;
+    float: left;
+}
+
+.vehicleLeftColumnCentered {
+    width: 180px;
+    text-align: right;
+    float: left;
+    padding-right: 10px;
+}
+
+.vehicleRightColumn {
+    float: left;
+}
+
+.hidden {
+    visibility: hidden;
+    display: none;
+}
+
+.ui-slider-label {
+    width: 286px;
+    border: none;
+    float: right;
+}
+
+.ui-slider-image {
+    float: right;
+}
+
+.ui-slider-min-label {
+    float: left;
+}
+
+.ui-slider-max-label {
+    float: right;
+}
+
+/* Member Discounts */
+.module-content {
+    clear: left;
+    overflow: hidden;
+    padding: 20px 0 0 0;
+    margin: 0 0 10px 0;
+}
+
+/*generic, should inherit parent's width */
+.module-content ul {
+    margin: 0px 0px 0px 15px;
+    list-style-type: disc;
+}
+
+.module-content h2 {
+    display: block;
+}
+
+.module-content .page-content {
+    padding: 0 0 0 110px;
+    overflow: hidden;
+}
+
+.module-content .page-content h2 {
+    margin: 6px 0 4px 0;
+}
+
+.three-column-module {
+    width: 224px;
+    margin: 0 11px 10px 0;
+    float: left;
+    display: inline;
+}
+
+.three-column-wrapper .three-column-module {
+    margin: 0 0 10px 0;
+    padding: 6px 0;
+}
+
+.partner-module {
+    width: 188px;
+    padding: 15px;
+    overflow: hidden;
+}
+
+.partner-module.top {
+    height: 225px;
+}
+
+.partner-module.bottom {
+    height: 15px;
+}
+
+.three-column-module img {
+    display: block;
+    margin: 0 auto;
+}
+
+.three-column-module h3 {
+    clear: both;
+    font-size: 14px;
+    margin: 0 0 4px 0;
+    color: #666666;
+}
+
+.three-column-module ul {
+    font-size: 10px;
+    margin: 0 25px 8px 25px;
+}
+
+.three-column-module ul li {
+    margin: 6px 0;
+    color: #666;
+}
+
+.three-column-module a.partner-link {
+    font-size: 12px;
+    float: right;
+    display: block;
+}
+
+.last-module {
+    margin: 0 0 10px 0;
+}
+
+.three-column-module .top-shadow {
+    background: url(/PenFedOnline/Images/ProductsAndRates/top-shadow.png) no-repeat 0 0;
+    padding-top: 3px
+}
+
+.three-column-module .bottom-shadow {
+    background: url(/PenFedOnline/Images/ProductsAndRates/bottom-shadow.png) no-repeat bottom left;
+    padding-bottom: 3px;
+}
+
+.three-column-module .repeater-shadow {
+    background: url(/PenFedOnline/Images/ProductsAndRates/shadow-repeater.png) repeat-y 0 0;
+    padding: 0 3px;
+}
+
+.three-column-module .featured-topics {
+    width: 218px;
+}
+
+.three-column-module .featured-topics h5 {
+    font-weight: bold;
+    color: #444;
+    font-weight: bold;
+    line-height: 2.5em;
+    margin: 0 12px;
+}
+
+/* styles for the jquery accordion */
+.accordion h2.acc-trigger {
+    padding: 0;
+    margin: 0 0 5px 0;
+    background: url(../images/accordion-bkg.gif) no-repeat;
+    height: 36px;
+    line-height: 36px;
+    width: 546px;
+    font-size: 13px;
+    font-weight: bold;
+    float: left;
+    position: relative
+}
+
+.accordion h2.acc-trigger a {
+    color: #00407e;
+    text-decoration: none;
+    display: block;
+    padding: 0 0 0 30px;
+}
+
+.accordion h2.acc-trigger a:hover {
+    text-decoration: underline;
+}
+
+.accordion h2.revise {
+    padding: 0;
+    margin: 0 0 5px 0;
+    height: 36px;
+    background: line-height: 36px;
+    width: 546px;
+    font-size: 13px;
+    font-weight: bold;
+    float: left;
+    position: relative
+}
+
+.accordion h2.active {
+    background-position: left bottom;
+}
+
+.accordion h2.active a {
+    color: #444;
+    cursor: text
+}
+
+.accordion h2.active a:hover {
+    color: #444;
+    text-decoration: none;
+}
+
+.accordion .acc-container {
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    width: 546px;
+    clear: both;
+}
+
+.accordion .acc-container .block {
+    padding: 0 13px 0 30px;
+    overflow: hidden;
+}
+
+.accordion .acc-container .block a {
+    color: #00407E;
+    outline: medium none;
+    text-decoration: none;
+}
+
+.accordion .acc-container .block a:hover {
+    text-decoration: underline;
+}
+
+.accordion .acc-container .block ul {
+    font-size: 12px;
+    color: #666;
+    line-height: 12px;
+    margin-left: 15px;
+    list-style-type: disc;
+}
+
+.accordion .acc-container .block ul li {
+    margin-bottom: 8px;
+    font-size: 10px;
+}
+
+.accordion .acc-container .block .how-it-works {
+    float: left;
+    width: 280px;
+}
+
+.accordion .acc-container .block .accordion-table {
+    border-collapse: collapse;
+    float: right;
+    display: inline;
+}
+
+.accordion .acc-container .block .accordion-table th {
+    font-size: 12px;
+    color: #2A8502;
+    padding: 4px 6px;
+    text-align: left;
+}
+
+.accordion .acc-container .block .accordion-table td {
+    font-size: 10px;
+    color: #666;
+    border: 1px solid #e3dfdf;
+    padding: 4px 6px;
+}
+
+.accordion .acc-container .block .accordion-table th {
+    color: #2A8502;
+    font-size: 10px;
+    padding: 4px 6px;
+    text-align: left;
+}
+
+.accordion .acc-container .block h3 {
+    color: #444;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.accordion .acc-container .block p {
+    font-size: 10px;
+    float: left;
+    margin: 0;
+    color: #666;
+}
+
+/* styles for the jquery accordion */
+.accordion h2.accordion-trigger {
+    padding: 0;
+    margin: 0 0 5px 0;
+    background: url(../images/accordion-bkg.gif) no-repeat;
+    height: 36px;
+    line-height: 36px;
+    width: 546px;
+    font-size: 13px;
+    font-weight: bold;
+    float: left;
+    position: relative
+}
+
+.accordion h2.accordion-trigger a {
+    color: #00407e;
+    text-decoration: none;
+    display: block;
+    padding: 0 0 0 30px;
+}
+
+.accordion h2.accordion-trigger a:hover {
+    text-decoration: underline;
+}
+
+.accordion h2.revise {
+    padding: 0;
+    margin: 0 0 5px 0;
+    height: 36px;
+    background: line-height: 36px;
+    width: 546px;
+    font-size: 13px;
+    font-weight: bold;
+    float: left;
+    position: relative
+}
+
+.accordion h2.accordion-active {
+    background-position: left bottom;
+}
+
+.accordion h2.accordion-active a {
+    color: #444;
+    cursor: text
+}
+
+.accordion h2.accordion-active a:hover {
+    color: #444;
+    text-decoration: none;
+}
+
+.accordion .accordion-container {
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    width: 546px;
+    clear: both;
+}
+
+.accordion .accordion-container .block {
+    padding: 0 13px 0 30px;
+    overflow: hidden;
+}
+
+.accordion .accordion-container .block a {
+    color: #00407E;
+    outline: medium none;
+    text-decoration: none;
+}
+
+.accordion .accordion-container .block a:hover {
+    text-decoration: underline;
+}
+
+.accordion .accordion-container .block ul {
+    font-size: 12px;
+    color: #666;
+    line-height: 12px;
+    margin-left: 15px;
+    list-style-type: disc;
+}
+
+.accordion .accordion-container .block ul li {
+    margin-bottom: 8px;
+    font-size: 10px;
+}
+
+.accordion .accordion-container .block .how-it-works {
+    float: left;
+    width: 280px;
+}
+
+.accordion .accordion-container .block .accordion-table {
+    border-collapse: collapse;
+    float: right;
+    display: inline;
+}
+
+.accordion .accordion-container .block .accordion-table th {
+    font-size: 12px;
+    color: #2A8502;
+    padding: 4px 6px;
+    text-align: left;
+}
+
+.accordion .accordion-container .block .accordion-table td {
+    font-size: 10px;
+    color: #666;
+    border: 1px solid #e3dfdf;
+    padding: 4px 6px;
+}
+
+.accordion .accordion-container .block .accordion-table th {
+    color: #2A8502;
+    font-size: 10px;
+    padding: 4px 6px;
+    text-align: left;
+}
+
+.accordion .accordion-container .block h3 {
+    color: #444;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.accordion .accordion-container .block p {
+    font-size: 10px;
+    float: left;
+    margin: 0;
+    color: #666;
+}
+
+.popup-footer {
+    padding: 0 5px 0 5px;
+}
+
+.re-logon-box {
+    background: url("../images/calculator-bkg.png") repeat-x scroll 0 0 #FFFFFF;
+    border: 1px solid #E1E1E1;
+    color: #666666;
+    display: inline;
+    float: left;
+    font-size: 12px;
+    margin-top: 10px;
+    padding: 17px 23px;
+    text-align: left;
+}
+
+.re-logon-box h3 {
+    color: #444444;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.re-logon-box label {
+    display: block;
+    font-size: 12px;
+    margin: 2px 0;
+}
+
+.re-logon-box .textfield {
+    background-color: #E8E8E8;
+    border: 1px solid #E1E0E0;
+    margin: 0 3px 0 0;
+    padding: 2px;
+    width: 180px;
+}
+
+.re-logon-box .submit {
+    margin: 0 0 5px 108px;
+}
+
+.re-logon-box .field {
+    margin: 7px 0;
+}
+
+.re-logon-box ul {
+    list-style: none outside none;
+}
+
+.re-logon-box a {
+    color: #00407E;
+    outline: medium none;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+/*Left side page navigation*/
+#two-column-wrapper {
+    float: left;
+    display: block;
+    width: 150px;
+    margin: -20px 0 0 5px;
+}
+
+#two-column-wrapper h2 a {
+    color: #00407e;
+}
+
+#two-column-wrapper h2 {
+    color: #444;
+    margin: 0 10px 8px 14px;
+}
+
+ul#left-navigation {
+    list-style-type: none;
+    width: 150px;
+    margin: 0;
+    font-size: 1.1em;
+    font-weight: normal
+}
+
+ul#left-navigation li {
+    padding-right: 10px;
+    width: 140px;
+    color: #444;
+}
+
+ul#left-navigation li a {
+    border-top: 1px solid #d8d8d8;
+    padding: 8px 0 8px 20px;
+    display: block;
+}
+
+ul#left-navigation li.current {
+    background: url("/PenFedOnline/Images/nav/local-nav-current-arrow.png") no-repeat right 50%;
+}
+
+ul#left-navigation li.current div {
+    background: #aeaeae url("/PenFedOnline/Images/nav/local-nav-current-bkg.gif") repeat-x 50% 50%;
+    padding: 8px 0 8px 20px;
+    display: block;
+}
+
+.cross-sale {
+    padding: 0;
+    margin: 0 0 5px 0;
+    background: url(../images/Offer-Bar-BG.jpg);
+    height: 84px;
+    line-height: 15px;
+    width: 596px;
+    font-size: 13px;
+    font-weight: bold;
+    float: left;
+    position: relative
+}
+
+.cross-sale .description {
+    float: left;
+    display: inline;
+    width: 370px;
+    margin: 5px;
+}
+
+.cross-sale .description h2 {
+    color: #ffffff !important;
+    font-weight: bold;
+    margin-left: 5px;
+    padding-bottom: 5px;
+}
+
+.cross-sale .description h3 {
+    margin-left: 5px;
+}
+
+.cross-sale .accept {
+    float: right;
+    display: inline;
+    width: 140px;
+    margin: 5px;
+    padding-top: 8px;
+}
+
+table.curvedcorners {
+    font-family: "Myriad Pro", Arial;
+    border-width: 0px;
+    border-collapse: separate;
+}
+
+.curvedcorners .topl {
+    border: solid #000 2px;
+    -webkit-border-top-left-radius: 36px;
+    -moz-border-radius-topleft: 36px;
+    border-top-left-radius: 36px;
+    background-color: #003f5e;
+    padding-top: 16px;
+}
+
+.curvedcorners .topr {
+    border: solid #000 2px;
+    border-left: 0px;
+    -webkit-border-top-right-radius: 36px;
+    -moz-border-radius-topright: 36px;
+    border-top-right-radius: 36px;
+}
+
+.curvedcorners .btml {
+    border: solid #000 2px;
+    -webkit-border-bottom-left-radius: 36px;
+    -moz-border-radius-bottomleft: 36px;
+    border-bottom-left-radius: 36px;
+    padding: 25px;
+    border-top: 0px;
+}
+
+.curvedcorners .btmr {
+    border: solid #000 2px;
+    -webkit-border-bottom-right-radius: 36px;
+    -moz-border-radius-bottomright: 36px;
+    border-bottom-right-radius: 36px;
+    padding: 25px;
+    border-left: 0px;
+    border-top: 0px;
+}
+
+#mainContent {
+    float: left;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    margin-top: 5px;
+    position: relative;
+}
+
+#mainContent h4 a,
+#mainContent h3 a {
+    color: #03467E;
+}
+
+#mainContent a {
+    color: #004B8D;
+}
+
+#mainContent h2 {
+    background-color: #004B8D;
+    color: white;
+    padding: 5px;
+    min-height: 15px;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+#mainContent p,
+#mainContent h3 {
+    margin: 15px 0;
+}
+
+#mainContent ul li {
+    margin-top: 5px;
+}
+
+#mainContent ol li {
+    margin-top: 5px;
+    font: bold 100% Verdana, Arial, Helvetica, sans-serif;
+}
+
+#mainContent td {}
+
+#mainContent td.table {
+    font: 100% Verdana, Arial, Helvetica, sans-serif;
+}
+
+#mainContent td.PrimaryHeader {
+    font-weight: bold;
+    padding: 5px;
+    color: White;
+    background-color: #004B8D;
+    text-align: left;
+}
+
+#mainContent td.columnBorderLeft {
+    font: bold 100% Verdana, Arial, Helvetica, sans-serif;
+}
+
+#mainContent td.columnBorderCenter {
+    font: bold 100% Verdana, Arial, Helvetica, sans-serif;
+}
+
+#mainContent td.columnBorderRight {
+    font: bold 100% Verdana, Arial, Helvetica, sans-serif;
+}
+
+#mainContent td.FieldLabel {
+    font-weight: bold;
+}
+
+#mainContent th {
+    color: #004B8D;
+    font: bold 95% Verdana, Arial, Helvetica, sans-serif;
+}
+
+/* Total Assets */
+#TotalAssets table.MMSectionHeader {
+    text-align: left;
+    font-size: 105%;
+    width: 100%;
+    padding: 0px;
+}
+
+#TotalAssets td.MMSectionHeaderLeft {
+    background: url("/PenFedOnline/Images/RoundedCorners/Corner_DarkBlue_Left.gif") no-repeat left top;
+    font-weight: bold;
+    padding: 5px;
+    color: White;
+    background-color: #004B8D;
+    text-align: left;
+}
+
+#TotalAssets td.MMSectionHeaderRight {
+    background-color: #004B8D;
+    background: url("/PenFedOnline/Images/RoundedCorners/Corner_DarkBlue_Right.gif") no-repeat right top;
+}
+
+#TotalAssets table.MMAccounts {
+    text-align: left;
+    font-size: 105%;
+    border: 1px solid #004B8D;
+    width: 100%;
+    padding: 0px;
+}
+
+#mainContent table.MMAccountsText {
+    text-align: left;
+    font-size: 105%;
+    width: 100%;
+    padding: 0px;
+    color: Black;
+}
+
+#mainContent td.MMAccountsText {
+    color: Black;
+}
+
+/* History (and any other non-Main Menu pages) -- Text Format */
+#mainContent td.Text {
+    color: Black;
+    font: 95% Verdana, Arial, Helvetica, sans-serif;
+}
+
+#mainContent td.PrimaryHeaderText {
+    font-weight: bold;
+    padding: 5px;
+    color: Black;
+    background-color: White;
+    text-align: left;
+}
+
+/*PendingTransfers*/
+.PageActive {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 125%
+}
+
+.PageInActive {
+    text-decoration: none;
+    font-weight: normal;
+}
+
+/*Other Services*/
+
+.otherServicesLandingPage {
+    background-color: white;
+    margin: 10px 10px 10px 0px;
+    width: 325px;
+    height: auto;
+    font-size: 100%;
+    margin: 0px 0px 10px 0px;
+    vertical-align: top;
+    text-align: left;
+}
+
+.otherServicesLandingPage h4 {
+    color: #004B8D;
+    background-color: #D8EAF6;
+    padding: 5px;
+    margin: 0px;
+}
+
+.otherServicesLandingPage ul {
+    list-style: None;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+/*Site Map*/
+
+.siteMap {
+    background-color: white;
+    margin: 10px 5px 10px 0px;
+    width: 190px;
+    height: auto;
+    font-size: 100%;
+    margin: 0px 0px 10px 0px;
+    vertical-align: top;
+    text-align: left;
+}
+
+.siteMap h4 {
+    font-size: 108%;
+    color: #004B8D;
+    background-color: #D8EAF6;
+    padding: 5px;
+    margin: 0px;
+}
+
+.siteMap ul {
+    list-style: None;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.siteMapHeader {
+    background-color: #D8EAF6;
+    height: 20px;
+    vertical-align: middle;
+    font-weight: bold;
+}
+
+/*
+Name/Date Header
+*/
+
+#NameHeader {
+    color: #004B8D;
+    text-align: left;
+    font: normal 100% Verdana, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    height: auto;
+    padding: 3px;
+}
+
+#CurrentDate {
+    color: #D84533;
+    text-align: left;
+    font: normal 100% Verdana, Arial, Helvetica, sans-serif;
+    height: auto;
+    padding: 3px;
+}
+
+#MainMenu {
+    text-align: left;
+    font: normal 100% Verdana, Arial, Helvetica, sans-serif;
+    height: auto;
+    padding: 3px;
+}
+
+/*
+Error Messages
+*/
+#ErrorMessage {
+    color: #FF0000;
+    text-align: left;
+    font: normal 100% Verdana, Arial, Helvetica, sans-serif;
+    height: auto;
+    font-weight: bold;
+}
+
+.ErrorMessage {
+    color: #FF0000;
+    text-align: left;
+    font: normal 12px Verdana, Arial, Helvetica, sans-serif;
+    height: auto;
+    font-weight: bold;
+}
+
+.ErrorMessage_Logoff {
+    text-align: left;
+    font: normal 100% Verdana, Arial, Helvetica, sans-serif;
+    height: auto;
+    font-weight: bold;
+}
+
+.ErrorMessage h2 {
+    color: #FF0000;
+    text-align: center;
+    font: bold 108% Verdana, Arial, Helvetica, sans-serif;
+    padding: 0px;
+}
+
+/*Deposit Anywhere*/
+#ABAHelp a {
+    position: relative;
+    text-decoration: none;
+    border-bottom: 1px dotted #004B8D
+}
+
+#ABAHelp a span {
+    display: none;
+    text-decoration: none;
+}
+
+#ABAHelp a:hover {
+    background-color: white;
+}
+
+#ABAHelp a:hover span {
+    display: block;
+    border: 1px solid #004B8D;
+    background-color: white;
+    position: absolute;
+    top: 14px;
+    left: 20px;
+    height: auto;
+    width: 500px;
+}
+
+#AcctNumberHelp a {
+    position: relative;
+    text-decoration: none;
+    border-bottom: 1px dotted #004B8D
+}
+
+#AcctNumberHelp a span {
+    display: none;
+    text-decoration: none;
+}
+
+#AcctNumberHelp a:hover {
+    background-color: white;
+}
+
+#AcctNumberHelp a:hover span {
+    display: block;
+    border: 1px solid #004B8D;
+    background-color: white;
+    position: absolute;
+    top: 14px;
+    left: -130px;
+    height: auto;
+    width: 500px;
+}
+
+#CkNumberHelp a {
+    position: relative;
+    text-decoration: none;
+    border-bottom: 1px dotted #004B8D
+}
+
+#CkNumberHelp a span {
+    display: none;
+    text-decoration: none;
+}
+
+#CkNumberHelp a:hover {
+    background-color: white;
+}
+
+#CkNumberHelp a:hover span {
+    display: block;
+    border: 1px solid #004B8D;
+    background-color: white;
+    position: absolute;
+    top: 14px;
+    left: -280px;
+    height: auto;
+    width: 500px;
+}
+
+#payToTheOrderOfHelp a {
+    position: relative;
+    text-decoration: none;
+    border-bottom: 1px dotted #004B8D
+}
+
+#payToTheOrderOfHelp a span {
+    display: none;
+    text-decoration: none;
+    padding: 10px;
+}
+
+#payToTheOrderOfHelp a:hover {
+    background-color: white;
+}
+
+#payToTheOrderOfHelp a:hover span {
+    display: block;
+    border: 1px solid #004B8D;
+    background-color: white;
+    position: absolute;
+    top: 15px;
+    left: 30px;
+    height: auto;
+    width: 300px;
+}
+
+#CWMemberAddressHelp a {
+    position: relative;
+    text-decoration: none;
+    border-bottom: 1px dotted #004B8D
+}
+
+#CWMemberAddressHelp a span {
+    display: none;
+    text-decoration: none;
+    padding: 10px;
+}
+
+#CWMemberAddressHelp a:hover {
+    background-color: white;
+}
+
+#CWMemberAddressHelp a:hover span {
+    display: block;
+    border: 1px solid #004B8D;
+    background-color: white;
+    position: absolute;
+    top: 15px;
+    left: 80px;
+    height: auto;
+    width: 300px;
+}
+
+
+#dhtmlpointer {
+    position: absolute;
+    left: -300px;
+    z-index: 101;
+    visibility: hidden;
+}
+
+.Popup a {
+    position: relative;
+    text-decoration: none;
+    border-bottom: 1px dotted;
+}
+
+.Popup a:hover {
+    background-color: transparent;
+    text-indent: 0;
+    z-index: 50;
+}
+
+.Popup a span {
+    /*CSS for popup-text*/
+    position: absolute;
+    background-color: #004B8D;
+    padding: 5px;
+    left: -1000px;
+    width: 400px;
+    border: 1px dashed gray;
+    display: none;
+    text-decoration: none;
+}
+
+/*CSS for text on hover*/
+.Popup a:hover span {
+    display: inline;
+    top: 0;
+    left: -220px;
+}
+
+.SideBoxPopup a {
+    position: relative;
+    text-decoration: none;
+    border-bottom: 1px dotted;
+}
+
+.SideBoxPopup a:hover {
+    background-color: transparent;
+    text-indent: 0;
+    z-index: 50;
+}
+
+.SideBoxPopup a span {
+    /*CSS for popup-text*/
+    position: absolute;
+    background-color: #004B8D;
+    padding: 5px;
+    left: -1000px;
+    width: 400px;
+    border: 1px dashed gray;
+    display: none;
+    text-decoration: none;
+}
+
+/*CSS for text in sidebox on hover*/
+.SideBoxPopup a:hover span {
+    display: inline;
+    top: 0;
+    left: -50px;
+}
+
+.HoverHelp {
+    text-decoration: none;
+    border-bottom: 1px dashed #004B8D;
+    font-weight: bold;
+}
+
+.HoverHelp:hover {
+    cursor: help;
+}
+
+.HoverHelpUnderline {
+    text-decoration: underline;
+}
+
+.HoverHelpUnderline:hover {
+    cursor: help;
+}
+
+.HoverHelpWhiteDash {
+    text-decoration: none;
+    border-bottom: 1px dashed #FFFFFF;
+}
+
+
+/* Bill Pay Settings */
+#BPHeader {
+    margin: 0px 0px 0px 15px;
+    width: 780px;
+}
+
+#BPPrimaryNavigation {
+    position: relative;
+    margin: 0px 0px 0px 15px;
+    padding: 0px;
+    font: 92% Verdana, Arial, Helvetica, sans-serif;
+    width: 780px;
+    height: inherit;
+}
+
+#BPPrimaryNavigation h2 {
+    font: bold 108% Verdana, Arial, Helvetica, sans-serif;
+    color: #004B8D;
+    background-color: #FFFFFF;
+}
+
+#BPPrimaryNavigation ul {
+    margin: 0px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-bottom: solid 0px #004B8D;
+}
+
+#BPPrimaryNavigation li {
+    display: inline;
+    background-color: #D8EAF6;
+    margin: 0px;
+    padding: 4px 8px 4px 8px;
+    text-align: center;
+    border-left: solid 1px #004B8D;
+    border-right: solid 1px white;
+    border-bottom: 0px;
+}
+
+#BPPrimaryNavigation a {
+    margin: 0px;
+    text-decoration: none;
+    color: #004B8D;
+}
+
+#BPPrimaryNavigation a:hover {
+    text-decoration: underline;
+}
+
+#BPPrimaryNavigation li.active {
+    margin: 0px;
+    background-color: #004B8D;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    color: white;
+    border-right: solid 1px #004B8D;
+    font: bold 100% Verdana, Arial, Helvetica, sans-serif;
+}
+
+#BPPrimaryNavigation li.active a {
+    color: #FFFFFF;
+}
+
+#BPDropDown {
+    font: 92% Verdana, Arial, Helvetica, sans-serif;
+    color: #004B8D;
+}
+
+#BPErrorMessage {
+    vertical-align: top;
+    text-align: left;
+    width: 80%;
+    margin: 0px 20px 10px 35px;
+    font: Bold 90% Verdana, Arial, Helvetica, sans-serif;
+    color: red;
+}
+
+#BPSubHeader {
+    margin: 0px 0px 0px 15px;
+    vertical-align: top;
+    padding: 0px 0px 0px 0px;
+    background-color: #004B8D;
+    height: 50px;
+    width: 780px;
+}
+
+#BPSubHeaderHelp {
+    clear: both;
+    position: relative;
+    background-color: #004B8D;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    height: inherit;
+    vertical-align: top;
+    text-align: right;
+    width: 780px;
+}
+
+#BPSubHeader td {
+    background-color: #004B8D;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 0px 0px 0px 8px;
+}
+
+#BPSubHeader select {
+    background-color: #FFFFFF;
+    color: #004B8D;
+    font: Bold 11px Verdana, Arial, Helvetica, sans-serif;
+    padding: 0px 2px 0px 2px;
+    margin: 0px 2px 0px 2px;
+}
+
+#BPContent {
+    margin: 0px 0px 0px 15px;
+}
+
+#BPContent td {
+    color: #004B8D;
+    font: 11px Verdana, Arial, Helvetica, sans-serif;
+    padding: 0px 0px 0px 5px;
+}
+
+#BPContent input {
+    color: #004B8D;
+    font: 11px Verdana, Arial, Helvetica, sans-serif;
+}
+
+#BPContent h2 {
+    color: #004B8D;
+    font: Bold 16px Verdana, Arial, Helvetica, sans-serif;
+}
+
+#BPContent h1 {
+    color: #004B8D;
+    font: Bold 14px Verdana, Arial, Helvetica, sans-serif;
+}
+
+#BPContent ul {
+    margin: 0px 0px 0px 25px;
+    padding: 0px 0px 0px 0px;
+    border-bottom: none;
+}
+
+#BPContent ol {
+    margin: 0px 0px 0px 25px;
+    padding: 0px 0px 0px 0px;
+    border-bottom: none;
+}
+
+#BPContent li {
+    display: list-item;
+    background-color: white;
+    margin: 0px 0px 0px 25px;
+    padding: 0px 0px 0px 0px;
+    font-weight: normal;
+    text-align: left;
+    vertical-align: top;
+    border: 0px 0px none;
+}
+
+#BPContent select {
+    background-color: #FFFFFF;
+    color: #004B8D;
+    font: 11px Verdana, Arial, Helvetica, sans-serif;
+    padding: 0px 2px 0px 2px;
+    margin: 0px 2px 0px 2px;
+}
+
+#BPContent button {
+    color: #004B8D;
+    font: Bold 11px Verdana, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    height: 25px;
+}
+
+#BPFooter {
+    position: relative;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    height: inherit;
+    vertical-align: top;
+    text-align: right;
+    width: 780px;
+}
+
+/* Body Content Navigation -- Tabbed menus within the body of a page */
+#BodyContentNavigation {
+    background: url("/PenFedOnline/Images/LightBlue_Gradient.gif") repeat-x bottom;
+    background-color: white;
+    font: 92% Verdana, Arial, Helvetica, sans-serif;
+    width: 100%;
+    line-height: normal;
+    float: left;
+}
+
+#BodyContentNavigation ul {
+    margin: -5px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    list-style: none;
+}
+
+#BodyContentNavigation li {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    background: url("/PenFedOnline/Images/Pipe_Blue_Short.gif") right top no-repeat;
+}
+
+#BodyContentNavigation a {
+    color: #004B8D;
+    display: block;
+    text-decoration: none;
+    padding: 9px 15px 4px 15px;
+}
+
+#BodyContentNavigation a:hover {
+    text-decoration: underline;
+}
+
+#BodyContentNavigation .last {
+    background: none;
+}
+
+#BodyContentNavigation .ToTheSideOfTheActiveLink {
+    background: none;
+}
+
+#BodyContentNavigation li.active {
+    background: url("/PenFedOnline/Images/RoundedCorners/Corner_DarkBlue_Right.gif") no-repeat top right;
+}
+
+#BodyContentNavigation li.active a {
+    background: url("/PenFedOnline/Images/RoundedCorners/Corner_DarkBlue_Left.gif") no-repeat top left;
+    color: white;
+}
+
+#BodyContentNavigationSubHeaderHelp {
+    background-color: #004B8D;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    height: inherit;
+    vertical-align: top;
+    text-align: right;
+    width: 100%;
+}
+
+/* Document Center -- Tabbed menus within the body of a page */
+#DocumentCenter {
+    background: url("/PenFedOnline/Images/LightBlue_Gradient_Tall.gif") repeat-x bottom;
+    background-color: white;
+    font: 92% Verdana, Arial, Helvetica, sans-serif;
+    width: 100%;
+    line-height: normal;
+    float: left;
+}
+
+#DocumentCenter ul {
+    margin: -5px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    list-style: none;
+    white-space: nowrap;
+}
+
+#DocumentCenter li {
+    display: inline;
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    background: url("/PenFedOnline/Images/Pipe_Blue_Short.gif") right center no-repeat;
+}
+
+#DocumentCenter a {
+    color: #004B8D;
+    display: block;
+    text-decoration: none;
+    padding: 9px 15px 4px 15px;
+}
+
+#DocumentCenter a:hover {
+    text-decoration: underline;
+}
+
+#DocumentCenter .last {
+    background: none;
+}
+
+#DocumentCenter .ToTheSideOfTheActiveLink {
+    background: none;
+}
+
+#DocumentCenter li.active {
+    background: url("/PenFedOnline/Images/RoundedCorners/Corner_DarkBlue_Right.gif") no-repeat top right;
+}
+
+#DocumentCenter li.active a {
+    background: url("/PenFedOnline/Images/RoundedCorners/Corner_DarkBlue_Left.gif") no-repeat top left;
+    color: white;
+}
+
+#DocumentCenterSubHeaderHelp {
+    background-color: #004B8D;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    height: inherit;
+    vertical-align: top;
+    text-align: right;
+    width: 100%;
+}
+
+/* RSA Security:  Logon, Maintenance, Enrollment */
+#RSASecurity h2 {
+    background-color: #FFFFFF;
+    font-size: 18px;
+}
+
+#RSASecurity h3 {
+    font-size: 15px;
+}
+
+#RSASecurity li {
+    list-style-type: disc;
+    list-style-position: inside;
+    font-size: 12px;
+    color: #444444;
+}
+
+#RSASecurity td.FieldLabel {
+    font-weight: bold;
+}
+
+#RSASecurity td.PrimaryHeader {
+    font-weight: bold;
+    background-color: #004B8D;
+    height: 20px;
+}
+
+#RSASecurity a.ImageSelection {
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 110%;
+}
+
+#RSASecurity a:hover.ImageSelection {
+    text-decoration: underline;
+}
+
+/* Logon on logoff page */
+#login {
+    background-color: #F07A6C;
+    color: white;
+    border: 1px solid #D84533;
+    margin-top: 0px;
+    margin-left: 0px;
+    font-size: 100%;
+}
+
+#login h2 {
+    padding: 5px;
+    margin: 0px;
+    background-color: #D84533;
+    font: bold 14px Verdana, Helvetica, Arial, sans-serif;
+    color: white;
+}
+
+#login h3 {
+    margin: 10px 0 0 0;
+    font: bold 12px Verdana, Helvetica, Arial, sans-serif;
+    color: white;
+}
+
+#login p {
+    margin: 0px;
+}
+
+#login table {
+    padding: 0;
+    margin: 0;
+}
+
+#login form {
+    padding: 0;
+    margin: 0;
+}
+
+#login td {
+    padding: 0 0 3px 0;
+    font: normal 100% Verdana, Helvetica, Arial, sans-serif;
+    color: white;
+}
+
+#login input {
+    /*border: 1px solid black;*/
+    font: normal 10px Verdana, Helvetica, Arial, sans-serif;
+}
+
+#logBody {
+    font: normal 120% Verdana, Helvetica, Arial, sans-serif;
+    margin: 0px;
+    padding: 5px;
+}
+
+#logBody a:link {
+    color: #FFFFFF;
+}
+
+#logBody a:visited {
+    color: #FFFFFF;
+}
+
+
+#login2 {
+    background-color: #dbeaf6;
+    color: white;
+    border: 1px solid #D84533;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+#login2 table {
+    padding: 0;
+    margin: 0;
+}
+
+#login2 form {
+    padding: 0;
+    margin: 0;
+}
+
+#login2 td {
+    padding: 0 0 3px 0;
+    font: normal 100% Verdana, Helvetica, Arial, sans-serif;
+    color: #022954;
+}
+
+#login2 a {
+    color: #022954;
+}
+
+#login2 h2 {
+    padding: 5px;
+    margin: 0px;
+    background-color: #7DAAD0;
+    font: bold 14px Verdana, Helvetica, Arial, sans-serif;
+    color: white;
+}
+
+#login2 h3 {
+    margin: 10px 0 0 0;
+    font: bold 12px Verdana, Helvetica, Arial, sans-serif;
+    color: white;
+}
+
+#login2 p {
+    margin: 0px;
+    color: #022954;
+}
+
+#login2 input {
+    /*border: 1px solid black;*/
+    font: normal 10px Verdana, Helvetica, Arial, sans-serif;
+    color: #022954;
+}
+
+#logBody2 {
+    margin: 0px;
+    padding: 5px;
+    color: #022954;
+}
+
+#Disclosures {
+    font: 110% Verdana, Arial, Helvetica, sans-serif;
+}
+
+#Disclosures textarea {
+    font: 110% Verdana, Arial, Helvetica, sans-serif;
+    text-align: left;
+    color: #03467E;
+    width: 90%;
+}
+
+#Disclosures li {
+    padding-bottom: 15px;
+}
+
+/* Main default settings */
+.AAALoanApp td,
+.AAALoanApp tr,
+.AAALoanApp table,
+.AAALoanApp p,
+.AAALoanApp ul,
+.AAALoanApp li,
+.AAALoanApp a {
+    margin: 0;
+    padding: 0;
+    color: #666666;
+    font-family: Arial, Verdana, Helvetica, Sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.AAALoanApp ul {
+    list-style: disc !important;
+    list-style-position: inside !important;
+}
+
+.AAALoanApp .HeaderTitle {
+    font-size: 24px !important;
+    color: #CE0024 !important;
+}
+
+.AAALoanApp .HeaderTitle2 {
+    font-size: 14px !important;
+    color: #CE0024 !important;
+}
+
+.AAALoanApp .hr {
+    color: #CE0024 !important;
+    width: 75% !important;
+}
+
+.AAAHeader {
+    background-image: url(/PenFedOnline/Images/Affiliation/AAA/AAAHeader.gif) !important;
+    background-repeat: no-repeat !important;
+    height: 165px !important;
+    width: 960px !important;
+}
+
+.AAAHeaderLink {
+    position: absolute !important;
+    top: 0px !important;
+    left: 0px !important;
+    width: 150px !important;
+    height: 160px !important;
+}
+
+.PenFedAAAHeaderLink {
+    position: absolute !important;
+    top: 0px !important;
+    left: 710px !important;
+    width: 90px !important;
+    height: 30px !important;
+}
+
+.PhoneNumber {
+    color: White !important;
+    padding-right: 10px !important;
+    position: relative !important;
+    top: 118px !important;
+    left: 835px !important;
+    font-family: Arial, Verdana, Helvetica, Sans-serif !important;
+    font-size: 11px !important;
+    font-weight: bold !important;
+}
+
+.MiniLogo {
+    position: relative;
+    float: right;
+    padding-right: 25px;
+    margin-top: 30px;
+}
+
+.AAALoanApp #tblMainMasterContainer {
+    width: 930px !important;
+}
+
+.AAALoanApp .TopLeftCorner {
+    background: url(/PenFedOnline/Images/Affiliation/AAA/TopLeftCorner.gif) no-repeat !important;
+    width: 15px !important;
+    height: 15px !important;
+}
+
+.AAALoanApp .TopMiddle {
+    background: url(/PenFedOnline/Images/Affiliation/AAA/TopLine.gif) !important;
+}
+
+.AAALoanApp .TopRightCorner {
+    background: url(/PenFedOnline/Images/Affiliation/AAA/TopRightCorner.gif) no-repeat !important;
+    width: 15px !important;
+    height: 15px !important;
+}
+
+.AAALoanApp .LeftMiddle {
+    background: url(/PenFedOnline/Images/Affiliation/AAA/LeftLine.gif) !important;
+    background-repeat: repeat-y !important;
+}
+
+.AAALoanApp .RightMiddle {
+    background: url(/PenFedOnline/Images/Affiliation/AAA/RightLine.gif) !important;
+    background-repeat: repeat-y !important;
+}
+
+.AAALoanApp .BottomLeftCorner {
+    background: url(/PenFedOnline/Images/Affiliation/AAA/BottomLeftCorner.gif) no-repeat !important;
+    width: 15px !important;
+    height: 15px !important;
+}
+
+.AAALoanApp .BottomMiddle {
+    background: url(/PenFedOnline/Images/Affiliation/AAA/BottomLine.gif) !important;
+}
+
+.AAALoanApp .BottomRightCorner {
+    background: url(/PenFedOnline/Images/Affiliation/AAA/BottomRightCorner.gif) no-repeat !important;
+    width: 18px !important;
+    height: 15px !important;
+}
+
+.AAALoanApp .tdMiniContainer {
+    vertical-align: bottom !important;
+}
+
+.AAALoanApp .tblMiniTable {
+    width: 0% !important;
+    margin: 3px !important;
+}
+
+.AAALoanApp .tblMiniTable td {
+    border-style: solid !important;
+    border-width: 1px !important;
+    border-color: #666666 !important;
+    padding: 1px 5px 1px 5px !important;
+    text-align: left !important;
+    white-space: nowrap !important;
+    vertical-align: top !important;
+}
+
+.AAALoanApp .tblMiniTable input {
+    padding: 2px 5px 0px 5px !important;
+    border: 1px solid #FFFFFF !important;
+    color: Black !important;
+    font-weight: bold !important;
+    font-size: 12px !important;
+    margin-top: 1px !important;
+}
+
+.AAALoanApp .tblMiniTable select {
+    font-weight: bold !important;
+    color: Black !important;
+    font-size: 12px !important;
+    margin-top: 1px !important;
+}
+
+.AAALoanApp .tblMiniTable select option {
+    color: Black !important;
+}
+
+.AAALoanApp .tblMiniTableText {
+    padding: 0px 5px 0px 5px !important;
+    border-spacing: 5px !important;
+}
+
+.AAALoanApp .tblMiniTableText td {
+    text-align: left !important;
+    vertical-align: top !important;
+}
+
+.AAALoanApp .Disclosures {
+    border-style: solid !important;
+    border-color: #666666 !important;
+    border-width: 2px !important;
+    padding: 10px !important;
+}
+
+.AAALoanApp .CLDGridHeader {
+    text-align: center !important;
+    background-color: #E8E8E8 !important;
+    border-color: #666666 !important;
+    border-width: 1px !important;
+    border-style: Solid !important;
+    padding: 5px 5px 5px 5px !important;
+}
+
+.AAALoanApp .CLDGridData {
+    text-align: center !important;
+    border-color: #666666 !important;
+    border-width: 1px !important;
+    border-style: Solid !important;
+    padding: 5px 5px 5px 5px !important;
+}
+
+.AAALoanApp .CLDGridData2 {
+    text-align: left !important;
+    border-color: #666666 !important;
+    border-width: 1px !important;
+    border-style: Solid !important;
+    padding: 5px 5px 5px 5px !important;
+}
+
+.AAALoanApp .NoBorder {
+    width: 0px !important;
+}
+
+.AAALoanApp .NoBorder td {
+    border-color: #FFFFFF !important;
+    border-width: 0px !important;
+    padding: 0px 0px 0px 0px !important;
+}
+
+.AAALoanApp .ButtonGray {
+    font-family: Arial, Verdana, Helvetica, Sans-serif !important;
+    background-image: url(/PenFedOnline/Images/Affiliation/AAA/greyButton.jpg) !important;
+    background: url(/PenFedOnline/Images/Affiliation/AAA/greyButton.jpg) !important;
+    /* For IE */
+    background-repeat: no-repeat !important;
+    font-size: 14px !important;
+    font-weight: bold !important;
+    color: white !important;
+    padding: 3px 5px 3px 5px !important;
+    margin: 4px 3px 4px 3px !important;
+    overflow: visible !important;
+    /* Removes extra padding on buttons for IE only */
+}
+
+.AAALoanApp .ButtonMauve {
+    font-family: Arial, Verdana, Helvetica, Sans-serif !important;
+    background-image: url(/PenFedOnline/Images/Affiliation/AAA/mauveButton.jpg) !important;
+    background: url(/PenFedOnline/Images/Affiliation/AAA/mauveButton.jpg) !important;
+    /* For IE */
+    background-repeat: no-repeat !important;
+    font-size: 14px !important;
+    font-weight: bold !important;
+    color: white !important;
+    padding: 3px 5px 3px 5px !important;
+    margin: 4px 3px 4px 3px !important;
+    overflow: visible !important;
+    /* Removes extra padding on buttons for IE only */
+}
+
+.AAALoanApp .ImportantNotes h2 {
+    font-size: 24px !important;
+    color: #CE0024 !important;
+    font-weight: bold !important;
+    background-color: Transparent;
+}
+
+.AAALoanApp .ImportantNotes li {
+    padding-bottom: 10px !important;
+}
+
+.AAALoanApp .ImportantNotes2 li {
+    padding-bottom: 10px !important;
+}
+
+/*
+Error Messages
+*/
+.AAALoanApp .ErrorMessage {
+    color: #FF0000 !important;
+    text-align: left !important;
+    font-weight: bold !important;
+    padding: 1px 5px 1px 5px !important;
+}
+
+.AAALoanApp .ErrorMessageTopOfScreen {
+    color: #FF0000 !important;
+    text-align: center !important;
+    font-weight: bold !important;
+    padding: 1px 5px 1px 5px !important;
+    font-size: 14px !important;
+}
+
+.AAALoanApp .ErrorMessageTopOfScreen a {
+    color: #FF0000 !important;
+    font-size: 14px !important;
+}
+
+/*
+Hover Pop-Ups
+*/
+.AAALoanApp #HoverTip {
+    position: absolute !important;
+    left: -300px !important;
+    width: 150px !important;
+    border: 2px solid #004B8D !important;
+    padding: 5px !important;
+    background-color: white !important;
+    visibility: hidden !important;
+}
+
+.AAALoanApp #HoverTip ul {
+    padding: 3px 8px 8px 8px !important;
+}
+
+.AAALoanApp #HoverTip ul li {
+    padding-bottom: 3px !important;
+    list-style: disc inside !important;
+}
+
+.AAALoanApp #HoverTip ul ul li {
+    padding-bottom: 3px !important;
+    list-style: square inside !important;
+}
+
+.AAALoanApp #HoverTip h2 {
+    text-decoration: underline !important;
+    font-size: 112% !important;
+    font-weight: bold !important;
+    color: Black !important;
+    padding: 8px 8px 0px 8px !important;
+    margin: 0px 0px 0px 0px !important;
+}
+
+.AAALoanApp #HoverTip h5 {
+    text-decoration: none !important;
+    font-size: 100% !important;
+    font-weight: bold !important;
+    color: Black !important;
+    padding: 8px 8px 0px 8px !important;
+    margin: 0px 0px 0px 0px !important;
+}
+
+.AAALoanApp #dhtmlpointer {
+    position: absolute !important;
+    left: -300px !important;
+    z-index: 101 !important;
+    visibility: hidden !important;
+}
+
+.AAALoanApp .Popup a {
+    position: relative;
+    text-decoration: none;
+    border-bottom: 1px dotted;
+}
+
+.AAALoanApp .Popup a:hover {
+    background-color: transparent;
+    text-indent: 0;
+    z-index: 50;
+}
+
+/*CSS for popup-text*/
+.AAALoanApp .Popup a span {
+    position: absolute;
+    background-color: #004B8D;
+    padding: 5px;
+    left: -1000px;
+    width: 400px;
+    border: 1px dashed gray;
+    display: none;
+    text-decoration: none;
+}
+
+/*CSS for text on hover*/
+.AAALoanApp .Popup a:hover span {
+    display: inline;
+    top: 0;
+    left: -220px;
+}
+
+.AAALoanApp .SideBoxPopup a {
+    position: relative;
+    text-decoration: none;
+    border-bottom: 1px dotted;
+}
+
+.AAALoanApp .SideBoxPopup a:hover {
+    background-color: transparent;
+    text-indent: 0;
+    z-index: 50;
+}
+
+/*CSS for popup-text*/
+.AAALoanApp .SideBoxPopup a span {
+    position: absolute;
+    background-color: #004B8D;
+    padding: 5px;
+    left: -1000px;
+    width: 400px;
+    border: 1px dashed gray;
+    display: none;
+    text-decoration: none;
+}
+
+/*CSS for text in sidebox on hover*/
+.AAALoanApp .SideBoxPopup a:hover span {
+    display: inline;
+    top: 0;
+    left: -50px;
+}
+
+.AAALoanApp .HoverHelp {
+    text-decoration: none;
+    border-bottom: 1px dashed #004B8D;
+    font-weight: bold;
+}
+
+.AAALoanApp .HoverHelp:hover {
+    cursor: help;
+}
+
+.AAALoanApp .HoverHelpNoDash {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.AAALoanApp .HoverHelpNoDash:hover {
+    cursor: help;
+}
+
+.AAALoanApp .HoverHelpUnderline {
+    text-decoration: underline;
+}
+
+.AAALoanApp .HoverHelpUnderline:hover {
+    cursor: help;
+}
+
+.AAALoanApp .HoverHelpNotBold {
+    text-decoration: none;
+    border-bottom: 1px dashed #004B8D;
+}
+
+.AAALoanApp .HoverHelpWhiteDash {
+    text-decoration: none;
+    border-bottom: 1px dashed #FFFFFF;
+}
+
+.AAALoanApp .disclosures a {
+    padding-left: 20px;
+}
+
+.AAALoanApp .disclosures p {
+    font-size: 1em;
+    font-weight: normal;
+}
+
+/*
+ * jQuery UI CSS Framework 1.8.8
+ *
+ * Copyright 2010, AUTHORS.txt (http://jqueryui.com/about)
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Theming/API
+ */
+
+/* Layout helpers
+----------------------------------*/
+.ui-helper-hidden {
+    display: none;
+}
+
+.ui-helper-hidden-accessible {
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+}
+
+.ui-helper-reset {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    line-height: 1.3;
+    text-decoration: none;
+    font-size: 100%;
+    list-style: none;
+}
+
+.ui-helper-clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.ui-helper-clearfix {
+    display: inline-block;
+}
+
+/* required comment for clearfix to work in Opera \*/
+* html .ui-helper-clearfix {
+    height: 1%;
+}
+
+.ui-helper-clearfix {
+    display: block;
+}
+
+/* end clearfix */
+.ui-helper-zfix {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    opacity: 0;
+    filter: Alpha(Opacity=0);
+}
+
+
+/* Interaction Cues
+----------------------------------*/
+.ui-state-disabled {
+    cursor: default !important;
+}
+
+
+/* Icons
+----------------------------------*/
+
+/* states and images */
+.ui-icon {
+    display: block;
+    text-indent: -99999px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+
+
+/* Misc visuals
+----------------------------------*/
+
+/* Overlays */
+.ui-widget-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/*
+ * jQuery UI Resizable 1.8.8
+ *
+ * Copyright 2010, AUTHORS.txt (http://jqueryui.com/about)
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Resizable#theming
+ */
+.ui-resizable {
+    position: relative;
+}
+
+.ui-resizable-handle {
+    position: absolute;
+    font-size: 0.1px;
+    z-index: 99999;
+    display: block;
+}
+
+.ui-resizable-disabled .ui-resizable-handle,
+.ui-resizable-autohide .ui-resizable-handle {
+    display: none;
+}
+
+.ui-resizable-n {
+    cursor: n-resize;
+    height: 7px;
+    width: 100%;
+    top: -5px;
+    left: 0;
+}
+
+.ui-resizable-s {
+    cursor: s-resize;
+    height: 7px;
+    width: 100%;
+    bottom: -5px;
+    left: 0;
+}
+
+.ui-resizable-e {
+    cursor: e-resize;
+    width: 7px;
+    right: -5px;
+    top: 0;
+    height: 100%;
+}
+
+.ui-resizable-w {
+    cursor: w-resize;
+    width: 7px;
+    left: -5px;
+    top: 0;
+    height: 100%;
+}
+
+.ui-resizable-se {
+    cursor: se-resize;
+    width: 12px;
+    height: 12px;
+    right: 1px;
+    bottom: 1px;
+}
+
+.ui-resizable-sw {
+    cursor: sw-resize;
+    width: 9px;
+    height: 9px;
+    left: -5px;
+    bottom: -5px;
+}
+
+.ui-resizable-nw {
+    cursor: nw-resize;
+    width: 9px;
+    height: 9px;
+    left: -5px;
+    top: -5px;
+}
+
+.ui-resizable-ne {
+    cursor: ne-resize;
+    width: 9px;
+    height: 9px;
+    right: -5px;
+    top: -5px;
+}
+
+/*
+ * jQuery UI Selectable 1.8.8
+ *
+ * Copyright 2010, AUTHORS.txt (http://jqueryui.com/about)
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Selectable#theming
+ */
+.ui-selectable-helper {
+    position: absolute;
+    z-index: 100;
+    border: 1px dotted black;
+}
+
+/*
+ * jQuery UI Accordion 1.8.8
+ *
+ * Copyright 2010, AUTHORS.txt (http://jqueryui.com/about)
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Accordion#theming
+ */
+/* IE/Win - Fix animation bug - #4615 */
+.ui-accordion {
+    width: 100%;
+}
+
+.ui-accordion .ui-accordion-header {
+    cursor: pointer;
+    position: relative;
+    margin-top: 1px;
+    zoom: 1;
+}
+
+.ui-accordion .ui-accordion-li-fix {
+    display: inline;
+}
+
+.ui-accordion .ui-accordion-header-active {
+    border-bottom: 0 !important;
+}
+
+.ui-accordion .ui-accordion-header a {
+    display: block;
+    font-size: 1em;
+    padding: .5em .5em .5em .7em;
+}
+
+.ui-accordion-icons .ui-accordion-header a {
+    padding-left: 2.2em;
+}
+
+.ui-accordion .ui-accordion-header .ui-icon {
+    position: absolute;
+    left: .5em;
+    top: 50%;
+    margin-top: -8px;
+}
+
+.ui-accordion .ui-accordion-content {
+    padding: 1em 2.2em;
+    border-top: 0;
+    margin-top: -2px;
+    position: relative;
+    top: 1px;
+    margin-bottom: 2px;
+    overflow: auto;
+    display: none;
+    zoom: 1;
+}
+
+.ui-accordion .ui-accordion-content-active {
+    display: block;
+}
+
+/*
+ * jQuery UI Autocomplete 1.8.8
+ *
+ * Copyright 2010, AUTHORS.txt (http://jqueryui.com/about)
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Autocomplete#theming
+ */
+.ui-autocomplete {
+    position: absolute;
+    cursor: default;
+}
+
+/* workarounds */
+* html .ui-autocomplete {
+    width: 1px;
+}
+
+/* without this, the menu expands to 100% in IE6 */
+
+/*
+ * jQuery UI Menu 1.8.8
+ *
+ * Copyright 2010, AUTHORS.txt (http://jqueryui.com/about)
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Menu#theming
+ */
+.ui-menu {
+    list-style: none;
+    padding: 2px;
+    margin: 0;
+    display: block;
+    float: left;
+}
+
+.ui-menu .ui-menu {
+    margin-top: -3px;
+}
+
+.ui-menu .ui-menu-item {
+    margin: 0;
+    padding: 0;
+    zoom: 1;
+    float: left;
+    clear: left;
+    width: 100%;
+}
+
+.ui-menu .ui-menu-item a {
+    text-decoration: none;
+    display: block;
+    padding: .2em .4em;
+    line-height: 1.5;
+    zoom: 1;
+}
+
+.ui-menu .ui-menu-item a.ui-state-hover,
+.ui-menu .ui-menu-item a.ui-state-active {
+    font-weight: normal;
+    margin: -1px;
+}
+
+/*
+ * jQuery UI Button 1.8.8
+ *
+ * Copyright 2010, AUTHORS.txt (http://jqueryui.com/about)
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Button#theming
+ */
+.ui-button {
+    display: inline-block;
+    position: relative;
+    padding: 0;
+    margin-right: .1em;
+    text-decoration: none !important;
+    cursor: pointer;
+    text-align: center;
+    zoom: 1;
+    overflow: visible;
+}
+
+/* the overflow property removes extra width in IE */
+.ui-button-icon-only {
+    width: 2.2em;
+}
+
+/* to make room for the icon, a width needs to be set here */
+button.ui-button-icon-only {
+    width: 2.4em;
+}
+
+/* button elements seem to need a little more width */
+.ui-button-icons-only {
+    width: 3.4em;
+}
+
+button.ui-button-icons-only {
+    width: 3.7em;
+}
+
+/*button text element */
+.ui-button .ui-button-text {
+    display: block;
+    line-height: 1.4;
+}
+
+.ui-button-text-only .ui-button-text {
+    padding: .4em 1em;
+}
+
+.ui-button-icon-only .ui-button-text,
+.ui-button-icons-only .ui-button-text {
+    padding: .4em;
+    text-indent: -9999999px;
+}
+
+.ui-button-text-icon-primary .ui-button-text,
+.ui-button-text-icons .ui-button-text {
+    padding: .4em 1em .4em 2.1em;
+}
+
+.ui-button-text-icon-secondary .ui-button-text,
+.ui-button-text-icons .ui-button-text {
+    padding: .4em 2.1em .4em 1em;
+}
+
+.ui-button-text-icons .ui-button-text {
+    padding-left: 2.1em;
+    padding-right: 2.1em;
+}
+
+/* no icon support for input elements, provide padding by default */
+input.ui-button {
+    padding: .4em 1em;
+}
+
+/*button icon element(s) */
+.ui-button-icon-only .ui-icon,
+.ui-button-text-icon-primary .ui-icon,
+.ui-button-text-icon-secondary .ui-icon,
+.ui-button-text-icons .ui-icon,
+.ui-button-icons-only .ui-icon {
+    position: absolute;
+    top: 50%;
+    margin-top: -8px;
+}
+
+.ui-button-icon-only .ui-icon {
+    left: 50%;
+    margin-left: -8px;
+}
+
+.ui-button-text-icon-primary .ui-button-icon-primary,
+.ui-button-text-icons .ui-button-icon-primary,
+.ui-button-icons-only .ui-button-icon-primary {
+    left: .5em;
+}
+
+.ui-button-text-icon-secondary .ui-button-icon-secondary,
+.ui-button-text-icons .ui-button-icon-secondary,
+.ui-button-icons-only .ui-button-icon-secondary {
+    right: .5em;
+}
+
+.ui-button-text-icons .ui-button-icon-secondary,
+.ui-button-icons-only .ui-button-icon-secondary {
+    right: .5em;
+}
+
+/*button sets*/
+.ui-buttonset {
+    margin-right: 7px;
+}
+
+.ui-buttonset .ui-button {
+    margin-left: 0;
+    margin-right: -.3em;
+}
+
+/* workarounds */
+button.ui-button::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+/* reset extra padding in Firefox */
+/*
+ * jQuery UI Dialog 1.8.8
+ *
+ * Copyright 2010, AUTHORS.txt (http://jqueryui.com/about)
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Dialog#theming
+ */
+.ui-dialog {
+    position: absolute;
+    padding: .2em;
+    width: 300px;
+    overflow: hidden;
+}
+
+.ui-dialog .ui-dialog-titlebar {
+    padding: .4em 1em;
+    position: relative;
+}
+
+.ui-dialog .ui-dialog-title {
+    float: left;
+    margin: .1em 16px .1em 0;
+}
+
+.ui-dialog .ui-dialog-titlebar-close {
+    position: absolute;
+    right: .3em;
+    top: 50%;
+    width: 19px;
+    margin: -10px 0 0 0;
+    padding: 1px;
+    height: 18px;
+}
+
+.ui-dialog .ui-dialog-titlebar-close span {
+    display: block;
+    margin: 1px;
+}
+
+.ui-dialog .ui-dialog-titlebar-close:hover,
+.ui-dialog .ui-dialog-titlebar-close:focus {
+    padding: 0;
+}
+
+.ui-dialog .ui-dialog-content {
+    position: relative;
+    border: 0;
+    padding: .5em 1em;
+    background: none;
+    overflow: auto;
+    zoom: 1;
+}
+
+.ui-dialog .ui-dialog-buttonpane {
+    text-align: left;
+    border-width: 1px 0 0 0;
+    background-image: none;
+    margin: .5em 0 0 0;
+    padding: .3em 1em .5em .4em;
+}
+
+.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset {
+    float: right;
+}
+
+.ui-dialog .ui-dialog-buttonpane button {
+    margin: .5em .4em .5em 0;
+    cursor: pointer;
+}
+
+.ui-dialog .ui-resizable-se {
+    width: 14px;
+    height: 14px;
+    right: 3px;
+    bottom: 3px;
+}
+
+.ui-draggable .ui-dialog-titlebar {
+    cursor: move;
+}
+
+/*
+ * jQuery UI Slider 1.8.8
+ *
+ * Copyright 2010, AUTHORS.txt (http://jqueryui.com/about)
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Slider#theming
+ */
+.ui-slider {
+    position: relative;
+    text-align: left;
+}
+
+.ui-slider .ui-slider-handle {
+    position: absolute;
+    z-index: 2;
+    width: 1.2em;
+    height: 1.2em;
+    cursor: default;
+}
+
+.ui-slider .ui-slider-range {
+    position: absolute;
+    z-index: 1;
+    font-size: .7em;
+    display: block;
+    border: 0;
+    background-position: 0 0;
+}
+
+.ui-slider-horizontal .ui-slider-handle {
+    top: -.3em;
+    margin-left: -.45em;
+}
+
+.ui-slider-horizontal .ui-slider-range {
+    top: 0;
+    height: 100%;
+}
+
+.ui-slider-horizontal .ui-slider-range-min {
+    left: 0;
+}
+
+.ui-slider-horizontal .ui-slider-range-max {
+    right: 0;
+}
+
+.ui-slider-vertical {
+    width: .8em;
+    height: 100px;
+}
+
+.ui-slider-vertical .ui-slider-handle {
+    left: -.3em;
+    margin-left: 0;
+    margin-bottom: -.6em;
+}
+
+.ui-slider-vertical .ui-slider-range {
+    left: 0;
+    width: 100%;
+}
+
+.ui-slider-vertical .ui-slider-range-min {
+    bottom: 0;
+}
+
+.ui-slider-vertical .ui-slider-range-max {
+    top: 0;
+}
+
+
+
+/* API Sliders */
+#loan-amount .ui-state-default,
+#loan-term .ui-state-default,
+#down-payment .ui-state-default,
+#monthly-payment .ui-state-default {
+    background: transparent url(/PenFedOnline/Support/Stylesheets/jQuery/images/ui-slider-handle.png) 50% 50% no-repeat;
+    border: none;
+    height: 30px;
+    width: 18px;
+    margin-bottom: 2px;
+    top: -.4em;
+    float: right;
+}
+
+.ui-slider-horizontal {
+    height: 15px;
+    width: 250px;
+    background: white url(/PenFedOnline/Support/Stylesheets/jQuery/images/ui-slider-horizontal.png) repeat-x;
+    border: none;
+    float: right;
+    top: .1em;
+}
+
+/* Vehicle Protection - Extended Warranty Term Slider */
+.warranty .ui-state-default {
+    background: transparent url(/PenFedOnline/Support/Stylesheets/jQuery/images/veh-protection-slider-handle.png) 50% 50% no-repeat;
+    border: none;
+    height: 30px;
+    width: 18px;
+    top: -.4em;
+    margin-bottom: 5px;
+    float: right;
+}
+
+.warranty .ui-slider-horizontal {
+    width: 100px;
+    height: 15px;
+    background: transparent url(/PenFedOnline/Support/Stylesheets/jQuery/images/veh-protection-slider-horizontal.png) repeat-x;
+    border: none;
+    top: -.1em;
+    left: -3em;
+}
+
+/*
+ * jQuery UI Tabs 1.8.8
+ *
+ * Copyright 2010, AUTHORS.txt (http://jqueryui.com/about)
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Tabs#theming
+ */
+.ui-tabs {
+    position: relative;
+    padding: .2em;
+    zoom: 1;
+}
+
+/* position: relative prevents IE scroll bug (element with position: relative inside container with overflow: auto appear as "fixed") */
+.ui-tabs .ui-tabs-nav {
+    margin: 0;
+    padding: .2em .2em 0;
+}
+
+.ui-tabs .ui-tabs-nav li {
+    list-style: none;
+    float: left;
+    position: relative;
+    top: 1px;
+    margin: 0 .2em 1px 0;
+    border-bottom: 0 !important;
+    padding: 0;
+    white-space: nowrap;
+}
+
+.ui-tabs .ui-tabs-nav li a {
+    float: left;
+    padding: .5em 1em;
+    text-decoration: none;
+}
+
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected {
+    margin-bottom: 0;
+    padding-bottom: 1px;
+}
+
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected a,
+.ui-tabs .ui-tabs-nav li.ui-state-disabled a,
+.ui-tabs .ui-tabs-nav li.ui-state-processing a {
+    cursor: text;
+}
+
+.ui-tabs .ui-tabs-nav li a,
+.ui-tabs.ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-selected a {
+    cursor: pointer;
+}
+
+/* first selector in group seems obsolete, but required to overcome bug in Opera applying cursor: text overall if defined elsewhere... */
+.ui-tabs .ui-tabs-panel {
+    display: block;
+    border-width: 0;
+    padding: 1em 1.4em;
+    background: none;
+}
+
+.ui-tabs .ui-tabs-hide {
+    display: none !important;
+}
+
+/*
+ * jQuery UI Datepicker 1.8.8
+ *
+ * Copyright 2010, AUTHORS.txt (http://jqueryui.com/about)
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Datepicker#theming
+ */
+.ui-datepicker {
+    width: 17em;
+    padding: .2em .2em 0;
+    display: none;
+}
+
+.ui-datepicker .ui-datepicker-header {
+    position: relative;
+    padding: .2em 0;
+}
+
+.ui-datepicker .ui-datepicker-prev,
+.ui-datepicker .ui-datepicker-next {
+    position: absolute;
+    top: 2px;
+    width: 1.8em;
+    height: 1.8em;
+}
+
+.ui-datepicker .ui-datepicker-prev-hover,
+.ui-datepicker .ui-datepicker-next-hover {
+    top: 1px;
+}
+
+.ui-datepicker .ui-datepicker-prev {
+    left: 2px;
+}
+
+.ui-datepicker .ui-datepicker-next {
+    right: 2px;
+}
+
+.ui-datepicker .ui-datepicker-prev-hover {
+    left: 1px;
+}
+
+.ui-datepicker .ui-datepicker-next-hover {
+    right: 1px;
+}
+
+.ui-datepicker .ui-datepicker-prev span,
+.ui-datepicker .ui-datepicker-next span {
+    display: block;
+    position: absolute;
+    left: 50%;
+    margin-left: -8px;
+    top: 50%;
+    margin-top: -8px;
+}
+
+.ui-datepicker .ui-datepicker-title {
+    margin: 0 2.3em;
+    line-height: 1.8em;
+    text-align: center;
+}
+
+.ui-datepicker .ui-datepicker-title select {
+    font-size: 1em;
+    margin: 1px 0;
+}
+
+.ui-datepicker select.ui-datepicker-month-year {
+    width: 100%;
+}
+
+.ui-datepicker select.ui-datepicker-month,
+.ui-datepicker select.ui-datepicker-year {
+    width: 49%;
+}
+
+.ui-datepicker table {
+    width: 100%;
+    font-size: .9em;
+    border-collapse: collapse;
+    margin: 0 0 .4em;
+}
+
+.ui-datepicker th {
+    padding: .7em .3em;
+    text-align: center;
+    font-weight: bold;
+    border: 0;
+}
+
+.ui-datepicker td {
+    border: 0;
+    padding: 1px;
+}
+
+.ui-datepicker td span,
+.ui-datepicker td a {
+    display: block;
+    padding: .2em;
+    text-align: right;
+    text-decoration: none;
+}
+
+.ui-datepicker .ui-datepicker-buttonpane {
+    background-image: none;
+    margin: .7em 0 0 0;
+    padding: 0 .2em;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+}
+
+.ui-datepicker .ui-datepicker-buttonpane button {
+    float: right;
+    margin: .5em .2em .4em;
+    cursor: pointer;
+    padding: .2em .6em .3em .6em;
+    width: auto;
+    overflow: visible;
+}
+
+.ui-datepicker .ui-datepicker-buttonpane button.ui-datepicker-current {
+    float: left;
+}
+
+/* with multiple calendars */
+.ui-datepicker.ui-datepicker-multi {
+    width: auto;
+}
+
+.ui-datepicker-multi .ui-datepicker-group {
+    float: left;
+}
+
+.ui-datepicker-multi .ui-datepicker-group table {
+    width: 95%;
+    margin: 0 auto .4em;
+}
+
+.ui-datepicker-multi-2 .ui-datepicker-group {
+    width: 50%;
+}
+
+.ui-datepicker-multi-3 .ui-datepicker-group {
+    width: 33.3%;
+}
+
+.ui-datepicker-multi-4 .ui-datepicker-group {
+    width: 25%;
+}
+
+.ui-datepicker-multi .ui-datepicker-group-last .ui-datepicker-header {
+    border-left-width: 0;
+}
+
+.ui-datepicker-multi .ui-datepicker-group-middle .ui-datepicker-header {
+    border-left-width: 0;
+}
+
+.ui-datepicker-multi .ui-datepicker-buttonpane {
+    clear: left;
+}
+
+.ui-datepicker-row-break {
+    clear: both;
+    width: 100%;
+}
+
+/* RTL support */
+.ui-datepicker-rtl {
+    direction: rtl;
+}
+
+.ui-datepicker-rtl .ui-datepicker-prev {
+    right: 2px;
+    left: auto;
+}
+
+.ui-datepicker-rtl .ui-datepicker-next {
+    left: 2px;
+    right: auto;
+}
+
+.ui-datepicker-rtl .ui-datepicker-prev:hover {
+    right: 1px;
+    left: auto;
+}
+
+.ui-datepicker-rtl .ui-datepicker-next:hover {
+    left: 1px;
+    right: auto;
+}
+
+.ui-datepicker-rtl .ui-datepicker-buttonpane {
+    clear: right;
+}
+
+.ui-datepicker-rtl .ui-datepicker-buttonpane button {
+    float: left;
+}
+
+.ui-datepicker-rtl .ui-datepicker-buttonpane button.ui-datepicker-current {
+    float: right;
+}
+
+.ui-datepicker-rtl .ui-datepicker-group {
+    float: right;
+}
+
+.ui-datepicker-rtl .ui-datepicker-group-last .ui-datepicker-header {
+    border-right-width: 0;
+    border-left-width: 1px;
+}
+
+.ui-datepicker-rtl .ui-datepicker-group-middle .ui-datepicker-header {
+    border-right-width: 0;
+    border-left-width: 1px;
+}
+
+/* IE6 IFRAME FIX (taken from datepicker 1.5.3 */
+.ui-datepicker-cover {
+    display: none;
+    /*sorry for IE5*/
+    display
+    /**/
+    : block;
+    /*sorry for IE5*/
+    position: absolute;
+    /*must have*/
+    z-index: -1;
+    /*must have*/
+    filter: mask();
+    /*must have*/
+    top: -4px;
+    /*must have*/
+    left: -4px;
+    /*must have*/
+    width: 200px;
+    /*must have*/
+    height: 200px;
+    /*must have*/
+}
+
+/*
+ * jQuery UI Progressbar 1.8.8
+ *
+ * Copyright 2010, AUTHORS.txt (http://jqueryui.com/about)
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Progressbar#theming
+ */
+.ui-progressbar {
+    height: 2em;
+    text-align: left;
+}
+
+.ui-progressbar .ui-progressbar-value {
+    margin: -1px;
+    height: 100%;
+}
+
+/*
+ * jQuery UI CSS Framework 1.8.8
+ *
+ * Copyright 2010, AUTHORS.txt (http://jqueryui.com/about)
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Theming/API
+ *
+ * To view and modify this theme, visit http://jqueryui.com/themeroller/
+ */
+
+
+/* Component containers
+----------------------------------*/
+.ui-widget {
+    font-family: Verdana,
+    Arial,
+    sans-serif
+    /*{ffDefault}*/
+    ;
+    font-size: 1.1em
+    /*{fsDefault}*/
+    ;
+}
+
+.ui-widget .ui-widget {
+    font-size: 1em;
+}
+
+.ui-widget input,
+.ui-widget select,
+.ui-widget textarea,
+.ui-widget button {
+    font-family: Verdana,
+    Arial,
+    sans-serif
+    /*{ffDefault}*/
+    ;
+    font-size: 1em;
+}
+
+.ui-widget-content {
+    border: 1px solid #aaaaaa
+    /*{borderColorContent}*/
+    ;
+    background: #ffffff
+    /*{bgColorContent}*/
+    url(../images/ui-bg_flat_75_ffffff_40x100.png)
+    /*{bgImgUrlContent}*/
+    50%
+    /*{bgContentXPos}*/
+    50%
+    /*{bgContentYPos}*/
+    repeat-x
+    /*{bgContentRepeat}*/
+    ;
+    color: #222222
+    /*{fcContent}*/
+    ;
+}
+
+.ui-widget-content a {
+    color: #222222
+    /*{fcContent}*/
+    ;
+}
+
+.ui-widget-header {
+    border: 1px solid #aaaaaa
+    /*{borderColorHeader}*/
+    ;
+    background: #cccccc
+    /*{bgColorHeader}*/
+    url(../images/ui-bg_highlight-soft_75_cccccc_1x100.png)
+    /*{bgImgUrlHeader}*/
+    50%
+    /*{bgHeaderXPos}*/
+    50%
+    /*{bgHeaderYPos}*/
+    repeat-x
+    /*{bgHeaderRepeat}*/
+    ;
+    color: #222222
+    /*{fcHeader}*/
+    ;
+    font-weight: bold;
+}
+
+.ui-widget-header a {
+    color: #222222
+    /*{fcHeader}*/
+    ;
+}
+
+/* Interaction states
+----------------------------------*/
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default {
+    border: 1px solid #d3d3d3
+    /*{borderColorDefault}*/
+    ;
+    background: #e6e6e6
+    /*{bgColorDefault}*/
+    url(../images/ui-bg_glass_75_e6e6e6_1x400.png)
+    /*{bgImgUrlDefault}*/
+    50%
+    /*{bgDefaultXPos}*/
+    50%
+    /*{bgDefaultYPos}*/
+    repeat-x
+    /*{bgDefaultRepeat}*/
+    ;
+    font-weight: normal
+    /*{fwDefault}*/
+    ;
+    color: #555555
+    /*{fcDefault}*/
+    ;
+}
+
+.ui-state-default a,
+.ui-state-default a:link,
+.ui-state-default a:visited {
+    color: #00407E
+    /*{fcDefault}*/
+    ;
+    text-decoration: none;
+}
+
+.ui-state-hover,
+.ui-widget-content .ui-state-hover,
+.ui-widget-header .ui-state-hover,
+.ui-state-focus,
+.ui-widget-content .ui-state-focus,
+.ui-widget-header .ui-state-focus {
+    border: 1px solid #999999
+    /*{borderColorHover}*/
+    ;
+    background: #dadada
+    /*{bgColorHover}*/
+    url(../images/ui-bg_glass_75_dadada_1x400.png)
+    /*{bgImgUrlHover}*/
+    50%
+    /*{bgHoverXPos}*/
+    50%
+    /*{bgHoverYPos}*/
+    repeat-x
+    /*{bgHoverRepeat}*/
+    ;
+    font-weight: normal
+    /*{fwDefault}*/
+    ;
+    color: #212121
+    /*{fcHover}*/
+    ;
+}
+
+.ui-state-hover a,
+.ui-state-hover a:hover {
+    color: #212121
+    /*{fcHover}*/
+    ;
+    text-decoration: none;
+}
+
+.ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active {
+    border: 1px solid #aaaaaa
+    /*{borderColorActive}*/
+    ;
+    background: #ffffff
+    /*{bgColorActive}*/
+    url(../images/ui-bg_glass_65_ffffff_1x400.png)
+    /*{bgImgUrlActive}*/
+    50%
+    /*{bgActiveXPos}*/
+    50%
+    /*{bgActiveYPos}*/
+    repeat-x
+    /*{bgActiveRepeat}*/
+    ;
+    font-weight: normal
+    /*{fwDefault}*/
+    ;
+    color: #212121
+    /*{fcActive}*/
+    ;
+}
+
+.ui-state-active a,
+.ui-state-active a:link,
+.ui-state-active a:visited {
+    color: #212121
+    /*{fcActive}*/
+    ;
+    text-decoration: none;
+}
+
+.ui-widget :active {
+    outline: none;
+}
+
+/* Interaction Cues
+----------------------------------*/
+.ui-state-highlight,
+.ui-widget-content .ui-state-highlight,
+.ui-widget-header .ui-state-highlight {
+    border: 1px solid #fcefa1
+    /*{borderColorHighlight}*/
+    ;
+    background: #fbf9ee
+    /*{bgColorHighlight}*/
+    url(../images/ui-bg_glass_55_fbf9ee_1x400.png)
+    /*{bgImgUrlHighlight}*/
+    50%
+    /*{bgHighlightXPos}*/
+    50%
+    /*{bgHighlightYPos}*/
+    repeat-x
+    /*{bgHighlightRepeat}*/
+    ;
+    color: #363636
+    /*{fcHighlight}*/
+    ;
+}
+
+.ui-state-highlight a,
+.ui-widget-content .ui-state-highlight a,
+.ui-widget-header .ui-state-highlight a {
+    color: #363636
+    /*{fcHighlight}*/
+    ;
+}
+
+.ui-state-error,
+.ui-widget-content .ui-state-error,
+.ui-widget-header .ui-state-error {
+    border: 1px solid #cd0a0a
+    /*{borderColorError}*/
+    ;
+    background: #fef1ec
+    /*{bgColorError}*/
+    url(../images/ui-bg_glass_95_fef1ec_1x400.png)
+    /*{bgImgUrlError}*/
+    50%
+    /*{bgErrorXPos}*/
+    50%
+    /*{bgErrorYPos}*/
+    repeat-x
+    /*{bgErrorRepeat}*/
+    ;
+    color: #cd0a0a
+    /*{fcError}*/
+    ;
+}
+
+.ui-state-error a,
+.ui-widget-content .ui-state-error a,
+.ui-widget-header .ui-state-error a {
+    color: #cd0a0a
+    /*{fcError}*/
+    ;
+}
+
+.ui-state-error-text,
+.ui-widget-content .ui-state-error-text,
+.ui-widget-header .ui-state-error-text {
+    color: #cd0a0a
+    /*{fcError}*/
+    ;
+}
+
+.ui-priority-primary,
+.ui-widget-content .ui-priority-primary,
+.ui-widget-header .ui-priority-primary {
+    font-weight: bold;
+}
+
+.ui-priority-secondary,
+.ui-widget-content .ui-priority-secondary,
+.ui-widget-header .ui-priority-secondary {
+    opacity: .7;
+    filter: Alpha(Opacity=70);
+    font-weight: normal;
+}
+
+.ui-state-disabled,
+.ui-widget-content .ui-state-disabled,
+.ui-widget-header .ui-state-disabled {
+    opacity: .35;
+    filter: Alpha(Opacity=35);
+    background-image: none;
+}
+
+/* Icons
+----------------------------------*/
+
+/* states and images */
+.ui-icon {
+    width: 16px;
+    height: 16px;
+    background-image: url(../images/ui-icons_222222_256x240.png)
+    /*{iconsContent}*/
+    ;
+}
+
+.ui-widget-content .ui-icon {
+    background-image: url(../images/ui-icons_222222_256x240.png)
+    /*{iconsContent}*/
+    ;
+}
+
+.ui-widget-header .ui-icon {
+    background-image: url(../images/ui-icons_222222_256x240.png)
+    /*{iconsHeader}*/
+    ;
+}
+
+.ui-state-default .ui-icon {
+    background-image: url(../images/ui-icons_888888_256x240.png)
+    /*{iconsDefault}*/
+    ;
+}
+
+.ui-state-hover .ui-icon,
+.ui-state-focus .ui-icon {
+    background-image: url(../images/ui-icons_454545_256x240.png)
+    /*{iconsHover}*/
+    ;
+}
+
+.ui-state-active .ui-icon {
+    background-image: url(../images/ui-icons_454545_256x240.png)
+    /*{iconsActive}*/
+    ;
+}
+
+.ui-state-highlight .ui-icon {
+    background-image: url(../images/ui-icons_2e83ff_256x240.png)
+    /*{iconsHighlight}*/
+    ;
+}
+
+.ui-state-error .ui-icon,
+.ui-state-error-text .ui-icon {
+    background-image: url(../images/ui-icons_cd0a0a_256x240.png)
+    /*{iconsError}*/
+    ;
+}
+
+/* positioning */
+.ui-icon-carat-1-n {
+    background-position: 0 0;
+}
+
+.ui-icon-carat-1-ne {
+    background-position: -16px 0;
+}
+
+.ui-icon-carat-1-e {
+    background-position: -32px 0;
+}
+
+.ui-icon-carat-1-se {
+    background-position: -48px 0;
+}
+
+.ui-icon-carat-1-s {
+    background-position: -64px 0;
+}
+
+.ui-icon-carat-1-sw {
+    background-position: -80px 0;
+}
+
+.ui-icon-carat-1-w {
+    background-position: -96px 0;
+}
+
+.ui-icon-carat-1-nw {
+    background-position: -112px 0;
+}
+
+.ui-icon-carat-2-n-s {
+    background-position: -128px 0;
+}
+
+.ui-icon-carat-2-e-w {
+    background-position: -144px 0;
+}
+
+.ui-icon-triangle-1-n {
+    background-position: 0 -16px;
+}
+
+.ui-icon-triangle-1-ne {
+    background-position: -16px -16px;
+}
+
+.ui-icon-triangle-1-e {
+    background-position: -32px -16px;
+}
+
+.ui-icon-triangle-1-se {
+    background-position: -48px -16px;
+}
+
+.ui-icon-triangle-1-s {
+    background-position: -64px -16px;
+}
+
+.ui-icon-triangle-1-sw {
+    background-position: -80px -16px;
+}
+
+.ui-icon-triangle-1-w {
+    background-position: -96px -16px;
+}
+
+.ui-icon-triangle-1-nw {
+    background-position: -112px -16px;
+}
+
+.ui-icon-triangle-2-n-s {
+    background-position: -128px -16px;
+}
+
+.ui-icon-triangle-2-e-w {
+    background-position: -144px -16px;
+}
+
+.ui-icon-arrow-1-n {
+    background-position: 0 -32px;
+}
+
+.ui-icon-arrow-1-ne {
+    background-position: -16px -32px;
+}
+
+.ui-icon-arrow-1-e {
+    background-position: -32px -32px;
+}
+
+.ui-icon-arrow-1-se {
+    background-position: -48px -32px;
+}
+
+.ui-icon-arrow-1-s {
+    background-position: -64px -32px;
+}
+
+.ui-icon-arrow-1-sw {
+    background-position: -80px -32px;
+}
+
+.ui-icon-arrow-1-w {
+    background-position: -96px -32px;
+}
+
+.ui-icon-arrow-1-nw {
+    background-position: -112px -32px;
+}
+
+.ui-icon-arrow-2-n-s {
+    background-position: -128px -32px;
+}
+
+.ui-icon-arrow-2-ne-sw {
+    background-position: -144px -32px;
+}
+
+.ui-icon-arrow-2-e-w {
+    background-position: -160px -32px;
+}
+
+.ui-icon-arrow-2-se-nw {
+    background-position: -176px -32px;
+}
+
+.ui-icon-arrowstop-1-n {
+    background-position: -192px -32px;
+}
+
+.ui-icon-arrowstop-1-e {
+    background-position: -208px -32px;
+}
+
+.ui-icon-arrowstop-1-s {
+    background-position: -224px -32px;
+}
+
+.ui-icon-arrowstop-1-w {
+    background-position: -240px -32px;
+}
+
+.ui-icon-arrowthick-1-n {
+    background-position: 0 -48px;
+}
+
+.ui-icon-arrowthick-1-ne {
+    background-position: -16px -48px;
+}
+
+.ui-icon-arrowthick-1-e {
+    background-position: -32px -48px;
+}
+
+.ui-icon-arrowthick-1-se {
+    background-position: -48px -48px;
+}
+
+.ui-icon-arrowthick-1-s {
+    background-position: -64px -48px;
+}
+
+.ui-icon-arrowthick-1-sw {
+    background-position: -80px -48px;
+}
+
+.ui-icon-arrowthick-1-w {
+    background-position: -96px -48px;
+}
+
+.ui-icon-arrowthick-1-nw {
+    background-position: -112px -48px;
+}
+
+.ui-icon-arrowthick-2-n-s {
+    background-position: -128px -48px;
+}
+
+.ui-icon-arrowthick-2-ne-sw {
+    background-position: -144px -48px;
+}
+
+.ui-icon-arrowthick-2-e-w {
+    background-position: -160px -48px;
+}
+
+.ui-icon-arrowthick-2-se-nw {
+    background-position: -176px -48px;
+}
+
+.ui-icon-arrowthickstop-1-n {
+    background-position: -192px -48px;
+}
+
+.ui-icon-arrowthickstop-1-e {
+    background-position: -208px -48px;
+}
+
+.ui-icon-arrowthickstop-1-s {
+    background-position: -224px -48px;
+}
+
+.ui-icon-arrowthickstop-1-w {
+    background-position: -240px -48px;
+}
+
+.ui-icon-arrowreturnthick-1-w {
+    background-position: 0 -64px;
+}
+
+.ui-icon-arrowreturnthick-1-n {
+    background-position: -16px -64px;
+}
+
+.ui-icon-arrowreturnthick-1-e {
+    background-position: -32px -64px;
+}
+
+.ui-icon-arrowreturnthick-1-s {
+    background-position: -48px -64px;
+}
+
+.ui-icon-arrowreturn-1-w {
+    background-position: -64px -64px;
+}
+
+.ui-icon-arrowreturn-1-n {
+    background-position: -80px -64px;
+}
+
+.ui-icon-arrowreturn-1-e {
+    background-position: -96px -64px;
+}
+
+.ui-icon-arrowreturn-1-s {
+    background-position: -112px -64px;
+}
+
+.ui-icon-arrowrefresh-1-w {
+    background-position: -128px -64px;
+}
+
+.ui-icon-arrowrefresh-1-n {
+    background-position: -144px -64px;
+}
+
+.ui-icon-arrowrefresh-1-e {
+    background-position: -160px -64px;
+}
+
+.ui-icon-arrowrefresh-1-s {
+    background-position: -176px -64px;
+}
+
+.ui-icon-arrow-4 {
+    background-position: 0 -80px;
+}
+
+.ui-icon-arrow-4-diag {
+    background-position: -16px -80px;
+}
+
+.ui-icon-extlink {
+    background-position: -32px -80px;
+}
+
+.ui-icon-newwin {
+    background-position: -48px -80px;
+}
+
+.ui-icon-refresh {
+    background-position: -64px -80px;
+}
+
+.ui-icon-shuffle {
+    background-position: -80px -80px;
+}
+
+.ui-icon-transfer-e-w {
+    background-position: -96px -80px;
+}
+
+.ui-icon-transferthick-e-w {
+    background-position: -112px -80px;
+}
+
+.ui-icon-folder-collapsed {
+    background-position: 0 -96px;
+}
+
+.ui-icon-folder-open {
+    background-position: -16px -96px;
+}
+
+.ui-icon-document {
+    background-position: -32px -96px;
+}
+
+.ui-icon-document-b {
+    background-position: -48px -96px;
+}
+
+.ui-icon-note {
+    background-position: -64px -96px;
+}
+
+.ui-icon-mail-closed {
+    background-position: -80px -96px;
+}
+
+.ui-icon-mail-open {
+    background-position: -96px -96px;
+}
+
+.ui-icon-suitcase {
+    background-position: -112px -96px;
+}
+
+.ui-icon-comment {
+    background-position: -128px -96px;
+}
+
+.ui-icon-person {
+    background-position: -144px -96px;
+}
+
+.ui-icon-print {
+    background-position: -160px -96px;
+}
+
+.ui-icon-trash {
+    background-position: -176px -96px;
+}
+
+.ui-icon-locked {
+    background-position: -192px -96px;
+}
+
+.ui-icon-unlocked {
+    background-position: -208px -96px;
+}
+
+.ui-icon-bookmark {
+    background-position: -224px -96px;
+}
+
+.ui-icon-tag {
+    background-position: -240px -96px;
+}
+
+.ui-icon-home {
+    background-position: 0 -112px;
+}
+
+.ui-icon-flag {
+    background-position: -16px -112px;
+}
+
+.ui-icon-calendar {
+    background-position: -32px -112px;
+}
+
+.ui-icon-cart {
+    background-position: -48px -112px;
+}
+
+.ui-icon-pencil {
+    background-position: -64px -112px;
+}
+
+.ui-icon-clock {
+    background-position: -80px -112px;
+}
+
+.ui-icon-disk {
+    background-position: -96px -112px;
+}
+
+.ui-icon-calculator {
+    background-position: -112px -112px;
+}
+
+.ui-icon-zoomin {
+    background-position: -128px -112px;
+}
+
+.ui-icon-zoomout {
+    background-position: -144px -112px;
+}
+
+.ui-icon-search {
+    background-position: -160px -112px;
+}
+
+.ui-icon-wrench {
+    background-position: -176px -112px;
+}
+
+.ui-icon-gear {
+    background-position: -192px -112px;
+}
+
+.ui-icon-heart {
+    background-position: -208px -112px;
+}
+
+.ui-icon-star {
+    background-position: -224px -112px;
+}
+
+.ui-icon-link {
+    background-position: -240px -112px;
+}
+
+.ui-icon-cancel {
+    background-position: 0 -128px;
+}
+
+.ui-icon-plus {
+    background-position: -16px -128px;
+}
+
+.ui-icon-plusthick {
+    background-position: -32px -128px;
+}
+
+.ui-icon-minus {
+    background-position: -48px -128px;
+}
+
+.ui-icon-minusthick {
+    background-position: -64px -128px;
+}
+
+.ui-icon-close {
+    background-position: -80px -128px;
+}
+
+.ui-icon-closethick {
+    background-position: -96px -128px;
+}
+
+.ui-icon-key {
+    background-position: -112px -128px;
+}
+
+.ui-icon-lightbulb {
+    background-position: -128px -128px;
+}
+
+.ui-icon-scissors {
+    background-position: -144px -128px;
+}
+
+.ui-icon-clipboard {
+    background-position: -160px -128px;
+}
+
+.ui-icon-copy {
+    background-position: -176px -128px;
+}
+
+.ui-icon-contact {
+    background-position: -192px -128px;
+}
+
+.ui-icon-image {
+    background-position: -208px -128px;
+}
+
+.ui-icon-video {
+    background-position: -224px -128px;
+}
+
+.ui-icon-script {
+    background-position: -240px -128px;
+}
+
+.ui-icon-alert {
+    background-position: 0 -144px;
+}
+
+.ui-icon-info {
+    background-position: -16px -144px;
+}
+
+.ui-icon-notice {
+    background-position: -32px -144px;
+}
+
+.ui-icon-help {
+    background-position: -48px -144px;
+}
+
+.ui-icon-check {
+    background-position: -64px -144px;
+}
+
+.ui-icon-bullet {
+    background-position: -80px -144px;
+}
+
+.ui-icon-radio-off {
+    background-position: -96px -144px;
+}
+
+.ui-icon-radio-on {
+    background-position: -112px -144px;
+}
+
+.ui-icon-pin-w {
+    background-position: -128px -144px;
+}
+
+.ui-icon-pin-s {
+    background-position: -144px -144px;
+}
+
+.ui-icon-play {
+    background-position: 0 -160px;
+}
+
+.ui-icon-pause {
+    background-position: -16px -160px;
+}
+
+.ui-icon-seek-next {
+    background-position: -32px -160px;
+}
+
+.ui-icon-seek-prev {
+    background-position: -48px -160px;
+}
+
+.ui-icon-seek-end {
+    background-position: -64px -160px;
+}
+
+.ui-icon-seek-start {
+    background-position: -80px -160px;
+}
+
+/* ui-icon-seek-first is deprecated, use ui-icon-seek-start instead */
+.ui-icon-seek-first {
+    background-position: -80px -160px;
+}
+
+.ui-icon-stop {
+    background-position: -96px -160px;
+}
+
+.ui-icon-eject {
+    background-position: -112px -160px;
+}
+
+.ui-icon-volume-off {
+    background-position: -128px -160px;
+}
+
+.ui-icon-volume-on {
+    background-position: -144px -160px;
+}
+
+.ui-icon-power {
+    background-position: 0 -176px;
+}
+
+.ui-icon-signal-diag {
+    background-position: -16px -176px;
+}
+
+.ui-icon-signal {
+    background-position: -32px -176px;
+}
+
+.ui-icon-battery-0 {
+    background-position: -48px -176px;
+}
+
+.ui-icon-battery-1 {
+    background-position: -64px -176px;
+}
+
+.ui-icon-battery-2 {
+    background-position: -80px -176px;
+}
+
+.ui-icon-battery-3 {
+    background-position: -96px -176px;
+}
+
+.ui-icon-circle-plus {
+    background-position: 0 -192px;
+}
+
+.ui-icon-circle-minus {
+    background-position: -16px -192px;
+}
+
+.ui-icon-circle-close {
+    background-position: -32px -192px;
+}
+
+.ui-icon-circle-triangle-e {
+    background-position: -48px -192px;
+}
+
+.ui-icon-circle-triangle-s {
+    background-position: -64px -192px;
+}
+
+.ui-icon-circle-triangle-w {
+    background-position: -80px -192px;
+}
+
+.ui-icon-circle-triangle-n {
+    background-position: -96px -192px;
+}
+
+.ui-icon-circle-arrow-e {
+    background-position: -112px -192px;
+}
+
+.ui-icon-circle-arrow-s {
+    background-position: -128px -192px;
+}
+
+.ui-icon-circle-arrow-w {
+    background-position: -144px -192px;
+}
+
+.ui-icon-circle-arrow-n {
+    background-position: -160px -192px;
+}
+
+.ui-icon-circle-zoomin {
+    background-position: -176px -192px;
+}
+
+.ui-icon-circle-zoomout {
+    background-position: -192px -192px;
+}
+
+.ui-icon-circle-check {
+    background-position: -208px -192px;
+}
+
+.ui-icon-circlesmall-plus {
+    background-position: 0 -208px;
+}
+
+.ui-icon-circlesmall-minus {
+    background-position: -16px -208px;
+}
+
+.ui-icon-circlesmall-close {
+    background-position: -32px -208px;
+}
+
+.ui-icon-squaresmall-plus {
+    background-position: -48px -208px;
+}
+
+.ui-icon-squaresmall-minus {
+    background-position: -64px -208px;
+}
+
+.ui-icon-squaresmall-close {
+    background-position: -80px -208px;
+}
+
+.ui-icon-grip-dotted-vertical {
+    background-position: 0 -224px;
+}
+
+.ui-icon-grip-dotted-horizontal {
+    background-position: -16px -224px;
+}
+
+.ui-icon-grip-solid-vertical {
+    background-position: -32px -224px;
+}
+
+.ui-icon-grip-solid-horizontal {
+    background-position: -48px -224px;
+}
+
+.ui-icon-gripsmall-diagonal-se {
+    background-position: -64px -224px;
+}
+
+.ui-icon-grip-diagonal-se {
+    background-position: -80px -224px;
+}
+
+
+/* Misc visuals
+----------------------------------*/
+
+/* Corner radius */
+.ui-corner-tl {
+    -moz-border-radius-topleft: 4px
+    /*{cornerRadius}*/
+    ;
+    -webkit-border-top-left-radius: 4px
+    /*{cornerRadius}*/
+    ;
+    border-top-left-radius: 4px
+    /*{cornerRadius}*/
+    ;
+}
+
+.ui-corner-tr {
+    -moz-border-radius-topright: 4px
+    /*{cornerRadius}*/
+    ;
+    -webkit-border-top-right-radius: 4px
+    /*{cornerRadius}*/
+    ;
+    border-top-right-radius: 4px
+    /*{cornerRadius}*/
+    ;
+}
+
+.ui-corner-bl {
+    -moz-border-radius-bottomleft: 4px
+    /*{cornerRadius}*/
+    ;
+    -webkit-border-bottom-left-radius: 4px
+    /*{cornerRadius}*/
+    ;
+    border-bottom-left-radius: 4px
+    /*{cornerRadius}*/
+    ;
+}
+
+.ui-corner-br {
+    -moz-border-radius-bottomright: 4px
+    /*{cornerRadius}*/
+    ;
+    -webkit-border-bottom-right-radius: 4px
+    /*{cornerRadius}*/
+    ;
+    border-bottom-right-radius: 4px
+    /*{cornerRadius}*/
+    ;
+}
+
+.ui-corner-top {
+    -moz-border-radius-topleft: 4px
+    /*{cornerRadius}*/
+    ;
+    -webkit-border-top-left-radius: 4px
+    /*{cornerRadius}*/
+    ;
+    border-top-left-radius: 4px
+    /*{cornerRadius}*/
+    ;
+    -moz-border-radius-topright: 4px
+    /*{cornerRadius}*/
+    ;
+    -webkit-border-top-right-radius: 4px
+    /*{cornerRadius}*/
+    ;
+    border-top-right-radius: 4px
+    /*{cornerRadius}*/
+    ;
+}
+
+.ui-corner-bottom {
+    -moz-border-radius-bottomleft: 4px
+    /*{cornerRadius}*/
+    ;
+    -webkit-border-bottom-left-radius: 4px
+    /*{cornerRadius}*/
+    ;
+    border-bottom-left-radius: 4px
+    /*{cornerRadius}*/
+    ;
+    -moz-border-radius-bottomright: 4px
+    /*{cornerRadius}*/
+    ;
+    -webkit-border-bottom-right-radius: 4px
+    /*{cornerRadius}*/
+    ;
+    border-bottom-right-radius: 4px
+    /*{cornerRadius}*/
+    ;
+}
+
+.ui-corner-right {
+    -moz-border-radius-topright: 4px
+    /*{cornerRadius}*/
+    ;
+    -webkit-border-top-right-radius: 4px
+    /*{cornerRadius}*/
+    ;
+    border-top-right-radius: 4px
+    /*{cornerRadius}*/
+    ;
+    -moz-border-radius-bottomright: 4px
+    /*{cornerRadius}*/
+    ;
+    -webkit-border-bottom-right-radius: 4px
+    /*{cornerRadius}*/
+    ;
+    border-bottom-right-radius: 4px
+    /*{cornerRadius}*/
+    ;
+}
+
+.ui-corner-left {
+    -moz-border-radius-topleft: 4px
+    /*{cornerRadius}*/
+    ;
+    -webkit-border-top-left-radius: 4px
+    /*{cornerRadius}*/
+    ;
+    border-top-left-radius: 4px
+    /*{cornerRadius}*/
+    ;
+    -moz-border-radius-bottomleft: 4px
+    /*{cornerRadius}*/
+    ;
+    -webkit-border-bottom-left-radius: 4px
+    /*{cornerRadius}*/
+    ;
+    border-bottom-left-radius: 4px
+    /*{cornerRadius}*/
+    ;
+}
+
+.ui-corner-all {
+    -moz-border-radius: 4px
+    /*{cornerRadius}*/
+    ;
+    -webkit-border-radius: 4px
+    /*{cornerRadius}*/
+    ;
+    border-radius: 4px
+    /*{cornerRadius}*/
+    ;
+}
+
+/* Overlays */
+.ui-widget-overlay {
+    background: #aaaaaa
+    /*{bgColorOverlay}*/
+    url(/PenFedOnline/images/ui-bg_flat_0_aaaaaa_40x100.png)
+    /*{bgImgUrlOverlay}*/
+    50%
+    /*{bgOverlayXPos}*/
+    50%
+    /*{bgOverlayYPos}*/
+    repeat-x
+    /*{bgOverlayRepeat}*/
+    ;
+    opacity: .3;
+    filter:Alpha(Opacity=30)
+    /*{opacityOverlay}*/
+    ;
+}
+
+.ui-widget-shadow {
+    margin: -8px
+    /*{offsetTopShadow}*/
+    0 0 -8px
+    /*{offsetLeftShadow}*/
+    ;
+    padding: 8px
+    /*{thicknessShadow}*/
+    ;
+    background: #aaaaaa
+    /*{bgColorShadow}*/
+    url(../images/ui-bg_flat_0_aaaaaa_40x100.png)
+    /*{bgImgUrlShadow}*/
+    50%
+    /*{bgShadowXPos}*/
+    50%
+    /*{bgShadowYPos}*/
+    repeat-x
+    /*{bgShadowRepeat}*/
+    ;
+    opacity: .3;
+    filter:Alpha(Opacity=30)
+    /*{opacityShadow}*/
+    ;
+    -moz-border-radius: 8px
+    /*{cornerRadiusShadow}*/
+    ;
+    -webkit-border-radius: 8px
+    /*{cornerRadiusShadow}*/
+    ;
+    border-radius: 8px
+    /*{cornerRadiusShadow}*/
+    ;
+}
